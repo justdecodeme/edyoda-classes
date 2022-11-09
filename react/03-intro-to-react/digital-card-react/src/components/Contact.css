@@ -1,0 +1,36 @@
+
+.contact .row {
+	background-color: rgba(255, 255, 255, 0.16);
+	max-width: 400px;
+	margin: 20px auto;
+	padding: 10px 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-radius: 30px;
+}
+
+.contact .row .right a {
+	background: red;
+	display: inline-block;
+	padding: 10px 30px;
+	border-radius: 30px;
+	border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.contact .row .right a.phone {
+	background-color: rgb(0, 181, 222);
+	margin-right: 10px;
+}
+
+.contact .row .right a.whatsapp {
+	background-color: rgb(0, 220, 99);
+}
+
+.contact .row .right a.mail {
+	background-color: rgb(232, 186, 1);
+}
+
+.contact .row .right a.website {
+	background-color: rgb(157, 157, 157);
+}

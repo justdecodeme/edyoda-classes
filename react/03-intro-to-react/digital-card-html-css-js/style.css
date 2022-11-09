@@ -5,7 +5,7 @@ body {
 
 .wrapper {
 	/* background-image: linear-gradient(rgb(255, 140, 0), rgb(128, 0, 255)); */
-	height: 100vh;
+	min-height: 100vh;
 	text-align: center;
 	padding: 60px 20px 80px;
 	color: white;
@@ -19,9 +19,18 @@ a {
 	color: white;
 	text-decoration: none;
 	font-size: 18px;
+	transition: all 0.3s;
 }
 
-img {
+a:hover {
+	opacity: .8;
+}
+
+a:active, a:focus {
+	opacity: 1;
+}
+
+.profile img {
 	width: 150px;
 	border-radius: 50%;
 }
@@ -32,6 +41,10 @@ img {
 
 .profile p {
 	margin-top: 10px;
+}
+
+.profile p a {
+	text-decoration: underline;
 }
 
 .contact .row {
@@ -50,6 +63,7 @@ img {
 	display: inline-block;
 	padding: 10px 30px;
 	border-radius: 20px;
+	border: 1px solid rgba(255, 255, 255, 0.4);
 }
 
 .contact .row .right a.phone {
