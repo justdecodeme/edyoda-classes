@@ -1,6 +1,6 @@
 console.log("Hi everyone!");
 
-let productsArr = [
+var productsArr = [
   {
     "id": 1,
     "title": "iPhone 9",
@@ -95,90 +95,6 @@ let productsArr = [
   }
 ]
 
-// let langArr = [
-//   {
-//     key: 'html',
-//     value: 'Hypertext Markup Language'
-//   },
-//   {
-//     key: 'css',
-//     value: 'Cascading Style Sheets'
-//   },
-//   {
-//     key: 'js',
-//     value: 'Javascript'
-//   },
-// ]
-
-
-/* *********************** */
-/* Array Functions - map, reduce, filter, find, findIndex */
-/* *********************** */
-
-/* 💪 Make a habit of using let and const instead of var */
-// const vowelsArr = ['a', 'e', 'i', 'o', 'u']; //
-
-/* 💪 semicolon is optional */
-// console.log(...vowelsArr)
-
-
-/* ************ */
-/* map > This method create new array by calling the provided function in every element */
-/* ************ */
-
-/* map syntax */
-
-// var newArr = arrName.map((arrItem, arrIndex) => { /* code */ })
-
-/* map example - loopting through each item */
-
-
-
-// langArr.map((item, i) => {
-//   console.log(item, i) // i is optional
-// })
-
-// langArr.map(item => console.log(item))
-
-/* ❓ can we make the above code more shorter? */
-
-/* map example - create new array of keys from langArr */
-
-
-// var langKeys = langArr.map((item, i) => {
-//   if (i < 2) {
-//     return item.key
-//   }
-// })
-
-// console.log(langKeys)
-
-/* ❓ map array function can be used in place of `for` and `foreach` loop? */
-
-
-/* ************ */
-/* filter > This method creates a new array with elements that pass the given condition */
-/* ************ */
-
-// let numbersArr = [1, 2, 3, 4, 5, 6, 7, 8]
-
-// let evenNumbersArr = numbersArr.filter((item) => {
-//   if (item % 2 == 1) {
-//     return item
-//   }
-// })
-
-/* ❓ can we make the above code more shorter? */
-
-// console.log(evenNumbersArr) // [ 2, 4, 6, 8 ]
-
-/* ❓ can we print oddNumbersArr? */
-
-
-/* ************ */
-/* find > This method filter elements through the function, return first value that make it return true */
-/* ************ */
-
 let langArr = [
   {
     key: 'html',
@@ -194,10 +110,71 @@ let langArr = [
   },
 ]
 
-// let result = langArr.find((item) => {
-//   return item.key === 'js' 
+
+/* *********************** */
+/* Array Functions - map, reduce, filter, find, findIndex */
+/* *********************** */
+
+/* 💪 Make a habit of using let and const instead of var */
+// const vowels = ['a', 'e', 'i', 'o', 'u']; //
+
+/* 💪 semicolon is optional */
+// console.log(vowels)
+
+
+/* ************ */
+/* map > This method create new array by calling the provided function in every element */
+/* ************ */
+
+/* map syntax */
+
+// var newArr = arrName.map((arrItem, arrIndex) => { // code })
+
+/* map example - loopting through each item */
+
+// langArr.map((item, i) => {
+//   console.log(item, i) // i is optional
 // })
-// let result = langArr.find(item => return item.key === 'js')
+
+/* ❓ can we make the above code more shorter? */
+
+/* map example - create new array of keys from langArr */
+
+// var langKeys = langArr.map((item) => {
+//   return item.key
+// })
+
+// console.log(langKeys)
+
+/* ❓ map array function can be used in place of `for` and `foreach` loop? */
+
+
+/* ************ */
+/* filter > This method creates a new array with elements that pass the given condition */
+/* ************ */
+
+// let numbersArr = [1, 2, 3, 4, 5, 6, 7, 8]
+
+// let evenNumbersArr = numbersArr.filter((item, i) => {
+//   if (item % 2 == 0) {
+//     return item
+//   }
+// })
+
+/* ❓ can we make the above code more shorter? */
+
+// console.log(evenNumbersArr)
+
+/* ❓ can we print oddNumbersArr? */
+
+
+/* ************ */
+/* find > This method filter elements through the function, return first value that make it return true */
+/* ************ */
+
+// let result = langArr.find((item) => {
+//     return item.key === 'html'
+// })
 
 /* ❓ can we make the above code more shorter? */
 
@@ -208,29 +185,29 @@ let langArr = [
 /* findIndex > This method returns the index of the first element of the given array that satisfies the given condition */
 /* ************ */
 
-let index = langArr.findIndex((item) => {
-  return item.key === 'php'
-})
+// let index = langArr.findIndex((item) => {
+//     return item.key === 'css'
+// })
 
 /* ❓ can we make the above code more shorter? */
 /* ❓ what will the output if we write `item.key === 'php'` in the above code? */
 
-console.log(index)
+// console.log(index)
 
 /* ************ */
 /* reduce > This method applies a function against an accumulator and each element in the array (from left to right) to reduce it to a single value */
 /* ************ */
 
-let numbersArr = [1, 2, 3, 4]
+// let numbersArr = [1, 2, 3, 4]
 
-let sum = numbersArr.reduce((total, item) => {
-  return total + item
-}, 0)
+// let sum = numbersArr.reduce((acc, item) => {
+//   return acc + item
+// }, 0)
 
 /* ❓ find the total price of all products? */
 /* ❓ can you visulize how much it is difficult without using reduce array function? */
 
-console.log(sum)
+// console.log(sum)
 
 
 /* *********************** */
@@ -243,6 +220,3 @@ console.log(sum)
     npm -v
 3. https://reactjs.org/docs/create-a-new-react-app.html
 */
-
-
-
