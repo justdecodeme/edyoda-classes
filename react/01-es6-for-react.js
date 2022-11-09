@@ -1,4 +1,4 @@
-console.log("Hi everyone!");
+// console.log("Hi everyone!");
 
 // var a = 10;
 // let b = 20;
@@ -181,15 +181,15 @@ console.log("Hi everyone!");
 // var a = 10;
 // var b = a;
 // a = 20;
-// console.log(b);
+// console.log(b); // 10
 
 /* Reference types > array, objects */
 
 // var arr1 = [10];
 // var arr2 = arr1;
-// // console.log(arr2[0]);
+// // console.log(arr2); // [10]
 // arr1[0] = 20;
-// console.log(arr2[0]);
+// console.log(arr2); // [20]
 
 /* *********************** */
 /* Rest and Spread operators */
@@ -197,11 +197,13 @@ console.log("Hi everyone!");
 
 /* rest operator example */
 
-// function fnName(a, b, ...rest) {
-//   console.log(a, b, rest);
+// function fnName(...rest) {
+//   console.log(...rest); //
+
+//   // code
 // }
 
-// fnName(10, 20, 30, 40, 50);
+// fnName(10, 20, 30, 40, 50, 60);
 
 /* Rest parameter must be last formal parameter */
 
@@ -214,10 +216,16 @@ console.log("Hi everyone!");
 /* spread operator example */
 
 // var arr = [10, 20, 30, 40, 50];
+// console.log(arr);
 
 // console.log(...arr);
 
 /* spread operator is used to copy array */
+
+// var arr1 = [10];
+// var arr2 = arr1;
+// arr1[0] = 20;
+// console.log(arr2); // [20]
 
 // var arr1 = [10, 20, 30];
 // var arr2 = [...arr1];
@@ -234,7 +242,8 @@ console.log("Hi everyone!");
 // var arr1 = [10, 20, 30];
 // var arr2 = [40, 50];
 // var arr3 = [...arr1, ...arr2];
-// var arr4 = [...arr2, ...arr1];
+// console.log(arr3);
+// var arr4 = [40, 50, 10, 20, 30];
 
 // console.log(arr3, arr4);
 
@@ -257,8 +266,13 @@ console.log("Hi everyone!");
 // console.log(val1, val2, val3);
 
 // var arr = [10, 20, 30];
-// var [val1, , val3] = arr;
-// console.log(val1, val3);
+// var [b, c] = [10, 20, 30];
+// console.log(b, c); //
+
+// 10 30 < CORRECT
+// 10 20
+// 20 30
+
 
 /* old method of getting object values */
 
@@ -268,11 +282,7 @@ console.log("Hi everyone!");
 // }
 
 // var personName = obj.name;
-// console.log(personName);
-
-/* *********************** */
-/* GET FEEDBACK */
-/* *********************** */
+// console.log(personName); // 
 
 /* getting object values using destructuring */
 
@@ -282,8 +292,12 @@ console.log("Hi everyone!");
 //   age: 30
 // }
 
-// var { firstName } = obj;
-// console.log(firstName);
+var { firstName: fName, lastName } = {
+  firstName: "John",
+  lastName: "Doe",
+  age: 30
+};
+console.log(fName, lastName); // John Doe
 
 /* using alias in destructuring */
 
