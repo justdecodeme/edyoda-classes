@@ -1,0 +1,11 @@
+.wrapper {
+	/* background-image: linear-gradient(rgb(255, 140, 0), rgb(128, 0, 255)); */
+	min-height: 100vh;
+	text-align: center;
+	padding: 60px 20px 80px;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	box-sizing: border-box;
+}

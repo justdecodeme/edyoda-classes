@@ -1,0 +1,8 @@
+node_modules > don't touch
+public > index.html (important)
+src > we write components (.js)
+    > index.js (startup file)
+
+Ctr + `
+
+> Use dyanmic images

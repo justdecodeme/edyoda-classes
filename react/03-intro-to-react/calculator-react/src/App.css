@@ -1,0 +1,25 @@
+.calculator {
+  background-color: #000000;
+  max-width: 300px;
+  margin: 20px auto;
+  /* display: flex; */
+  /* overflow: hidden; */
+  border: 1px solid rgba(0, 0, 0, .3);
+}
+
+input {
+  width: 100%;
+  text-align: right;
+  font-size: 30px;
+  padding: 10px 20px;
+  border: none;
+}
+
+/* TODO */
+/* inut:focus, input:active {
+  border: none;
+  outline: none;
+  box-shadow: none;
+} */
+
+

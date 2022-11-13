@@ -1,0 +1,20 @@
+.profile img {
+	width: 150px;
+	border-radius: 50%;
+}
+
+.profile h1 {
+	margin-bottom: 0;
+}
+
+.profile p {
+	margin-top: 10px;
+}
+
+.profile p a {
+	text-decoration: underline;
+}
+
+.trainer_info {
+	background-color: red;
+}
