@@ -217,6 +217,9 @@ let langArr = [
 1. https://code.visualstudio.com/
 2. https://nodejs.org/en/
     node -v
-    npm -v
+    npm -v 
 3. https://reactjs.org/docs/create-a-new-react-app.html
+    npx create-react-app app-name
+    cd app-name
+    npm start
 */
