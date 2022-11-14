@@ -140,6 +140,10 @@ img {
   overflow-y: overlay;
 }
 
+#table-data b {
+  
+}
+
 @-moz-document url-prefix() {
   #table-data {
     overflow-y: scroll;
@@ -148,6 +152,11 @@ img {
 
 #table-data tr {
   cursor: pointer;
+}
+
+#table-data tr td span {
+  background-color: lightseagreen;
+  color: white;
 }
 
 #table-data tr:nth-child(even) {

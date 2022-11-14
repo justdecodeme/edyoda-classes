@@ -11,17 +11,18 @@ fetch(url)
     renderUsers(users, true);
   });
 
-function renderUsers(users, isFirstTime) {
+function renderUsers(users, isFirstTime, searchValue) {
   tableBody.innerHTML = '';
+  var reg = new RegExp(searchValue, 'gi');
 
   users.map((user, i) => {
     tableBody.innerHTML += `
     <tr class="data-row ${(isFirstTime && i === 2) || user.id === activeUserId ? 'active' : ''}" onclick="userRowClicked(this)">
       <td class="column1">${user.id}</td>
-      <td class="column2">${user.firstName}</td>
-      <td class="column3">${user.lastName}</td>
-      <td class="column4">${user.email}</td>
-      <td class="column5">${user.phone}</td>
+      <td class="column2">${user.firstName.replace(reg, str => '<span>' + str + '</span>')}</td>
+      <td class="column3">${user.lastName.replace(reg, str => '<span>' + str + '</span>')}}</td>
+      <td class="column4">${user.email.replace(reg, str => '<span>' + str + '</span>')}}</td>
+      <td class="column5">${user.phone.replace(reg, str => '<span>' + str + '</span>')}}</td>
     </tr>`
 
     if (isFirstTime && i === 2) {
@@ -54,5 +55,5 @@ function userRowClicked(clickedRow) {
 function onSearchInput(searchValue) {
   searchValue = searchValue.toLowerCase();
   filteredUserData = userData.filter(user => user.firstName.toLowerCase().includes(searchValue) || user.lastName.toLowerCase().includes(searchValue) || user.email.toLowerCase().includes(searchValue) || user.phone.toLowerCase().includes(searchValue))
-  renderUsers(filteredUserData, false);
+  renderUsers(filteredUserData, false, searchValue);
 }
