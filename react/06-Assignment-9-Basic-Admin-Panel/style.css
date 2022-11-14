@@ -140,10 +140,6 @@ img {
   overflow-y: overlay;
 }
 
-#table-data b {
-  
-}
-
 @-moz-document url-prefix() {
   #table-data {
     overflow-y: scroll;
