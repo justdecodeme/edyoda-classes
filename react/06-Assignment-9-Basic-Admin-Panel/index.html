@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- jquery CDN -->
+    <!-- <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script> -->
+    <title>Data page</title>
+</head>
+
+<body>
+
+    <div id="overlay">
+        <img src="./img/preloader.gif" alt="Preloader icon" />
+    </div>
+
+    <main>
+
+        <div id="table-section">
+
+            <form action="/">
+                <img src='./img/search-icon.svg' alt="Search Icon" />
+                <input type="text" placeholder="Enter something" name="search-box" id="search-box" value="" / oninput="onSearchInput(this.value)">
+            </form>
+
+            <div id="table-wrapper">
+
+                <div id="table-headers">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th class="column1">Id</th>
+                                <th class="column2">FirstName</th>
+                                <th class="column3">LastName</th>
+                                <th class="column4">Email</th>
+                                <th class="column5">Phone</th>
+                            </tr>
+                        </thead>
+                    </table>
+                </div>
+
+                <div id="table-data">
+                    <table>
+                        <tbody id="table-body"></tbody>
+                    </table>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- Details box -->
+
+        <div id="info-wrapper">
+            <h1>Details</h1>
+            <p>Click on a table item to get detailed information</p>
+            <div id="info-content"></div>
+        </div>
+
+    </main>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

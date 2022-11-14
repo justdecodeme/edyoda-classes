@@ -1,0 +1,14 @@
+/* jQuery.get() */
+/* https://api.jquery.com/jquery.get/ */
+
+// $.get(url, function (response) {
+//   console.log(response)
+// })
+
+
+/* Using the Fetch API */
+/* https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch */
+
+// fetch(url)
+//   .then(response => response.json())
+//   .then(users => console.log(users));
