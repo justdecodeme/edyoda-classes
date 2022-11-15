@@ -24,6 +24,7 @@ function Button(props) {
     } else if (inputValue === "=") {
       result = eval(`${+n1} ${operator} ${+n2}`);
       console.log(result)
+      props.showResult(result)
       n1 = '';
       n2 = '';
       operator = '';
