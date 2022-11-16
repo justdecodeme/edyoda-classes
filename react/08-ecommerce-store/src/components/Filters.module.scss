@@ -1,0 +1,15 @@
+.Filters {
+    background-color: rgb(206, 206, 206);
+    padding: 15px;
+    width: 200px;
+    margin-right: 20px;
+    ul {
+        li {
+            margin-top: 20px;
+            input {
+                margin: 10px 0;
+                width: 100%;
+            }
+        }
+    }
+}

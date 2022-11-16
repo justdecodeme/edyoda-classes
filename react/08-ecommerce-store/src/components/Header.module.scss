@@ -1,0 +1,21 @@
+.Header {
+  background-color: #ccc;
+  padding: 20px 30px;
+  a {
+    text-decoration: none;
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+    ul {
+      display: flex;
+      li {
+        margin-left: 20px;
+        &:last-child {
+          border-left: 1px solid #a5a5a5;
+          padding-left: 20px;
+        }
+      }
+    }
+  }
+}
