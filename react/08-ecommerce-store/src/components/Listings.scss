@@ -1,0 +1,93 @@
+.Listings {
+    background-color: rgb(206, 206, 206);
+    padding: 15px;
+    flex: 1;
+    h3 {
+        margin-bottom: 15px;
+    }
+    ul {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)) ;
+        grid-gap: 15px;
+        li { 
+            background-color: white;
+            padding: 15px;
+            transition: all .2s;
+            cursor: pointer;
+            .ellipsis  {
+                overflow: hidden;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+            }
+            .image {
+                height: 300px;
+                overflow: hidden;
+                position: relative;
+                span {
+                    display: block;
+                    height: 100%;
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    top: 0;
+                    left: 0;
+                    z-index: 1;
+                    background-size: contain;
+                    background-position: center center;
+                    background-repeat: no-repeat;
+                    background-color: transparent;
+                    &.background {
+                        background-size: cover;
+                        filter: blur(40px);
+                        z-index: 0;
+                        opacity: .5;
+                    }
+                }
+            }
+            p { 
+                &.title {
+                    margin: 15px 0;
+                    display: flex;
+                    span:first-child {
+                        font-weight: bold;
+                    }
+                    .category {
+                        background-color: orange;
+                        padding: 5px 10px;
+                        display: inline-block;
+                        border-radius: 20px;
+                        margin-left: 15px;
+                        font-size: smaller;
+                        
+                    }
+                }
+                &.description {
+                    margin-bottom: 15px;
+                    display: -webkit-box;
+                    -webkit-line-clamp: 2;
+                    -webkit-box-orient: vertical;
+                    white-space: normal;
+                }
+                &.price_rating {
+                    display: flex;
+                    justify-content: space-between;
+                }
+            }
+            &:hover {
+                transform: scale(1.02);
+            }
+        }
+    }
+    .pagination {
+        text-align: center;
+        margin-bottom: 20px;
+        button {
+            margin: 0 10px;
+            padding: 10px;
+            cursor: pointer;
+        }
+        p {
+            margin-top: 10px;
+        }
+    }
+}
