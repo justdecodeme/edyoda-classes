@@ -1,0 +1,7 @@
+"homepage": "."  add this to package.json
+npm build
+upload all the build files to github
+publish
+create a link
+
+Share this link | IMPORTANT

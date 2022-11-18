@@ -1,0 +1,262 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/* Header  Starts*/
+
+
+/* Header*/
+header{
+Padding: 16px 78px;
+background-color: #fff;
+display: flex;
+align-items: center;
+}
+
+/* Logo */
+header .logo h1{
+    Width: 130px;
+    font-size: 32px;
+    color: #0084ff;
+    margin: 0 50px -7px 0;
+}
+
+/* Logo Stories text: */
+header .logo p{
+    Margin: 0;
+    font-weight: 500;
+    font-family: Raleway;
+    font-style: italic;
+    color: #000;
+}
+
+/* Dropdown text: */
+header .dropdown_list select option{
+    color: #000; 
+ }
+
+/* Dropdown icon: */
+header .dropdown_list select{
+    padding-top: 0%;
+    padding-left: 8px;
+    border: none;
+    width: 20px;
+}
+
+
+/* Categories Starts*/
+
+.main_container{
+    width: 66%;
+    margin: 0 auto;
+
+}
+
+/* Categories container: */
+.main_container .categories_container{
+margin-bottom: 20px;
+padding-top: 16px;
+font-size: 16px;
+}
+
+/* Heading: */
+nav h1{
+   color: #000;
+   font-weight: 600;
+   margin: 0;
+}
+
+nav i{
+    color: #0096ff;
+}
+
+/* Filter text: */
+nav span{
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 8px;
+    
+}
+
+.filter{
+    margin: 15px 0;
+}
+
+/* Categories: */
+nav button{
+    padding: 6px 14px;
+    width: auto;
+    color: #0084ff;
+    border-radius: 15px;
+    border: 1px solid #0084ff;
+    margin: 5px;
+    cursor: pointer;
+}
+
+/* Active category: */
+nav .active{
+    color: #fff;
+    background-color: #0084ff;
+}
+
+nav button:hover{
+    color: #fff;
+    background-color: #0084ff;
+    transition: all ease .6s;
+}
+
+
+/* Items Start */
+
+
+/* Item: */
+.cards{
+    display: grid;
+    grid-template-columns:repeat(3, 33.3%);
+    grid-gap: 20px;
+    margin: 10px 0;
+}
+
+/*  Image section: */
+.cards .card img{
+    height: 176px;
+    width: 100%;
+}
+
+/* image */
+.cards .card{
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border: 1px solid #0096ff;
+}
+
+.cards .card:hover{
+    box-shadow: 5px 5px 15px 2px;
+    transition: all ease .5s;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+
+/* Text section: */
+.cards .card .text_section{
+    padding: 10px 24px;
+}
+
+/* Title */
+.cards .card .title{
+    font-size: 18px;
+    text-align: left;
+    margin: 0;
+    font-weight: 600;
+}
+
+/* Author container: */
+.author_container{
+    padding-top: 4px;
+}
+
+/* Author */
+.cards .card a{
+    color: #0096ff;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+/* Date */
+.cards .card span{
+    color: rgba(0,0,0,0.7);
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.cards .card article{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.43;
+    color: rgba(0,0,0,0.6);
+    margin: 4px 0;
+}
+
+/* Footer Starts */
+
+
+/* footer */
+footer{
+    background-color: #172146;
+    padding: 80px 16%;  
+    margin-top: 25px;
+}
+
+.footer{
+    text-align: left;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 15px;
+    line-height: 1;
+}
+
+
+ul li{
+    margin-bottom: 15px ;
+    list-style-type: none;
+}
+.footer_head{
+    color: rgba(121, 158, 189, 0.863);
+}
+
+.footer ul li a{
+    font-family: Raleway;
+    text-decoration: none;
+    font-size: 11px;
+    color: #fff;
+}
+
+.footer p{
+    color: #fff;
+    font-size: 12px;
+    font-family:Raleway;
+}
+
+.footer ul li a i{
+    font-size: large;
+    padding: 0 0px 0 15px;
+}
+
+.footer ul li a i:hover{
+    color: #0096ff;
+    transition: all ease .3s;
+}

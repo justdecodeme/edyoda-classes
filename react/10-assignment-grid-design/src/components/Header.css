@@ -1,0 +1,37 @@
+/* Header*/
+header{
+Padding: 16px 78px;
+background-color: #fff;
+display: flex;
+align-items: center;
+}
+
+/* Logo */
+header .logo h1{
+    Width: 130px;
+    font-size: 32px;
+    color: #0084ff;
+    margin: 0 50px -7px 0;
+}
+
+/* Logo Stories text: */
+header .logo p{
+    Margin: 0;
+    font-weight: 500;
+    font-family: Raleway;
+    font-style: italic;
+    color: #000;
+}
+
+/* Dropdown text: */
+header .dropdown_list select option{
+    color: #000; 
+ }
+
+/* Dropdown icon: */
+header .dropdown_list select{
+    padding-top: 0%;
+    padding-left: 8px;
+    border: none;
+    width: 20px;
+}
