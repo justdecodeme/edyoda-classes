@@ -3,7 +3,25 @@
   padding: 20px 30px;
   a {
     text-decoration: none;
+    color: black;
+    &.active {
+      text-decoration: underline;
+    }
+    &.highlight {
+      background-color: yellow;
+      color: red;
+    }
+    &:hover {
+      color: rgb(61, 61, 61);
+    }
+    &:active {
+      color: black;
+    }
   }
+
+  // a:hover // with &
+  // a :hover // without &
+
   nav {
     display: flex;
     justify-content: space-between;

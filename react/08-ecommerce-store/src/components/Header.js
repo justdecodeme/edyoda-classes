@@ -1,17 +1,28 @@
-import classes from "./Header.module.scss"
+import { Link, NavLink } from "react-router-dom"
+import { useEffect, useRef } from "react"
+
+import "./Header.scss"
 
 function Header() {
+  const myNav = useRef();
+
+  // useEffect(() => { // for side Effects
+  //   console.log(myNav.current)
+  //   // myNav.current.innerText = "xyz..."
+  // })
+
   return (
-    <header className={classes.Header}>
-      <nav>
-        <a href="#">Ecommerce Store</a>
+    <header className="Header">
+      <nav ref={myNav}>
+        {/* <a href="/">Ecommerce Store</a> */}
+        <Link to="/">Ecommerce Store</Link>
         <ul>
-          <li><a href="#">Shop</a></li>
-          <li><a href="#">Categories</a></li>
-          <li><a href="#">Wishlist</a></li>
-          <li><a href="#">Orders</a></li>
-          <li><a href="#">Cart</a></li>
-          <li><a href="#">Admin</a></li>
+          <li><NavLink to="/shop" className={({ isActive }) => isActive ? 'highlight' : ''}>Shop</NavLink></li>
+          <li><NavLink to="/wishlist" className={({ isActive }) => isActive ? 'highlight' : ''}>Wishlist</NavLink></li>
+          <li><NavLink to="/about" className={({ isActive }) => isActive ? 'highlight' : ''}>About</NavLink></li>
+          {/* <li><Link to="#">Orders</Link></li>
+          <li><Link to="#">Cart</Link></li>
+          <li><Link to="#">Admin</Link></li> */}
         </ul>
       </nav>
     </header>
