@@ -1,0 +1,48 @@
+.App {
+  main {
+    background-color: rgb(236, 236, 236);
+    min-height: calc(100vh - 125px);
+    padding: 20px 30px;
+  }
+}
+
+.Header, .Footer {
+  background-color: #ccc;
+  padding: 20px 30px;
+}
+
+.Header {
+  a {
+    text-decoration: none;
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+    ul {
+      display: flex;
+      li {
+        margin-left: 20px;
+        &:last-child {
+          border-left: 1px solid #a5a5a5;
+          padding-left: 20px;
+        }
+      }
+    }
+  }
+}
+
+.Footer {
+  text-align: center;
+}
+
+.Home, .Login {
+  width: 400px;
+  margin: 50px auto;
+}
+
+.Login {
+  text-align: center;
+  input {
+    width: 100%;
+  }
+}
