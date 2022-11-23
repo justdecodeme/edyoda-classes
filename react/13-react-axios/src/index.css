@@ -1,0 +1,103 @@
+body {
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
+		'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+input,
+textarea {
+	padding: 10px;
+}
+button {
+	padding: 6px 10px;
+	cursor: pointer;
+}
+.error {
+	color: red;
+	border: 1px solid red;
+	display: inline-block;
+	padding: 10px 15px;
+	border-radius: 8px;
+	margin-bottom: 15px;
+}
+
+table {
+	/* table-layout: fixed; */
+	width: 100%;
+	border-collapse: collapse;
+	border: 2px solid #ccc;
+	text-align: left;
+}
+table tr {
+	border-bottom: 1px solid #ccc;
+}
+table th,
+table td {
+	padding: 10px 10px;
+	border-left: 1px solid #ccc;
+}
+table th:first-child,
+table td:first-child {
+	width: 70px;
+}
+table th:last-child,
+table td:last-child {
+	width: 270px;
+}
+table td button {
+	margin: 0 10px;
+}
+
+header,
+footer {
+	background-color: #ccc;
+	padding: 20px 30px;
+}
+
+header,
+header ul {
+	display: flex;
+	justify-content: space-between;
+}
+header ul li {
+	margin-left: 20px;
+}
+header ul li a {
+	text-decoration: none;
+}
+header ul li .active {
+	text-decoration: underline;
+}
+
+footer {
+	text-align: center;
+}
+
+main {
+	padding: 40px;
+}
+
+.PostAddEdit .form {
+	width: 400px;
+	margin: 0 auto;
+}
+.PostAddEdit .form input,
+.PostAddEdit .form textarea {
+	width: 100%;
+}
+
+.PageNotFound {
+	text-align: center;
+}
