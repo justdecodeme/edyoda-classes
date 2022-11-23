@@ -1,4 +1,36 @@
+import axios from "axios"
+import { useState, useEffect } from "react"
+import { useNavigate, Link } from "react-router-dom"
+
+// const BASE_URL = "https://jsonplaceholder.typicode.com/posts"
+const BASE_URL = "https://crudcrud.com/api/1234/posts"
+
 function Home() {
+  const navigate = useNavigate()
+  const [posts, setPosts] = useState(null)
+  const [error, setError] = useState(null)
+
+  /* fetch api data only once */
+  useEffect(() => {
+    axios.get(BASE_URL).then(response => {
+      setError(null)
+      setPosts(response.data)
+      console.log(response.data)
+    }).catch(error => setError(error.message))
+  }, [])
+
+  const deletePost = (postId) => {
+    // delete post from api
+    if (window.confirm("Do you really want to delete?")) {
+      axios.delete(BASE_URL + "/" + postId).then(() => {
+        axios.get(BASE_URL).then(response => {
+          setPosts(response.data)
+        })
+        console.log("Post Deleted!")
+      })
+    }
+  }
+
   return <div className="Home">
     <h3>Home</h3>
     <br />
@@ -6,7 +38,7 @@ function Home() {
     <h4>Latest Posts</h4>
     <br />
 
-    <table>
+    {error ? <p className="error">{error}</p> : <table>
       <thead>
         <tr>
           <th>S.No.</th>
@@ -15,38 +47,23 @@ function Home() {
         </tr>
       </thead>
       <tbody>
-        <tr>
-          <td>1</td>
-          <td>Title 1</td>
+        {posts && posts.map((post, i) => <tr key={post._id}>
+          <td>{i + 1}</td>
+          <td>{post.title}</td>
           <td>
-            <button>View</button>
-            <button>Edit</button>
-            <button>Delete</button>
+            <button onClick={() => navigate("/post/details/" + post._id)}>View</button>
+            <button onClick={() => navigate("/post/edit/" + post._id)}>Edit</button>
+            <button onClick={() => deletePost(post._id)}>Delete</button>
           </td>
         </tr>
-        <tr>
-          <td>2</td>
-          <td>Title 2</td>
-          <td>
-            <button>View</button>
-            <button>Edit</button>
-            <button>Delete</button>
-          </td>
-        </tr>
-        <tr>
-          <td>3</td>
-          <td>Title 3</td>
-          <td>
-            <button>View</button>
-            <button>Edit</button>
-            <button>Delete</button>
-          </td>
-        </tr>
+        )}
+
       </tbody>
-    </table>
+    </table>}
+
 
     <br />
-    <a to="#">Add Post</a>
+    <a href="#">Add Post</a>
   </div>
 }
 

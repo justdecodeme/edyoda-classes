@@ -1,9 +1,11 @@
+import { NavLink } from "react-router-dom"
+
 function Header() {
   return <header>
     <h3>React - Axios</h3>
     <ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">Add Post</a></li>
+      <li><NavLink to="/posts">Home</NavLink></li>
+      <li><NavLink to="/post/add">Add Post</NavLink></li>
     </ul>
   </header>;
 }

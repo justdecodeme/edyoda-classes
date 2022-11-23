@@ -4,9 +4,9 @@
 
   - https://www.freecodecamp.org/news/how-to-use-axios-with-react/
 
-- Installing Axios
+- Installing axios
 
-  - npm install axios
+  - npm install axios (for http requests)
   - npm install react-router-dom (for navigation)
   - npm install uuidv4 (for unique ids)
 
