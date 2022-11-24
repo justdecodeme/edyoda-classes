@@ -1,0 +1,86 @@
+/* ******** */
+/* common */
+/* ******** */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: .9;
+}
+
+a:active {
+  opacity: 1;
+}
+
+li {
+  list-style: none;
+}
+
+/* ******** */
+/* search input */
+/* ******** */
+input {
+  font-size: 20px;
+  padding: 10px 20px;
+  min-width: 500px;
+  margin: 30px auto;
+  display: block;
+  text-align: center;  
+}
+input.error {
+  border: 2px solid red;
+  color: red;
+}
+
+/* ******** */
+/* movies */
+/* ******** */
+.movies {
+  /* display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; */
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)) ;
+  grid-gap: 15px;  
+  padding: 0 100px 50px;
+}
+.movies li {
+  /* width: 20%; */
+  position: relative;
+}
+.movies li img {
+  width: 100%;
+}
+.movies li p {
+  font-size: 15px;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.9);
+  position: absolute;
+  top: 0;
+  width: 100%;
+  display: none;
+}
+.movies li:hover p {
+  display: block;
+}
