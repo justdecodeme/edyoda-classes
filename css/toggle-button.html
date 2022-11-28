@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Toggle Button</title>
+  <style>
+    label {
+      width: 80px;
+      height: 40px;
+      background-color: #ccc;
+      border-radius: 30px;
+      display: block;
+      position: relative;
+      cursor: pointer;
+      transition: all .4s;
+    }
+    label:before {
+      content: '';
+      height: 36px;
+      width: 36px;
+      background-color: white;
+      display: block;
+      border-radius: 50%;
+      position: absolute;
+      top: 2px;
+      left: 2px;
+      transition: all .4s;
+    }
+    input:checked + label {
+      background-color: rgb(2, 160, 2);
+    }
+    input:checked + label:before {
+      left: calc(100% - 2px);
+      transform: translate(-100%);
+    }
+    /* h2::before {
+      content: 'Q. '
+    }
+    h2::after {
+      content: '?'
+    }
+    p::before {
+      content: 'A. '
+    }
+    p::after {
+      content: '.'
+    } */
+  </style>
+</head>
+<body>
+  <input type="checkbox" id="HTML" />
+  <label for="HTML"></label>
+
+  <!-- <h2>What is JS</h2>
+  <p>Add interaction to website</p>
+  <h2>Full form of JS</h2>
+  <p>JavaScript</p> -->
+</body>
+</html>
+
+<!-- > ::after, ::before psuedo elements
+> the power of HTML/CSS -->
