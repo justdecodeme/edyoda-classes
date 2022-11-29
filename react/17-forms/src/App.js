@@ -1,10 +1,17 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState, useRef } from "react";
 import Error from "./Error"
+
+const SKILLS = ['html', 'css', 'sass', 'js', 'react'];
+const FAV_TOPIC = ['html', 'css', 'js'];
+const RATING = ['awesome', 'good', 'average', 'notHappy', 'sad',];
 
 let initForm = {
   username: '',
   phoneNumber: '',
-  email: ''
+  email: '',
+  skills: new Array(SKILLS.length).fill(false),
+  rating: '',
+  favTopic: '',
 }
 
 // if username or phoneNumber is empty
@@ -15,14 +22,16 @@ let initForm = {
 function App() {
   const [formData, setFormData] = useState(initForm)
   const [error, setError] = useState(null)
-  const [isValid, setIsValid] = useState(false)
+  const [isValid, setIsValid] = useState(true)
+  const formEl = useRef(null);
 
   const handSubmit = (e) => {
     e.preventDefault();
-    // console.log(e.target.username.value)
+    console.log(e.target.skill)
   }
 
   const handleChange = (key, value) => {
+    console.log(formEl.current);
     // console.log(key, value)
     // check if email is formatted correct abc@gmail.com
     setError(null)
@@ -34,6 +43,10 @@ function App() {
       if (isEmailCorrect === null) {
         setError('email is invalid')
       }
+    } else if (key === "skills") {
+      value = formData.skills.map((skill, i) => i === value ? !skill : skill);
+    } else if (key === "favTopic") {
+      console.log(key, value)
     }
 
     setFormData({
@@ -44,14 +57,14 @@ function App() {
 
   useEffect(() => {
     if (formData.username === "" || formData.phoneNumber === "") {
-      setIsValid(false)
+      // setIsValid(false)
     } else {
       setIsValid(true)
     }
   }, [formData])
 
   return (
-    <form className="App" onSubmit={handSubmit}>
+    <form className="App" ref={formEl} onSubmit={handSubmit}>
       {/* {error && <p className="error">{error}</p>} */}
       {error && <Error msg={error} />}
       <button type="submit" disabled={!isValid || error}>Submit</button>
@@ -66,39 +79,17 @@ function App() {
       <input type="date" name="dob" /><br />
       <div>
         <h2>Skills</h2>
-        <input type="checkbox" name="skill" id="html" value="html" />
-        <label htmlFor="html" title="HyperText Markup Language">HTML</label><br />
-
-        <input type="checkbox" name="skill" id="css" value="css" />
-        <label htmlFor="css">CSS</label><br />
-
-        <input type="checkbox" name="skill" id="sass" value="sass" />
-        <label htmlFor="sass">Sass</label><br />
-
-        <input type="checkbox" name="skill" id="js" value="js" />
-        <label htmlFor="js">JS</label><br />
-
-        <input type="checkbox" name="skill" id="react" value="react" />
-        <label htmlFor="react">React</label><br />
-
+        {SKILLS.map((ch, i) => <p key={i}>
+          <input type="checkbox" name="skillS" id={ch} checked={formData.skills[i]} onChange={() => handleChange("skills", i)} />
+          <label htmlFor={ch}>{ch}</label>
+        </p>)}
       </div>
       <div>
         <h2>Rating (FED)</h2>
-        <input type="radio" name="rating" id="awesome" value="awesome" />
-        <label htmlFor="awesome">Awesome</label><br />
-
-        <input type="radio" name="rating" id="good" value="good" />
-        <label htmlFor="good">Good</label><br />
-
-        <input type="radio" name="rating" id="average" value="average" />
-        <label htmlFor="average">Average</label><br />
-
-        <input type="radio" name="rating" id="notHappy" value="notHappy" />
-        <label htmlFor="notHappy">Not Happy</label><br />
-
-        <input type="radio" name="rating" id="sad" value="sad" />
-        <label htmlFor="sad">Sad</label><br />
-
+        {RATING.map((rd, i) => <p key={i}>
+          <input type="radio" name="rating" id={rd} checked={rd === formData.rating} onChange={() => handleChange("rating", rd)} />
+          <label htmlFor={rd}>{rd}</label>
+        </p>)}
       </div>
       <br />
       <div>
@@ -110,18 +101,12 @@ function App() {
         <label htmlFor="female">Female</label>
       </div>
       <br />
-      <select name="favTopic" id="favTopic">
-        <option value="html">HTML</option>
-        <option value="css">CSS</option>
-        <option value="js">JS</option>
+      <select name="favTopic" onChange={(e) => handleChange("favTopic", e.target.value)} >
+        {FAV_TOPIC.map((topic, i) => <option key={i} selected={topic === formData.favTopic} value={topic}>{topic}</option>)}
       </select>
       <br />
       <br />
       <textarea cols="30" rows="10" placeholder="comment..."></textarea>
-      <br />
-
-      <br />
-
     </form>
   );
 }
