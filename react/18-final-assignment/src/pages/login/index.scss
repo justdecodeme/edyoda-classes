@@ -1,0 +1,16 @@
+.login_page {
+  background-color: var(--tertiary-bg-color);
+  padding: 30px;
+  max-width: 400px;
+  margin: 0 auto;
+  h3 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  input {
+    margin: 10px 0;
+  }
+  .primary_btn {
+    margin-top: 10px;
+  }
+}

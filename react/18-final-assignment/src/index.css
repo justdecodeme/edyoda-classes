@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+input, button, textarea, select, a {
+  color: white;
+}
+
+input, textarea, select {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  background-color: var(--secondary-bg-color);
+  border: none;
+}
+
+.primary_btn {
+  padding: 15px 10px;
+  background-color: var(--highlight-bg-color);
+  width: 100%;
+  border: none;
+  text-transform: uppercase;
+}
+
+label, button {
+  cursor: pointer;
+}
+label:hover, button:hover {
+  opacity: 0.9;
+}
+label:active, button:active {
+  opacity: 1;
+}
+
+.delete_btn {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: var(--tertiary-bg-color);
+  border: none;
+}
+
+
+/****************/
+/* variables */
+/****************/
+:root {
+  --primary-bg-color: #567086;
+  --secondary-bg-color: #4e657a;
+  --tertiary-bg-color: #435c70;
+  --highlight-bg-color: #f5a623;
+  --highlight-hover-bg-color: #f5a52322;
+}

@@ -3,7 +3,7 @@ import Error from "./Error"
 
 const SKILLS = ['html', 'css', 'sass', 'js', 'react'];
 const FAV_TOPIC = ['html', 'css', 'js'];
-const RATING = ['awesome', 'good', 'average', 'notHappy', 'sad',];
+const RATING = ['awesome', 'good', 'average', 'notHappy', 'sad'];
 
 let initForm = {
   username: '',
@@ -44,9 +44,9 @@ function App() {
         setError('email is invalid')
       }
     } else if (key === "skills") {
-      value = formData.skills.map((skill, i) => i === value ? !skill : skill);
-    } else if (key === "favTopic") {
-      console.log(key, value)
+      // value = formData.skills.map((skill, i) => i === value ? !skill : skill);
+      // [false, false, false, false, false]
+      value = formData.skills.map((val, i) => i === value ? !val : val)
     }
 
     setFormData({
@@ -79,10 +79,18 @@ function App() {
       <input type="date" name="dob" /><br />
       <div>
         <h2>Skills</h2>
-        {SKILLS.map((ch, i) => <p key={i}>
+        {/* SKILLS = ['html', 'css', 'sass', 'js', 'react']; */}
+        {
+          SKILLS.map((skill, i) => <p key={i}>
+            <input type="checkbox" name="skills" id={skill} onChange={() => handleChange('skills', i)} />
+            <label htmlFor={skill}>{skill}</label>
+          </p>)
+        }
+
+        {/* {SKILLS.map((ch, i) => <p key={i}>
           <input type="checkbox" name="skillS" id={ch} checked={formData.skills[i]} onChange={() => handleChange("skills", i)} />
           <label htmlFor={ch}>{ch}</label>
-        </p>)}
+        </p>)} */}
       </div>
       <div>
         <h2>Rating (FED)</h2>
