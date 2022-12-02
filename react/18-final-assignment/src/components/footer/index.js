@@ -1,7 +1,7 @@
 import "./index.scss"
 
-function index() {
+function Index() {
   return <footer>Copyright © 2018 All rights reserved. Design: Rakesh</footer>;
 }
 
-export default index;
+export default Index;

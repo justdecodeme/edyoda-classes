@@ -1,18 +1,30 @@
-import "./index.scss"
+import { useContext } from "react"
+import { NavLink, useNavigate } from "react-router-dom"
 
-function index() {
+import "./index.scss"
+import AuthContext from "../../contexts/auth-context";
+
+function Index() {
+  const navigate = useNavigate()
+  const { user, logout } = useContext(AuthContext);
+
   return <header>
-    <a href="#">Product Admin</a>
+    <NavLink to="/">Product Admin</NavLink>
     <nav>
       <ul>
-        <li><a className="active" href="#"><i className="fas fa-tachometer-alt"></i>
-          Dashboard</a></li>
-        <li><a href="#"><i className="fa-solid fa-cart-shopping"></i>Products</a></li>
-        <li><a href="#"><i className="fa-regular fa-user"></i>Accounts</a></li>
+        <li><NavLink className={({ isActive }) => isActive ? 'active' : ''} to="/dashboard"><i className="fas fa-tachometer-alt"></i>
+          Dashboard</NavLink></li>
+        <li><NavLink className={({ isActive }) => isActive ? 'active' : ''} to="/products-list"><i className="fa-solid fa-cart-shopping"></i>Products</NavLink></li>
+        <li><NavLink className={({ isActive }) => isActive ? 'active' : ''} to="/account"><i className="fa-regular fa-user"></i>Accounts</NavLink></li>
       </ul>
     </nav>
-    <p>Admin, <a href="#">Logout</a></p>
+    {user && <p>{user}, <NavLink to="#" onClick={() => {
+      logout();
+      setTimeout(() => {
+        navigate('/login')
+      }, 1000);
+    }}>Logout</NavLink></p>}
   </header>;
 }
 
-export default index;
+export default Index;

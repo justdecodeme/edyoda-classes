@@ -1,6 +1,19 @@
-import "./index.scss"
+import { useContext, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 
-function index() {
+import "./index.scss"
+import AuthContext from "../../contexts/auth-context";
+
+function Index() {
+  const navigate = useNavigate()
+  const { user } = useContext(AuthContext);
+
+  useEffect(() => {
+    if (user === null) {
+      navigate("/login");
+    }
+  })
+
   return <div className="dashboard_page">
     <h2>Welcome back, Admin</h2>
     <div className="left_right">
@@ -39,7 +52,7 @@ function index() {
             <td>1,450</td>
             <td>550</td>
             <td>28 March 2019</td>
-            <td><button className="delete_btn"><i class="fa-solid fa-trash"></i></button></td>
+            <td><button className="delete_btn"><i className="fa-solid fa-trash"></i></button></td>
           </tr>
           <tr>
             <td><input id="ch2" type="checkbox" /><label htmlFor="ch2"></label></td>
@@ -47,7 +60,7 @@ function index() {
             <td>1,450</td>
             <td>550</td>
             <td>28 March 2019</td>
-            <td><button className="delete_btn"><i class="fa-solid fa-trash"></i></button></td>
+            <td><button className="delete_btn"><i className="fa-solid fa-trash"></i></button></td>
           </tr>
           <tr>
             <td><input id="ch3" type="checkbox" /><label htmlFor="ch3"></label></td>
@@ -55,7 +68,7 @@ function index() {
             <td>1,450</td>
             <td>550</td>
             <td>28 March 2019</td>
-            <td><button className="delete_btn"><i class="fa-solid fa-trash"></i></button></td>
+            <td><button className="delete_btn"><i className="fa-solid fa-trash"></i></button></td>
           </tr>
           <tr>
             <td><input id="ch4" type="checkbox" /><label htmlFor="ch4"></label></td>
@@ -63,7 +76,7 @@ function index() {
             <td>1,450</td>
             <td>550</td>
             <td>28 March 2019</td>
-            <td><button className="delete_btn"><i class="fa-solid fa-trash"></i></button></td>
+            <td><button className="delete_btn"><i className="fa-solid fa-trash"></i></button></td>
           </tr>
           <tr>
             <td><input id="ch5" type="checkbox" /><label htmlFor="ch5"></label></td>
@@ -71,7 +84,7 @@ function index() {
             <td>1,450</td>
             <td>550</td>
             <td>28 March 2019</td>
-            <td><button className="delete_btn"><i class="fa-solid fa-trash"></i></button></td>
+            <td><button className="delete_btn"><i className="fa-solid fa-trash"></i></button></td>
           </tr>
         </tbody>
       </table>
@@ -79,4 +92,4 @@ function index() {
   </div>;
 }
 
-export default index;
+export default Index;

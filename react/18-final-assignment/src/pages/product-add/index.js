@@ -1,6 +1,6 @@
 import "./index.scss"
 
-function index() {
+function Index() {
   return <div className="product_add_page wrapper_box">
     <h3>Add product</h3>
     <div className="left_right">
@@ -8,7 +8,7 @@ function index() {
         <label htmlFor="productName">Procut Name</label>
         <input type="text" id="productName" />
         <label htmlFor="description">Description</label>
-        <textarea id="username" row="10"></textarea>
+        <textarea id="description" row="10"></textarea>
         <label htmlFor="category">Category</label>
         <select id="category">
           <option>Select Category</option>
@@ -20,11 +20,11 @@ function index() {
         <div className="left_right">
           <div className="left">
             <label htmlFor="expiry">Expiry Date</label>
-            <input type="text" id="expiry" />
+            <input type="date" id="expiry" />
           </div>
           <div className="right">
             <label htmlFor="stock">Units in stock</label>
-            <input type="text" id="stock" />
+            <input type="number" id="stock" />
           </div>
         </div>
       </div>
@@ -40,4 +40,4 @@ function index() {
   </div>;
 }
 
-export default index;
+export default Index;
