@@ -5,15 +5,21 @@ import Login from "./pages/login"
 import ProductAdd from "./pages/product-add"
 import ProductList from "./pages/products-list"
 import Account from "./pages/account"
+import Dashboard from "./pages/dashboard"
 
 function App() {
   return (
     <div className="App">
       <Header />
       <main>
-        {/* <Login /> */}
-        {/* <ProductAdd /> */}
+        <Dashboard />
+        <br />
+        <Login />
+        <br />
+        <ProductAdd />
+        <br />
         <ProductList />
+        <br />
         <Account />
       </main>
       <Footer />
