@@ -33,6 +33,7 @@ input, button, textarea, select, a {
 input, textarea, select {
   display: block;
   width: 100%;
+  margin: 10px 0;
   padding: 15px;
   background-color: var(--secondary-bg-color);
   border: none;
@@ -40,6 +41,7 @@ input, textarea, select {
 
 .primary_btn {
   padding: 15px 10px;
+  margin-top: 15px;
   background-color: var(--highlight-bg-color);
   width: 100%;
   border: none;
@@ -64,6 +66,31 @@ label:active, button:active {
   border: none;
 }
 
+.wrapper_box {
+  background-color: var(--tertiary-bg-color);
+  padding: 20px;
+  h3 {
+    margin-bottom: 20px;
+  }
+}
+
+.left_right {
+    display: flex;
+    justify-content: space-between;
+    .left, .right {
+      width: 100%;
+    }
+    .left {
+      margin-right: 15px;
+    }
+    .right {
+      margin-left: 15px;
+    }
+}
+
+.transparent {
+  visibility: hidden;
+}
 
 /****************/
 /* variables */

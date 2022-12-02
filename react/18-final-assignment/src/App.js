@@ -4,6 +4,7 @@ import Footer from "./components/footer"
 import Login from "./pages/login"
 import ProductAdd from "./pages/product-add"
 import ProductList from "./pages/products-list"
+import Account from "./pages/account"
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         {/* <Login /> */}
         {/* <ProductAdd /> */}
         <ProductList />
+        <Account />
       </main>
       <Footer />
     </div>

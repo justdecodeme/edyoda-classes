@@ -2,8 +2,8 @@ import "./index.scss"
 
 function index() {
   return <div className="products_list_page">
-    <div className="content">
-      <div className="left">
+    <div className="left_right">
+      <div className="left wrapper_box">
         <table>
           <thead>
             <tr>
@@ -61,10 +61,22 @@ function index() {
         <button className="primary_btn">Add new product</button>
         <button className="primary_btn">Delete selected products</button>
       </div>
-      <div className="right">
+      <div className="right wrapper_box">
         <h3>Product Categories</h3>
         <table>
           <tbody>
+            <tr>
+              <td>Product Category 1</td>
+              <td><button className="delete_btn"><i class="fa-solid fa-trash"></i></button></td>
+            </tr>
+            <tr>
+              <td>Product Category 1</td>
+              <td><button className="delete_btn"><i class="fa-solid fa-trash"></i></button></td>
+            </tr>
+            <tr>
+              <td>Product Category 1</td>
+              <td><button className="delete_btn"><i class="fa-solid fa-trash"></i></button></td>
+            </tr>
             <tr>
               <td>Product Category 1</td>
               <td><button className="delete_btn"><i class="fa-solid fa-trash"></i></button></td>

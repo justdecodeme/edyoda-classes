@@ -1,42 +1,11 @@
 .product_add_page {
-  background-color: var(--tertiary-bg-color);
-  padding: 30px;
   max-width:  800px;
   margin: 0 auto;
-  h3 {
-    margin-bottom: 20px;
-  }
-  .content {
-    display: flex;
-    justify-content: space-between;
-    .left, .right {
-      width: 100%;
-    }
-    .left {
-      margin-right: 20px;
-    }
-    .right {
-      margin-left: 20px;
-    }
-  }
-  .expiry_stock {
-    display: flex;
-    justify-content: space-between;
-    .expiry, .stock {
-      width: 100%;
-    }
-    .expiry {
-      margin-right: 10px;
-    }
-    .stock {
-      margin-left: 10px;
-    }
-  }
-  input, textarea, select {
-    margin: 10px 0;
-    &[type="file"] {
+  input[type="file"] {
       display: none;
-    }
+  }
+  .product {
+    width: 500px;
   }
   .product_image {
     height: 200px;
@@ -46,8 +15,5 @@
     align-items: center;
     justify-content: center;
     font-size: 30px;
-  }
-  .primary_btn {
-    margin-top: 10px;
   }
 }

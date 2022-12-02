@@ -1,0 +1,21 @@
+.account_page {
+  max-width:  900px;
+  margin: 0 auto;
+  .avatar_settings {
+    margin-top: 30px;
+    .wrapper_box.left {
+      width: 400px;
+    }
+  }
+  .user_image {
+    height: auto;
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+  }
+  .primary_btn {
+    &.update_profile {
+      margin-top: 10px;
+    }
+  }
+}

@@ -1,9 +1,9 @@
 import "./index.scss"
 
 function index() {
-  return <div className="product_add_page">
+  return <div className="product_add_page wrapper_box">
     <h3>Add product</h3>
-    <div className="content">
+    <div className="left_right">
       <div className="left">
         <label htmlFor="productName">Procut Name</label>
         <input type="text" id="productName" />
@@ -17,18 +17,18 @@ function index() {
           <option>3</option>
         </select>
 
-        <div className="expiry_stock">
-          <div className="expiry">
+        <div className="left_right">
+          <div className="left">
             <label htmlFor="expiry">Expiry Date</label>
             <input type="text" id="expiry" />
           </div>
-          <div className="stock">
+          <div className="right">
             <label htmlFor="stock">Units in stock</label>
             <input type="text" id="stock" />
           </div>
         </div>
       </div>
-      <div className="right">
+      <div className="right product">
         <label htmlFor="productImage" className="product_image">
           <i className="fa-solid fa-cloud-arrow-up"></i>
         </label>
