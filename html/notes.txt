@@ -1,0 +1,111 @@
+///////////////
+ DAY 1:
+///////////////
+
+- Check mic and screen share
+Self Intro
+Hindi, English
+Please connect to the same link in case of an internet issue 
+Turn Off the Camera, Mute Yourself
+Always clear your doubts before leaving the session
+110% attendance -> 200% effort from me
+Tomorrow, mostly I'll play some music at beginning of the class
+Always join before/on time so that you don't miss anything
+FEEDBACK
+
+Web Designer vs Web Developer
+
+Web Development:
+Process of developing a webpage 
+Web page:
+A page visible on a web browser over the internet
+
+Web development technologies
+HTML (HyperText Markup Language) .html - Structure, Content 
+CSS (Cascading Style Sheets) .css - Styling
+JS (JavaScript) .js - Logic, Validation, dynamic
+
+VSCode > HTML/CSS/JS
+
+Native Apps: Android, IOS, Windows
+Hybrid Apps: 
+
+Requirement:
+Code Editor - VS Code, Note Pad, Atom, 
+Browser - Chrome
+
+File extensions
+- profile.jpeg, profile.png, 
+- .jpeg, .jpg, .png, .gif, .ico, .svg
+- .txt, 
+- .net, .php, .js, .css, .html, .json, .excel, 
+- .psd, .ai, 
+- .rar, .zip, .iso
+- .pdf, .apk, .exe
+
+------------
+
+File/Folder names > 
+
+No space
+No capital letters, everything is small letters
+No special characters (&*!#$%)
+Only letters and numbers
+The name must start with an alphabet, -, _
+
+✅index.html
+✅html
+✅style.css
+✅team-in.html
+❌1index.html
+❌Idex.html
+❌1index.HTML
+❌indEX.html
+❌teamndia.html
+
+
+Creating the first HTML file
+
+Basics of HTML:
+Tag > open tag, close tag
+html, > will tell the browser that we are writing html code
+head, > will contain <title>
+title, > will be visible on the tab
+body, > user content
+h1-h6, > headings (h1, h2, h3)
+p, > paragraph
+
+Offline questions:
+MS Teams: justdecodeme, justdecodeme@hotmail.com
+
+///////////////
+ DAY 2:
+///////////////
+p, > paragraph
+ul, > unordered list 
+li, > list item
+ol, > ordered list > type attribute ASSIGNMENTS
+li, > list item
+dl, dt, dd  > ASSIGNMENT
+br, > Break
+hr, > Horizontal Rule
+Attributes > extra information for the html tag, key value pairs
+Element > Open Tag + Content + Close Tag
+Empty elements > br
+HTML VERSION 5
+
+<!DOCTYPE html> :THIS LINE EXPLAINS THAT WE ARE USING LATEST
+VERSION OF HTML, ie HTML 5
+button tag
+Block and Inline HTML Elements
+Block Element > Take 100% width > examples: h1, p, ul, div, section, header, footer, main, aside, table
+Inline Element > Take width occording to content > example: button, input, img, a, span
+
+Share the code+files
+Doubt session
+9:15pm | 2 TA introduction | Namrata Kadam and Rajesh Kannan
+
+ACCEPTING THE CHANGE
+LIFE LONG LERNER
+> Self Learner (R & D)
+PRACTICE PRACTICE PRACTICE 80%, 20%
