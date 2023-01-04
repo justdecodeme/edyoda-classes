@@ -100,8 +100,8 @@ button tag
 Block and Inline HTML Elements
 Block Element > Take 100% width > examples: h1, p, ul, div, section, header, footer, main, aside, table
 Inline Element > Take width occording to content > example: button, input, img, a, span
-
 Share the code+files
+
 Doubt session
 9:15pm | 2 TA introduction | Namrata Kadam and Rajesh Kannan
 
@@ -109,3 +109,22 @@ ACCEPTING THE CHANGE
 LIFE LONG LERNER
 > Self Learner (R & D)
 PRACTICE PRACTICE PRACTICE 80%, 20%
+
+
+
+///////////////
+ DAY 3:
+///////////////
+
+💡 Don't try to remember everything, just understand the logic
+
+⏹️ Check Attendance problem
+⏹️ Reach out to EdYoda support team if any problem in portal
+⏹️ Update file name
+⏹️ img tag
+⏹️ a tag
+   ⏹️ External vs Internal links
+   ⏹️ Absolute vs Relative url
+⏹️ Feedback time
+⏹️ Same page links
+⏹️ Doubt session
