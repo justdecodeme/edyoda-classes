@@ -91,7 +91,7 @@ br, > Break
 hr, > Horizontal Rule
 Attributes > extra information for the html tag, key value pairs
 Element > Open Tag + Content + Close Tag
-Empty elements > br
+Empty elements > br, hr, img, input, meta
 HTML VERSION 5
 
 <!DOCTYPE html> :THIS LINE EXPLAINS THAT WE ARE USING LATEST
@@ -117,14 +117,28 @@ PRACTICE PRACTICE PRACTICE 80%, 20%
 ///////////////
 
 💡 Don't try to remember everything, just understand the logic
+💡 Your code should be intended (gap) properly
+💡 MASTER >>>>> HTML CSS JS 💪💪💪
+⏹️ Create PPT for HTML Classes
 
-⏹️ Check Attendance problem
-⏹️ Reach out to EdYoda support team if any problem in portal
-⏹️ Update file name
-⏹️ img tag
-⏹️ a tag
-   ⏹️ External vs Internal links
-   ⏹️ Absolute vs Relative url
-⏹️ Feedback time
+✅ Check Attendance problem
+✅ Reach out to EdYoda support team if any problem in portal
+
+src > source | image path
+alt > alternate text if image is not available
+jpg > not transparency
+png > having transparency
+
+✅ img tag
+✅ HTML Comments | <!-- any comment --> | Shortcut: Ctrl + /
+✅ a (anchor) tag | href > hyper reference
+   ✅ External vs Internal links
+   ✅ Absolute vs Relative url
+✅ Feedback time
 ⏹️ Same page links
-⏹️ Doubt session
+⏹️ Add image to links
+✅ Doubt session
+Attributes
+Block vs Inline
+Ctrl + D > Undo
+Ctrl + Shift + Z | Ctrl + Y > Redo
