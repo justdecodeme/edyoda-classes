@@ -69,7 +69,7 @@ Creating the first HTML file
 Basics of HTML:
 Tag > open tag, close tag
 html, > will tell the browser that we are writing html code
-head, > will contain <title>
+head, > will contain <title>, seo meta tags
 title, > will be visible on the tab
 body, > user content
 h1-h6, > headings (h1, h2, h3)
@@ -140,5 +140,25 @@ png > having transparency
 ✅ Doubt session
 Attributes
 Block vs Inline
-Ctrl + D > Undo
+
+
+///////////////
+ DAY 01-06:
+///////////////
+
+meta tag > SEO (Search Engine Optimization)
+framework > HTML + CSS + JS
+
+SHORTCUTS
+---------
+Ctrl + Enter > Insert new line below
+Ctrl + Shift + Enter > Insert new line above
+Alt + Shift + Down Arrow > Duplicate the code below
+Ctrl + D > Select highlighted code
+Ctrl + ] > Indent right side
+Ctrl + [ > Indent left side
+Alt + Up Arrow > Move code up
+Alt + Down Arrow > Move code down
+Ctrl + Z > Undo
 Ctrl + Shift + Z | Ctrl + Y > Redo
+Ctrl + / > Toggle comments
