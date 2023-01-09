@@ -162,3 +162,8 @@ Alt + Down Arrow > Move code down
 Ctrl + Z > Undo
 Ctrl + Shift + Z | Ctrl + Y > Redo
 Ctrl + / > Toggle comments
+
+
+NEXT CLASS
+---------
+⏹️ a for tel and email
