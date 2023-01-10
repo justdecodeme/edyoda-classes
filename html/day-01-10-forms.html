@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Forms</title>
+</head>
+<body>
+  <form>
+    <p>Select your gender:</p>
+    <label for="m">Male</label>
+    <input type="radio" id="m" name="gender">
+    <label for="f">Female</label>
+    <input type="radio" id="f" name="gender">
+
+    
+    <p>Hobbies:</p>
+    <input type="checkbox" id="cricket" name="hobbies">
+    <label for="cricket">Cricket</label>
+    <br>
+    <input type="checkbox" id="football" name="hobbies">
+    <label for="football">Football</label>
+    <br>
+    <input type="checkbox" id="hockey" name="hobbies">
+    <label for="hockey">Hockey</label>
+    <br>
+
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+    <input type="password" max="15">
+    <br>
+    <input type="text" value="Rakesh" placeholder="Full Name">
+    <br>
+    <input type="email" size="15" placeholder="example@gmail.com">
+    <br>
+    <input type="number" disabled placeholder="Phone Number">
+    <br>
+    <input type="color" disabled>
+    <br>
+    <input type="date">
+    <br>
+    <input type="search" autofocus placeholder="Search...">
+    <br>
+    <input type="file">
+    <br>
+    <input type="range" min="0" step="10" max="20">
+
+    <br>
+    <br>
+    <label for="states">Select State:</label>
+    <select id="states">
+      <optgroup label="States">
+        <option>J & K</option>
+        <option>Punjab</option>
+        <option>UP</option>
+        <option>Rajasthan</option>
+        <option>Karnataka</option>
+        <option>Maharashtra</option>
+        <option>Telangana</option>
+        <option>Tamilnadu</option>
+      </optgroup>
+      <optgroup label="Union Territory">
+        <option>New Delhi</option>
+        <option>Pondichery</option>
+        <option>Chandigarh</option>
+      </optgroup>
+    </select>
+  </form>
+
+  <br>
+  <br>
+  <br>
+
+  <form>
+    <fieldset>
+      <legend>My Easy Form</legend>
+      <label for="email">Email Address:</label>
+      <br>
+      <input type="text" id="email" placeholder="example@gmail.com">
+      <br>
+      <label for="phone">Phone Number:</label>
+      <br>
+      <input type="number" id="phone">
+      <br>
+      <label for="password">Pasword:</label>
+      <br>
+      <input type="password" id="password">
+      <br>
+      <label for="comment">Feedback</label>
+      <br>
+      <textarea id="comment" cols="60" rows="4"></textarea>
+      <br>
+      <button>Submit</button>
+    </fieldset>
+  </form>
+</body>
+</html>
