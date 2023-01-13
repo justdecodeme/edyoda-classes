@@ -164,6 +164,7 @@ Ctrl + Shift + Z | Ctrl + Y > Redo
 Ctrl + / > Toggle comments
 
 
-NEXT CLASS
----------
-⏹️ a for tel and email
+Wireframe > Design > HTML > CSS > JS > HOSTING (GitHub) >>> WEBSITE
+
+
+
