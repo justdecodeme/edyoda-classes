@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form</title>
+</head>
+<body>
+  <!-- outermost div -->
+  <div>
+    <!-- wrapper for left and right portions -->
+    <div>
+      <!-- left portion -->
+      <div>
+        <img src="rakesh.jpg" alt="Demo user image">
+        <h1>Let's get you setup</h1>
+        <p>It should take you couple of minutes<br>to pair with your watch</p>
+        <img src="" alt="Arrow image">
+      </div>
+      <!-- right portion -->
+      <div>
+        <form>
+          <div>
+            <label for="name">Name: </label>
+            <input type="text" id="name">
+          </div>
+
+          <div>
+            Gender:
+            <input type="radio" id="m" name="gender">
+            <label for="m">Male</label>
+            <input type="radio" id="f" name="gender">
+            <label for="f">Female</label>
+          </div>
+
+          <div>
+            <label for="dob">Date of birth: </label>
+            <input type="date" id="dob">
+          </div>
+
+          <div>
+            <label for="email">Email: </label>
+            <input type="email" id="email">
+          </div>
+
+          <div>
+            <label for="mobile">Mobile: </label>
+            <input type="number" id="mobile">
+          </div>
+
+          <div>
+            <label for="cid">Customer Id: </label>
+            <input type="text" id="cid">
+          </div>
+
+          <div>
+            Membership:
+            <input type="radio" id="classic" name="membership">
+            <label for="classic">Classic</label>
+            <input type="radio" id="silver" name="membership">
+            <label for="silver">Silver</label>
+            <input type="radio" id="gold" name="membership">
+            <label for="gold">Gold</label>
+          </div>          
+
+          <div>
+            <button>Cancel</button>
+            <button>Save</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
