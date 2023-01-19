@@ -1,0 +1,26 @@
+h3 {
+  /* background-color: red; */
+  background-color: black;
+  color: white;
+}
+
+/* *************** */
+/* common style */
+/* *************** */
+* {
+  box-sizing: border-box;
+}
+
+/* *************** */
+/* header style */
+/* *************** */
+header {
+  color: white;
+}
+
+/* *************** */
+/* footer style */
+/* *************** */
+footer {
+  
+}

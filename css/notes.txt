@@ -1,0 +1,9 @@
+Main topics:
+-----------
+- Diffirent ways to add CSS
+- Cascade
+- Selectors
+- Box model
+- Flexbox
+- Specificity
+- Practice DESIGN > HTML > CSS
