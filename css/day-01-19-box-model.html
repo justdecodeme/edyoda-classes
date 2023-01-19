@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=Box , initial-scale=1.0">
+  <title>Box Model</title>
+  <style>
+    body {
+      /* margin: 0; */
+    }
+    h1 {
+      position: relative;
+      /* left: 40px; */
+      background-color: red;
+      /* border: width type color; */
+      /* border: 10px solid blue; */
+      border-top: 10px solid blue;
+      /* border-right: 5px dotted green; */
+
+      /* margin: 0px; */
+    }
+    span {
+      background-color: lightgreen;
+      width: 200px;
+      display: inline; /* default style */
+      display: inline-block;
+      display: block;
+      /* display: none; */
+    }
+    p {
+      border: 1px solid black;
+      background-color: lightblue;
+      text-align: justify;
+
+      /* padding-top: 20px;
+      padding-right: 40px;
+      padding-bottom: 60px;
+      padding-left: 80px; */
+
+      /* short hand notation */
+      /* T R B L */
+      /* padding: 20px; */
+      /* TB RL */
+      padding: 20px 40px;
+      /* T RL B */
+      /* padding: 20px 40px 60px; */
+      /* T R B L */
+      /* padding: 20px 40px 60px 80px; */
+      
+      margin-top: 60px;
+      /* margin-right: 40px;
+      margin-bottom: 60px;
+      margin-left: 80px; */
+
+      /* short hand notation */
+      /* T R B L */
+      /* margin: 20px; */
+      /* TB RL */
+      /* margin: 20px 40px; */
+      /* T RL B */
+      /* margin: 20px 40px 60px; */
+      /* T R B L */
+      /* margin: 20px 40px 60px 80px; */
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 50px;
+      position: relative;
+    }
+    div {
+      position: absolute;
+      height: 2px;
+      width: 50px;
+      left: 50%;
+      transform: translateX(-50%);
+      bottom: -10px;
+      background-color: rgb(229, 21, 21);
+    }
+  </style>
+</head>
+<body>
+  <h2>Blog Heading <div></div></h2>
+  <h2>Very lengthy heading of a web page <div></div></h2>
+  <h1>Heading 1 <input type="text"></h1>
+  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos voluptas accusamus tempora suscipit ipsa natus enim unde consequatur possimus reiciendis maxime facere nobis, corrupti reprehenderit? Odio quasi deleniti quas veritatis.</p>
+  <span>Span 1</span>
+  <span>Span 2</span>
+
+  <span>To Top</span>
+</body>
+</html>

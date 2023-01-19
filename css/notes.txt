@@ -1,9 +1,25 @@
 Main topics:
 -----------
-- Diffirent ways to add CSS
-- Cascade
-- Selectors
-- Box model
+✅ Diffirent ways to add CSS
+✅ Cascade (CSS)
+- Selectors (class vs Id)
+✅ Box model
 - Flexbox
 - Specificity
-- Practice DESIGN > HTML > CSS
+📝 Practice DESIGN > HTML > CSS
+
+BOX MODEL: T→R→B→L
+- ✅ Content
+- ✅ Padding > Gap between the content and the border
+- ✅ Border > Kind of outline, dotted, dashed, solid...
+- ✅ Margin > Gap between elements
+
+Position: 
+Static > Default (top, right, bottom, left properties will not work)
+Relative > to the parent (top, right, bottom, left properties will work)
+Absolute > to the Child 
+Fixed > Relative to Browser
+❓Sticky 
+
+tag > h1, span, div
+element > open tag + conent + close tag
