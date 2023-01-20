@@ -6,6 +6,9 @@ Main topics:
 ✅ Box model
 - Flexbox
 - Specificity
+- Responsive Web Design (RWD)
+✅ Positions
+✅ Display
 📝 Practice DESIGN > HTML > CSS
 
 BOX MODEL: T→R→B→L
@@ -23,3 +26,15 @@ Fixed > Relative to Browser
 
 tag > h1, span, div
 element > open tag + conent + close tag
+
+--------
+Jan 20th 
+--------
+- PPT updated
+- Quiz 1 announcement
+- Selectors
+- 💪 let's practice CSS
+- Upload to GitHub, Make page live
+- HTML Assignment 1 Overview
+- HTML Assignment 2 Overview
+- Q & A session
