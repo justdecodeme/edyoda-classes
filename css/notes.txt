@@ -32,9 +32,9 @@ Jan 20th
 --------
 - PPT updated
 - Quiz 1 announcement
+- HTML Assignment 1 Overview
+- HTML Assignment 2 Overview
 - Selectors
 - 💪 let's practice CSS
 - Upload to GitHub, Make page live
-- HTML Assignment 1 Overview
-- HTML Assignment 2 Overview
 - Q & A session
