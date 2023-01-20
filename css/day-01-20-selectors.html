@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Selectors</title>
+  <style>
+    /* tag or type selector */
+    body {
+      background-color: lightgreen;
+    }
+    h1 {
+      background-color: red;
+    }
+    p {
+      background-color: yellow;
+    }
+    /* universal selector */
+    * {
+      margin: 0;
+    }
+    /* id selector - only 1 unique element */
+    #para2 {
+      background-color: red;
+    }
+    /* class selector - can be applied to multiple elements */
+    .green-bg {
+      background-color: green;
+    }
+
+    /* grouping / Comma Combinator selectors */
+    input, textarea {
+      border: 4px solid grey;
+    }
+    .grey-border {
+      border: 4px solid grey;
+    }
+
+    a {
+      text-decoration: none;
+    }
+    /* descendant selector */
+    /* ul a { */
+    /* li a { */
+    ul li a {
+      font-weight: bold;
+    }
+    /* .main-link li a {
+      font-weight: bold;
+    } */
+    /* .main-link {
+      font-weight: bold;
+    } */
+    #logo {
+      text-transform: uppercase;
+    }
+  </style>
+</head>
+<body>
+  <h1>Heading 1</h1>
+  <p>Paragraph 1</p>
+  <p id="para2">Paragraph 2</p>
+  <p class="green-bg">Paragraph 3</p>
+  <p class="green-bg">Paragraph 4</p>
+  <p>Paragraph 5</p>
+  <span class="green-bg">span 1</span>
+
+  <input class="grey-border" type="text">
+  <textarea class="grey-border"></textarea>
+
+  <header>
+    <a id="logo" href="#">Logo</a>
+    <ul class="main-link">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </header>
+</body>
+</html>
