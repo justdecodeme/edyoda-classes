@@ -39,6 +39,21 @@ Jan 20th
 - Upload to GitHub, Make page live
 - Q & A session
 
+--------
+Jan 27th 
+--------
+- CSS slides updated
+- Tomorrow class
+- Updated all due dates for assignments & quizzes
+- Assignment-1: Favorite Foods WebApp ONLY 33 submissions?
+- CSS quizzes questions updates
+  - Delete failed submissions
+- All assignment discussions
+- Background properties
+- Box Shadow property
+- Border box property
+- vh/vw
+- Q & A session
 
 
 When you need to make child LEFT & RIGHT

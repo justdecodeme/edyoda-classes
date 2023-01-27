@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Background image properties</title>
+  <style>
+    * {
+      font-size: 25px;
+      margin-bottom: 20px;
+      line-height: 200%;
+    }
+    
+    button {
+      margin-bottom: 30px;
+      /* box-shadow: 3px 3px black; */
+      box-shadow: 5px 5px blue, 10px 10px red, 15px 15px green;
+      /* transition: all .1s; */
+    }  
+    /* button:active {
+      box-shadow: 0 0 blue, 0 0 red, 0 0 green;
+    }   */
+
+    div {
+      padding: 30px;
+      border: 20px solid rgba(0, 255, 0, 0.7);
+      /* overflow: auto; */
+
+      height: 40vh;
+
+      background-color: orange;
+      
+      background-image: url('pattern-1.jpg');
+
+      /* DEFAULT - The background image is displayed in its original size*/
+      /* background-size: auto; */
+      /* background-size: 100px; */
+      /* background-size: 100px 200px; */
+      /* background-size: 30%; */
+      /* background-size: 100% 50%; */
+      /* The image keeps its aspect ratio and fills the given dimension. The image will be clipped to fit. */
+      /* background-size: cover; */
+      /* The image keeps its aspect ratio, but is resized to fit within the given dimension. */
+      /* background-size: contain; */
+
+      /* DEFAULT */
+      /* background-repeat: repeat;  */
+      /* background-repeat: repeat-x;  */
+      /* background-repeat: repeat-y;  */
+      /* background-repeat: no-repeat;  */
+      /* background-repeat: space;  */
+      /* background-repeat: round;  */
+
+      /* DEFAULT */
+      /* background-position: left top; */
+      /* background-position: left bottom; */
+      /* background-position: left center; */
+      /* background-position: right top; */
+      /* background-position: right bottom; */
+      /* background-position: right center; */
+      /* background-position: center top; */
+      /* background-position: center bottom; */
+      /* background-position: center center; */
+      /* background-position: center; */
+      /* background-position: 30% 10%; */
+      /* background-position: 50px 100px; */
+      /* If you only specify one keyword, the other value will be "center" */
+      /* background-position: 50px */
+
+      /* DEFAULT */
+      /* background-origin: padding-box; */
+      /* background-origin: border-box; */
+      /* background-origin: content-box; */
+      
+      
+      /* DEFAULT */
+      /* background-clip: border-box; */
+      /* background-clip: padding-box; */
+      /* background-clip: content-box; */
+      
+      /* DEFAULT */
+      /* background-attachment: scroll; */
+      /* background-attachment: fixed; */
+      /* background-attachment: local; */
+
+      /* SHORTHAND */
+      /* background: orange url("pattern-1.jpg") no-repeat fixed center; */
+    }
+  </style>
+</head>
+<body>
+  <button>Submit</button>
+  <div>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias excepturi voluptas illo voluptatum, itaque tempore suscipit. Odit, eum cum? Eum, accusantium. Culpa commodi ea voluptatum est. Deserunt dolor quaerat facere.
+  </div>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias excepturi voluptas illo voluptatum, itaque tempore suscipit. Odit, eum cum? Eum, accusantium. Culpa commodi ea voluptatum est. Deserunt dolor quaerat facere.
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias excepturi voluptas illo voluptatum, itaque tempore suscipit. Odit, eum cum? Eum, accusantium. Culpa commodi ea voluptatum est. Deserunt dolor quaerat facere.
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias excepturi voluptas illo voluptatum, itaque tempore suscipit. Odit, eum cum? Eum, accusantium. Culpa commodi ea voluptatum est. Deserunt dolor quaerat facere.
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias excepturi voluptas illo voluptatum, itaque tempore suscipit. Odit, eum cum? Eum, accusantium. Culpa commodi ea voluptatum est. Deserunt dolor quaerat facere.
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias excepturi voluptas illo voluptatum, itaque tempore suscipit. Odit, eum cum? Eum, accusantium. Culpa commodi ea voluptatum est. Deserunt dolor quaerat facere.
+  </p>
+</body>
+</html>
