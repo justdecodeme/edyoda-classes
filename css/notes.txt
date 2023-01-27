@@ -60,3 +60,18 @@ When you need to make child LEFT & RIGHT
 Parent >
 display: flex;
 justify-conent: space-between;
+
+
+Due Dates
+---------
+✅ 23 Jan: Quiz-1: CSS3 Basics
+⏹️ 28 Jan: Assignment-1: Favorite Foods WebApp
+⏹️ 30 Jan: Quiz-2: CSS3 Basics
+⏹️ 30 Jan: Quiz-3: CSS3 Basics
+⏹️ 31 Jan: Assignment-2: EdYoda Stories
+⏹️ 03 Feb: Assignment-1: Stunning Landing Page
+⏹️ 02 Feb: Quiz-4: CSS Basics
+⏹️ 06 Feb: HTML-CSS Final Project
+
+
+
