@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pseudo Classes</title>
+  <style>
+    button {
+      background-color: yellow;
+    }
+    button:hover {
+      background-color: orange;
+    }
+    button:active {
+      background-color: red;
+    }
+    button:disabled {
+      background-color: grey;
+    }
+    input {
+      background-color: yellow;
+    }
+    input:hover {
+      background-color: orange;
+    }
+    input:focus {
+      background-color: red;
+    }
+    input:disabled {
+      background-color: grey;
+    }
+    input:read-only {
+      background-color: rgb(179, 179, 179);
+    }
+    input:required {
+      background-color: black;
+    }
+    /* based on cursor > hover, active, focus */
+    /* based on attributes > disabled, read-only */
+  </style>
+</head>
+<body>
+  <button disabled>Button 1</button>
+  <input type="text" required>
+  <input type="text" disabled>
+  <input type="text" readonly="true" value="some value">
+</body>
+</html>

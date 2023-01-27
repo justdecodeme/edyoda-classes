@@ -38,3 +38,10 @@ Jan 20th
 - 💪 let's practice CSS
 - Upload to GitHub, Make page live
 - Q & A session
+
+
+
+When you need to make child LEFT & RIGHT
+Parent >
+display: flex;
+justify-conent: space-between;
