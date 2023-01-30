@@ -5,6 +5,8 @@
 ⏹️ Share JavaScript PPT link
 ⏹️ Welcome to JS
 ⏹️ Practice 01
+   - Change Background
+   - Upload to GitHub
 ⏹️ Assignment 01
    - Create folder with name `js-assignment-01-change-theme`
    - Create `index.html` in `assignment-01-change-theme` folder
@@ -12,6 +14,7 @@
      - Dark Theme (on click will change background: black and color: white)
      - Grey Theme (on click will change background: grey and color: black)
      - Light Theme (on click will change background: white and color: grey)
+     - BONUS: Add button styles same as the theme (use external css)
    - Create hr tag after the buttons
    - Add some content (h1, h2, p, ...)
    - Create a repository on GitHub with name `js-assignment-01-change-theme`
@@ -19,6 +22,18 @@
    - Check if the link is working 👀
    - Share the link in Whatsapp group 🥳
    - DONE, Clap for yourself 👏
+⏹️ 31 Jan: Assignment-2: EdYoda Stories Discussion
+⏹️ Q & A session
+
+----------------
+31st Jan Topics
+----------------
+⏹️ Quiz-2: CSS3 Basics Discussion
+⏹️ Quiz-3: CSS3 Basics Discussion
+⏹️ Practice 02
+   - 
+⏹️ Assignment 02
+   - 
 ⏹️ Q & A session
 
 ----------------------------------------
