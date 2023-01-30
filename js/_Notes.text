@@ -8,6 +8,7 @@
 ⏹️ Practice 01
    - Change Background
    - Upload to GitHub
+⏹️ Why generally script is written before closing body tag not in head tag
 ⏹️ Assignment 01
    - Create folder with name `js-assignment-01-change-theme`
    - Create `index.html` in `assignment-01-change-theme` folder
@@ -41,6 +42,31 @@
 ⏹️ Assignment 02
    - 
 ⏹️ Q & A session
+
+-----
+NOTES
+-----
+HTML COMMENTS
+<!-- single line comment --> 
+<!-- multi
+   line
+   comment
+ --> 
+
+CSS COMMENTS
+/* single line comment */
+/* multi 
+   line
+   comment
+*/
+
+JS COMMENTS
+// single line comment
+/* single line comment */
+/* multi 
+   line
+   comment
+*/
 
 ----------------------------------------
 Due date order of assignments and quizes

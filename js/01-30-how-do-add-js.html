@@ -1,24 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>How to add JS</title>
-	</head>
-	<body>
-		<!-- inline js -->
-		<button onclick='alert("Hello from inline JS!"); console.log("Hello from inline JS!"); '>
-			Say Hello
-		</button>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>How to add JS</title>
+  <!-- internal css -->
+  <style>
+    button {
+      text-transform: uppercase;
+    }
+  </style>
 
-		<!-- interanal -->
-		<script>
-			alert("Hello from internal JS!");
-			console.log("Hi from internal JS!");
-		</script>
+  <!-- external css -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- inline css -->
+  <button style="color: red; background-color: grey;">Say Hi!</button>
+  
+  <!-- inline js -->
+  <button onclick="alert('Hi from inline JS!'); console.log('Hi from inline JS!')">Say Hi!</button>
 
-		<!-- external -->
-		<script src="script.js"></script>
-	</body>
+  <!-- internal js -->
+  <script>
+    alert('Hi from internal JS!');
+    console.log('Hi from internal JS!');
+  </script>
+
+  <!-- external js -->
+  <script src="script.js"></script>
+</body>
 </html>
