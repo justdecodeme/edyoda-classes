@@ -7,21 +7,21 @@
 ✅ Practice 01
    - Change Background
    - Upload to GitHub
-✅ Assignment 01
-   - Create folder with name `js-assignment-01-change-theme`
-   - Create `index.html` in `assignment-01-change-theme` folder
-   - Create 3 buttons in `index.html` file having text below:
-     - Dark Theme (on click will change background: black and color: white)
-     - Grey Theme (on click will change background: grey and color: black)
-     - Light Theme (on click will change background: white and color: grey)
-     - BONUS: Add button styles same as the theme (use external css)
-   - Create hr tag after the buttons
+✅ Assignment 01:
+   - Create a folder with the name `js-assignment-01-change-theme`
+   - Create `index.html` in the `assignment-01-change-theme` folder
+   - Create 3 buttons in the `index.html` file having text below:
+     - Dark Theme (on click will change the background: black and color: white)
+     - Grey Theme (on click will change the background: grey and color: black)
+     - Light Theme (on click will change the background: white and color: grey)
+     - BONUS: Add button styles the same as the theme (use external CSS)
+   - Create an hr tag after the buttons
    - Add some content (h1, h2, p, ...)
-   - Create a repository on GitHub with name `js-assignment-01-change-theme`
+   - Create a repository on GitHub with the name `js-assignment-01-change-theme`
    - Upload the `index.html` file
    - Check if the link is working 👀
-   - Share the link in Whatsapp group 🥳
-   - DONE, Clap for yourself 👏
+   - Share the link in the Whatsapp group 🥳
+   - DONE, Clap for yourself 👏   
 ✅ 31 Jan: Assignment-2: EdYoda Stories Discussion
 ✅ Q & A session
 
