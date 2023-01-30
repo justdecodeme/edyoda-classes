@@ -1,15 +1,13 @@
 ----------------
 30th Jan Topics
 ----------------
-⏹️ _Notes.txt added
-⏹️ Share JavaScript PPT link
-⏹️ Welcome to JS
-⏹️ Variables
-⏹️ Practice 01
+✅ _Notes.txt added
+✅ Share JavaScript PPT link
+✅ Welcome to JS
+✅ Practice 01
    - Change Background
    - Upload to GitHub
-⏹️ Why generally script is written before closing body tag not in head tag
-⏹️ Assignment 01
+✅ Assignment 01
    - Create folder with name `js-assignment-01-change-theme`
    - Create `index.html` in `assignment-01-change-theme` folder
    - Create 3 buttons in `index.html` file having text below:
@@ -24,14 +22,16 @@
    - Check if the link is working 👀
    - Share the link in Whatsapp group 🥳
    - DONE, Clap for yourself 👏
-⏹️ 31 Jan: Assignment-2: EdYoda Stories Discussion
-⏹️ Q & A session
+✅ 31 Jan: Assignment-2: EdYoda Stories Discussion
+✅ Q & A session
 
 ----------------
 31st Jan Topics
 ----------------
 ⏹️ Quiz-2: CSS3 Basics Discussion
 ⏹️ Quiz-3: CSS3 Basics Discussion
+⏹️ Variables
+⏹️ Why generally script is written before closing body tag not in head tag
 ⏹️ Control flow
 ⏹️ loops
 ⏹️ var vs let vs const
