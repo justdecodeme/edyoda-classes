@@ -31,12 +31,23 @@
 ⏹️ Quiz-2: CSS3 Basics Discussion
 ⏹️ Quiz-3: CSS3 Basics Discussion
 ⏹️ Variables
-⏹️ Why generally script is written before closing body tag not in head tag
+⏹️ Functions
+⏹️ Event Listener
 ⏹️ Control flow
-⏹️ loops
-⏹️ var vs let vs const
-⏹️ Operators
+⏹️ Loops
+⏹️ Why generally script is written before closing body tag not in head tag
+⏹️ Practice 02
+   - 
+⏹️ Assignment 02
+   - 
+⏹️ Q & A session
+
+----------------
+01st Feb Topics
+----------------
 ⏹ Data types
+⏹️ Operators
+⏹️ var vs let vs const
 ⏹️ Practice 02
    - 
 ⏹️ Assignment 02
