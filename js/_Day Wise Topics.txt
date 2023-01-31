@@ -21,7 +21,7 @@
 ⏹️ Event Listener
 ⏹️ If Else Conditions
 ❓ Why generally script is written before closing body tag not in head tag
-⏹️ Practice 02 - Upload on GitHub
+⏹️ Practice 02 -> Upload on GitHub
 ⏹️ Assignment 02
 ⏹️ 03 Feb: Assignment-1: Stunning Landing Page DISCUSSION
 ⏹️ 06 Feb: HTML-CSS Final Project OVERVIEW

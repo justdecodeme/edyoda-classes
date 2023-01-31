@@ -18,8 +18,10 @@
 				var randomNumber = Math.floor(Math.random() * 5);
 				console.log(randomNumber);
 
-				if (randomNumber < 3) {
+				if (randomNumber < 2) {
 					headingEl.style.color = "red";
+				} else if (randomNumber < 4) {
+					headingEl.style.color = "green";
 				} else {
 					headingEl.style.color = "blue";
 				}
