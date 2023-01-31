@@ -1,77 +1,28 @@
-----------------
-30th Jan Topics
-----------------
-✅ _Notes.txt added
-✅ Share JavaScript PPT link
-✅ Welcome to JS
-✅ Practice 01
-   - Change Background
-   - Upload to GitHub
-✅ Assignment 01:
-   - Create a folder with the name `js-assignment-01-change-theme`
-   - Create `index.html` in the `assignment-01-change-theme` folder
-   - Create 3 buttons in the `index.html` file having text below:
-     - Dark Theme (on click will change the background: black and color: white)
-     - Grey Theme (on click will change the background: grey and color: black)
-     - Light Theme (on click will change the background: white and color: grey)
-     - BONUS: Add button styles the same as the theme (use external CSS)
-   - Create an hr tag after the buttons
-   - Add some content (h1, h2, p, ...)
-   - Create a repository on GitHub with the name `js-assignment-01-change-theme`
-   - Upload the `index.html` file
-   - Check if the link is working 👀
-   - Share the link in the Whatsapp group 🥳
-   - DONE, Clap for yourself 👏   
-✅ 31 Jan: Assignment-2: EdYoda Stories Discussion
-✅ Q & A session
-
-----------------
-31st Jan Topics
-----------------
-⏹️ Quiz-2: CSS3 Basics Discussion
-⏹️ Quiz-3: CSS3 Basics Discussion
-⏹️ Variables
-⏹️ Functions
-⏹️ Event Listener
-⏹️ Control flow
-⏹️ Loops
-⏹️ Why generally script is written before closing body tag not in head tag
-⏹️ Practice 02
-   - 
-⏹️ Assignment 02
-   - 
-⏹️ Q & A session
-
-----------------
-01st Feb Topics
-----------------
-⏹ Data types
-⏹️ Operators
-⏹️ var vs let vs const
-⏹️ Practice 02
-   - 
-⏹️ Assignment 02
-   - 
-⏹️ Q & A session
-
------
-NOTES
------
+==============
 HTML COMMENTS
+==============
+
 <!-- single line comment --> 
 <!-- multi
    line
    comment
  --> 
 
+
+==============
 CSS COMMENTS
+==============
+
 /* single line comment */
 /* multi 
    line
    comment
 */
 
+==============
 JS COMMENTS
+==============
+
 // single line comment
 /* single line comment */
 /* multi 

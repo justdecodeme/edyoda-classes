@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Toggle Theme</title>
+		<style>
+			body {
+				color: grey;
+			}
+		</style>
+	</head>
+	<body>
+		<button id="btn">Switch to Dark Theme</button>
+
+		<hr />
+
+		<h1>Heading 1</h1>
+		<h2>Heading 2</h2>
+		<p>
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur reprehenderit nemo
+			repellendus in eius alias omnis esse maiores nesciunt aspernatur. Dolor autem totam voluptate
+			dolorum provident in libero architecto perferendis! Lorem ipsum dolor sit amet consectetur
+			adipisicing elit. Consectetur reprehenderit nemo repellendus in eius alias omnis esse maiores
+			nesciunt aspernatur. Dolor autem totam voluptate dolorum provident in libero architecto
+			perferendis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur
+			reprehenderit nemo repellendus in eius alias omnis esse maiores nesciunt aspernatur. Dolor
+			autem totam voluptate dolorum provident in libero architecto perferendis! Lorem ipsum dolor
+			sit amet consectetur adipisicing elit. Consectetur reprehenderit nemo repellendus in eius
+			alias omnis esse maiores nesciunt aspernatur. Dolor autem totam voluptate dolorum provident in
+			libero architecto perferendis!
+		</p>
+
+		<script>
+			// IMPORTANT
+			// Write and practice this code 3-5 times ATLEAST
+			// IMPORTANT
+
+			// variables
+			var btn = document.getElementById("btn");
+			var activeTheme = "light";
+
+			// function definition
+			function toggleTheme() {
+				if (activeTheme == "dark") {
+					document.body.style.backgroundColor = "white";
+					document.body.style.color = "grey";
+					btn.innerText = "Switch to Dark Theme";
+					activeTheme = "light";
+				} else {
+					document.body.style.backgroundColor = "black";
+					document.body.style.color = "white";
+					btn.innerText = "Switch to Light Theme";
+					activeTheme = "dark";
+				}
+			}
+
+			// event listener
+			btn.addEventListener("click", toggleTheme);
+		</script>
+	</body>
+</html>

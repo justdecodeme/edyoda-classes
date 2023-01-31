@@ -1,0 +1,42 @@
+----------------
+30th Jan Topics
+----------------
+✅ _Notes.txt added
+✅ Share JavaScript PPT link
+✅ Welcome to JS
+✅ Practice 01
+✅ Assignment 01
+✅ 31 Jan: Assignment-2: EdYoda Stories Discussion
+✅ Q & A session
+
+----------------
+31st Jan Topics
+----------------
+⏹️ Quiz-2: CSS3 Basics DISCUSSION
+⏹️ Quiz-3: CSS3 Basics DISCUSSION
+⏹️ Assignment 01 OVERVIEW
+⏹️ Due dates overview
+⏹️ Variables
+⏹️ Functions
+⏹️ Event Listener
+⏹️ If Else Conditions
+❓ Why generally script is written before closing body tag not in head tag
+⏹️ Practice 02 - Upload on GitHub
+⏹️ Assignment 02
+⏹️ 03 Feb: Assignment-1: Stunning Landing Page DISCUSSION
+⏹️ 06 Feb: HTML-CSS Final Project OVERVIEW
+⏹️ HOT SEAT - Code overview
+⏹️ Q & A session
+
+----------------
+01st Feb Topics
+----------------
+⏹ Data types
+⏹️ Operators
+⏹️ Loops
+⏹️ var vs let vs const
+⏹️ Practice 02
+   - 
+⏹️ Assignment 02
+   - 
+⏹️ Q & A session
