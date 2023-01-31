@@ -1,5 +1,5 @@
 // IMPORTANT
-// Write and practice this code 3-5 times ATLEAST
+// Write and practice this code ATLEAST 3-5 times
 // IMPORTANT
 
 // variables

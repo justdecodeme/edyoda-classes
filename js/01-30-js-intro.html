@@ -8,20 +8,23 @@
 	</head>
 	<body>
 		<h1 id="mainHeading" title="Heading Title">Heading</h1>
+		<h2 id="subHeading">Heading 2</h2>
 
 		<script>
-			document.getElementById("mainHeading").innerHTML = "New Heading";
-			document.getElementById("mainHeading").style.color = "red";
-			document.getElementById("mainHeading").title = "New Heading Title";
+			// document.getElementById("mainHeading").innerHTML = "New Heading";
+			// document.getElementById("mainHeading").style.color = "red";
+			// document.getElementById("mainHeading").title = "New Heading Title";
 			
 			document.body.style.backgroundColor = "grey";
 			document.title = "Power of JS!!!";
 
 			// VARIABLES
-			// var myHeading = document.getElementById("mainHeading");
-			// myHeading.innerHTML = "New Heading";
-			// myHeading.style.fontSize = "15px";
-			// myHeading.title = "New Heading Title";
+			var myHeading = document.getElementById("mainHeading");
+			var mySubHeading = document.getElementById("subHeading");
+
+			myHeading.innerHTML = "New Heading";
+			mySubHeading.style.color = "red";
+			myHeading.title = "New Heading Title";
 		</script>
 	</body>
 </html>

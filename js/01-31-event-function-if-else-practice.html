@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Events | Functions | If Else Conditions</title>
+	</head>
+	<body>
+		<!-- <h1 id="heading1" onclick="document.getElementById('heading1').style.color = 'red'">Events | Functions | If Else Conditions</h1> -->
+
+		<h1 id="heading2">Events | Functions | If Else Conditions</h1>
+
+		<script>
+			// variable
+			var headingEl = document.getElementById('heading2');
+
+			// function syntax
+			// function funcName() {
+			// 	// your code 
+			// }
+
+			function changeColor() {
+				var randomNumber = Math.floor(Math.random() * 10); // 0-10
+				console.log(randomNumber);
+				
+				if(randomNumber < 4) {
+					headingEl.style.color = 'red';
+				} else if(randomNumber < 7) {
+					headingEl.style.color = 'blue';
+				} else {
+					headingEl.style.color = 'green';
+				}
+			}
+
+			// events
+			// target.addEventListener('click', function() { })
+
+			headingEl.addEventListener('click', toggleColor)
+
+			// if else code syntax
+			// if(condition) {
+			// 	// run this code if condition is true
+			// } else {
+			// 	// or else run this code if condition is false
+			// }
+
+		</script>
+	</body>
+</html>
