@@ -1,13 +1,31 @@
 ----------------
-30th Jan Topics
+02nd Feb Topics
 ----------------
-✅ _Notes.txt added
-✅ Share JavaScript PPT link
-✅ Welcome to JS
-✅ Practice 01
-✅ Home Work 01
-✅ 31 Jan: Assignment-2: EdYoda Stories Discussion
-✅ Q & A session
+⏹️ Favicon & container padding, max-width
+⏹️ Switch statement
+⏹ Data types
+⏹️ Operators
+⏹️ Loops
+⏹️ var vs let vs const
+⏹️ Practice 02
+   - 
+⏹️ Assignment 02
+   - 
+⏹️ 06 Feb: HTML-CSS Final Project OVERVIEW
+⏹️ HOT SEAT - Code review
+⏹️ Q & A session
+
+----------------
+01st Feb Topics
+----------------
+⏹️ 03 Feb: Assignment-1: Stunning Landing Page DISCUSSION
+⏹️ Home Work 02 DISCUSSION
+⏹️ Home Work 03
+⏹️ Data types (optional)
+⏹️ Arrays (optional)
+⏹️ HOT SEAT - Code review
+⏹️ Please use MS Teams for messages
+⏹️ Q & A session
 
 ----------------
 31st Jan Topics
@@ -23,21 +41,15 @@
 ❓ Why generally script is written before closing body tag not in head tag
 ✅ Practice 02 -> Upload on GitHub
 ✅ Home Work 02
-⏹️ HOT SEAT - Code review
 ✅ Q & A session
 
 ----------------
-01st Feb Topics
+30th Jan Topics
 ----------------
-⏹️ 03 Feb: Assignment-1: Stunning Landing Page DISCUSSION
-⏹ Data types
-⏹️ Operators
-⏹️ Loops
-⏹️ var vs let vs const
-⏹️ Practice 02
-   - 
-⏹️ Assignment 02
-   - 
-⏹️ 06 Feb: HTML-CSS Final Project OVERVIEW
-⏹️ HOT SEAT - Code review
-⏹️ Q & A session
+✅ _Notes.txt added
+✅ Share JavaScript PPT link
+✅ Welcome to JS
+✅ Practice 01
+✅ Home Work 01
+✅ 31 Jan: Assignment-2: EdYoda Stories Discussion
+✅ Q & A session
