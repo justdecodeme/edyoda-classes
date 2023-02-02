@@ -10,6 +10,7 @@
 ⏹️ Operators
 ⏹️ FIRST JS GAME (OPTIONAL)
 ⏹️ Home work (Upload game on github)
+⏹️ 02 Feb: Quiz-1: JavaScript Basics UPDATE
 ⏹️ 02 Feb: Quiz-4: CSS Basics UPDATE
 ⏹️ 03 Feb: Assignment-1: Stunning Landing Page UPDATE
 ⏹️ Tomorrow's class UPDATE

@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  background: red;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  font-family: 'Press Start 2P', cursive;
+  overflow: hidden;
+}
+
+header {
+  background: #ac79fb;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 50px;
+  text-transform: uppercase;
+}
+
+main {
+  background: #c8a7fb;
+  height: 100%;
+  position: relative;
+}
+
+main .ball {
+  position: absolute;
+  display: inline-block;
+  background: black;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  cursor: pointer;
+  animation-name: shrink-grow;
+  animation-duration: .2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  /* 
+  animation-name
+  animation-duration
+  animation-delay
+  animation-direction
+  animation-iteration-count
+  animation-timing-function
+  animation-fill-mode
+  animation
+ */
+  transition: all .1s;
+}
+
+main .ball.hide {
+  opacity: 0;
+  transform: scale(0);
+}
+
+@keyframes shrink-grow {
+  from {
+    /* background: red; */
+    transform: scale(0.9);
+  }
+  to {
+    /* background: blue; */
+    transform: scale(1);
+  }
+}
