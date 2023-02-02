@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>var vs let vs const</title>
+</head>
+<body>
+  <script>
+    // var > global
+    // let > inside if/else/functions/for/switch
+    // const > to declare constant
+
+    const PI = 3.14;
+    // pi = 4.5;
+
+    var a = 7;
+    var b = 5;
+    var operator = 'minus';
+
+    if(operator == 'plus') {
+      let result = a + b;
+      console.log(result);
+    } else if(operator == 'minus') {
+      let result = a - b;
+    }
+    console.log(result);
+
+    // console.log(pi);
+  </script>
+</body>
+</html>

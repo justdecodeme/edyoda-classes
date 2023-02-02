@@ -1,20 +1,20 @@
 ----------------
 02nd Feb Topics
 ----------------
-⏹️ PPT Updated
-⏹️ Favicon & container padding, max-width UPDATE
-⏹ Switch Statement
-⏹ If Else vs Switch Statement
-⏹️ var vs let vs const
-⏹ Data types
-⏹️ Operators
-⏹️ FIRST JS GAME (OPTIONAL)
-⏹️ Home work (Upload game on github)
-⏹️ 02 Feb: Quiz-1: JavaScript Basics UPDATE
-⏹️ 02 Feb: Quiz-4: CSS Basics UPDATE
-⏹️ 03 Feb: Assignment-1: Stunning Landing Page UPDATE
-⏹️ Tomorrow's class UPDATE
-⏹️ Q & A session
+✅ PPT Updated
+✅ Favicon & container padding, max-width UPDATE
+✅ Switch Statement
+✅ If Else vs Switch Statement
+✅ var vs let vs const
+✅ Data types
+✅ Operators
+✅ FIRST JS GAME (OPTIONAL)
+✅ Home work (Upload game on github)
+✅ Tomorrow's class UPDATE
+✅ Quiz-1: JavaScript Basics UPDATE
+✅ 02 Feb: Quiz-4: CSS Basics UPDATE
+✅ 03 Feb: Assignment-1: Stunning Landing Page UPDATE
+✅ Q & A session
 
 ----------------
 03rd Feb Topics
