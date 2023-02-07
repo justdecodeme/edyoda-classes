@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arrays Loops Practice</title>
+  <style>
+    body {
+      display: flex;
+    }
+  </style>
+</head>
+<body>
+  <!-- <table border="1">
+    <tr><td>2 * 1 = 2</td></tr>
+    <tr><td>2 * 2 = 4</td></tr>
+    <tr><td>2 * 3 = 6</td></tr>
+    <tr><td>2 * 4 = 8</td></tr>
+    <tr><td>2 * 5 = 10</td></tr>
+    <tr><td>2 * 6 = 12</td></tr>
+    <tr><td>2 * 7 = 14</td></tr>
+    <tr><td>2 * 8 = 16</td></tr>
+    <tr><td>2 * 9 = 18</td></tr>
+    <tr><td>2 * 10 = 20</td></tr>
+  </table> -->
+  <table border="1" id="myTable">
+
+  </table>
+  <script>
+    // var n = 5;
+    // var output = '';
+    // for(let i = 1; i < 11; i++) {
+    //   output = output + "<tr><td>" + n  + " * " +  i + " = " + n * i + "</td></tr>";
+    // }
+    // document.getElementById("myTable").innerHTML = output;
+
+    // var a = 5;
+    // a = a + 9;
+    // a += 9;
+
+    var n = [3, 10, 21, 25, 45, 999];
+    
+    var output = '';
+    for(let i = 0; i < n.length; i++) {
+      output += '<table border="1">';
+      for(let j = 1; j < 11; j++) {
+        output += "<tr><td>" + n[i]  + " * " +  j + " = " + n[i] * j + "</td></tr>";
+      }
+      output += '</table>';
+    }
+
+    document.body.innerHTML = output;
+  </script>
+</body>
+</html>

@@ -1,19 +1,45 @@
 ----------------
+07th Feb Topics
+----------------
+⏹️ Ternary operator
+⏹️ Arrays
+    ⏹️ Array methods
+    ⏹️ Array properties
+⏹️ Loops
+⏹️ App Development: Create Table of number n
+⏹️ Q & A session
+
+❓ Red flag 
+❓ Automatic marks deduction
+
+
+
+----------------
+07th Feb Topics
+----------------
+⏹️ Functions
+⏹️ Objects
+⏹️ 06 Feb: HTML-CSS Final Project DISCUSSION
+⏹️ HOT SEAT - Code review
+⏹️ Q & A session
+
+----------------
+06th Feb Topics
+----------------
+✅ Evalutions UPDATE
+✅ Quiz-1: Javascript Basics Overview
+✅ Assignment-1: JavaScript Basic Coding DICUSSION
+⏹️ HTML-CSS Final Project DISCUSSION
+✅ Quiz-2: JavaScript Basics UPDATE
+✅ Q & A session
+
+----------------
 03rd Feb Topics
 ----------------
 ✅ 02 Feb: Quiz-4: CSS Basics OVERVIEW
 ✅ 06 Feb: HTML-CSS Final Project DISCUSSION >>> Due date extension
 ✅ Assignment-1: JavaScript Basic Coding
 ✅ Q & A session
-
-----------------
-06th Feb Topics
-----------------
-⏹️ Loops
-⏹️ Arrays
-⏹️ Objects
-⏹️ HOT SEAT - Code review
-⏹️ Q & A session
 
 ----------------
 02nd Feb Topics
