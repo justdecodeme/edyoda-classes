@@ -1,0 +1,124 @@
+/* ******* */
+/* common */
+/* ******* */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Playfair Display', serif;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  opacity: 0.9;
+}
+a:active {
+  opacity: 1;
+}
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
+  /* background: red; */
+}
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* ******* */
+/* header */
+/* ******* */
+header {
+  background: #eee;
+  padding: 5px 0;
+}
+header img {
+  width: 50px;
+  border-radius: 50%;
+}
+header nav a {
+  margin-left: 30px;
+}
+header nav a i {
+  margin-right: 5px;
+}
+
+/* ******* */
+/* main */
+/* ******* */
+main {
+  min-height: calc(100vh - 145px);
+}
+
+/* ******* */
+/* projects */
+/* ******* */
+.filters {
+  display: flex;
+  margin: 50px 0;
+}
+.filters li {
+  background: #eee;
+  padding: 8px 15px;
+  list-style: none;
+  margin-right: 20px;
+  cursor: pointer;
+  user-select: none;
+}
+.filters li:hover {
+  opacity: 0.8;
+}
+.filters li:active {
+  opacity: 1;
+}
+.filters li.active {
+  background: #969696; 
+  color: white;
+}
+.projects {
+  flex-wrap: wrap;
+  margin-bottom: 100px;
+}
+.projects .project {
+  background: grey;
+  width: calc(33% - 20px);
+  border: 1px solid #969696;
+  margin-bottom: 20px;
+}
+.projects .project img {
+  width: 100%;
+  display: block;
+}
+.projects .project .content {
+  background: white;
+  padding: 20px;
+}
+.projects .project .content img {
+  margin-left: 20px;
+  width: 20px;
+}
+
+/* ******* */
+/* footer */
+/* ******* */
+footer {
+  background: #eee;
+  padding: 30px 0;
+  text-align: center;
+}
+
+/* ******* */
+/* About page */
+/* ******* */
+.about-page {
+  padding: 100px 0;
+}
+.about-page h1 {
+  font-weight: 800;
+  margin-bottom: 40px;
+}

@@ -1,27 +1,36 @@
-----------------
-07th Feb Topics
-----------------
-⏹️ Ternary operator
-⏹️ Arrays
-    ⏹️ Array methods
-    ⏹️ Array properties
-⏹️ Loops
-⏹️ App Development: Create Table of number n
-⏹️ Q & A session
-
 ❓ Red flag 
 ❓ Automatic marks deduction
 
-
+----------------
+08th Feb Topics
+----------------
+⏹️ Portfolio Website DEVELOPMENT 🎯🎯🎯
+⏹️ App Development: Create Table of number n REVISION
+⏹️ Accordion development
+⏹️ 06 Feb: HTML-CSS Final Project DISCUSSION
+⏹️ HOT SEAT - Code review
+⏹️ Q & A session
 
 ----------------
-07th Feb Topics
+09th Feb Topics
 ----------------
 ⏹️ Functions
 ⏹️ Objects
 ⏹️ 06 Feb: HTML-CSS Final Project DISCUSSION
 ⏹️ HOT SEAT - Code review
 ⏹️ Q & A session
+
+----------------
+07th Feb Topics
+----------------
+✅ Ternary operator
+✅ Arrays
+    ✅ Array methods
+    ✅ Array properties
+✅ Loops
+✅ App Development: Create Table of number n
+✅Q & A session
+
 
 ----------------
 06th Feb Topics
