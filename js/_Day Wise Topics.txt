@@ -1,24 +1,35 @@
-❓ Red flag 
-❓ Automatic marks deduction
+----------------
+09th Feb Topics
+----------------
+⏹️ Quiz-2: JavaScript Basics OVERVIEW
+⏹️ Portfolio Website DEVELOPMENT (Continue)
+⏹️ Functions
+    ⏹️ Arguments
+⏹️ Accordion types DEVELOPMENT
+⏹️ Q & A session
+⏹️ Quiz-3: JavaScript Basics UPDATE
+
+----------------
+10th Feb Topics
+----------------
+⏹️ 06 Feb: HTML-CSS Final Project DISCUSSION 🎯🎯🎯
+⏹️ Calculator App DEVELOPMENT
+⏹️ Click Ball Game DEVELOPMENT
+⏹️ Accordion development
+⏹️ HOT SEAT - Code review
+⏹️ Q & A session
+⏹️ Assignment-5: Quiz App UPDATE
+⏹️ Quiz-4: JavaScript Basics UPDATE
 
 ----------------
 08th Feb Topics
 ----------------
-⏹️ Portfolio Website DEVELOPMENT 🎯🎯🎯
-⏹️ App Development: Create Table of number n REVISION
-⏹️ Accordion development
-⏹️ 06 Feb: HTML-CSS Final Project DISCUSSION
-⏹️ HOT SEAT - Code review
-⏹️ Q & A session
-
-----------------
-09th Feb Topics
-----------------
-⏹️ Functions
-⏹️ Objects
-⏹️ 06 Feb: HTML-CSS Final Project DISCUSSION
-⏹️ HOT SEAT - Code review
-⏹️ Q & A session
+✅ Objects
+✅ Portfolio Website DEVELOPMENT 🎯🎯🎯
+✅ App Development: Create Table of number n REVISION
+✅ 06 Feb: HTML-CSS Final Project DISCUSSION
+✅ HOT SEAT - Code review
+✅ Q & A session
 
 ----------------
 07th Feb Topics
@@ -103,3 +114,6 @@
 ✅ Home Work 01
 ✅ 31 Jan: Assignment-2: EdYoda Stories Discussion
 ✅ Q & A session
+
+❓ Red flag 
+❓ Automatic marks deduction
