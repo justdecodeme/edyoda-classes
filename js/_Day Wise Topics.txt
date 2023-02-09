@@ -2,7 +2,7 @@
 09th Feb Topics
 ----------------
 ⏹️ Quiz-2: JavaScript Basics OVERVIEW
-⏹️ Portfolio Website DEVELOPMENT (Continue)
+⏹️ Portfolio Website DEVELOPMENT (Continue) 🎯🎯🎯
 ⏹️ Functions
     ⏹️ Arguments
 ⏹️ Accordion types DEVELOPMENT
@@ -12,7 +12,7 @@
 ----------------
 10th Feb Topics
 ----------------
-⏹️ 06 Feb: HTML-CSS Final Project DISCUSSION 🎯🎯🎯
+⏹️ 06 Feb: HTML-CSS Final Project DISCUSSION
 ⏹️ Calculator App DEVELOPMENT
 ⏹️ Click Ball Game DEVELOPMENT
 ⏹️ Accordion development
