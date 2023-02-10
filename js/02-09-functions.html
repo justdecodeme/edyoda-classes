@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .red {
+      color: red;
+    }
+    .bg-black {
+      background: black;
+    }
+  </style>
+</head>
+<body>
+  <h1 id="heading" class="red">Heading</h1>
+  <script>
+    var a = 10;
+    var b = 6;
+
+    var headingEl = document.getElementById('heading');
+
+    headingEl.style.fontSize = '40px';
+    headingEl.classList.add('bg-black');
+    headingEl.classList.remove('red');
+
+    var result = a + b;
+
+    // add(a, b);
+    // sub(a, b);
+
+    // function add(i, j) {
+    //   console.log(i + j);
+    // }
+
+    // function sub(m, n) {
+    //   console.log(m - n);
+    // }
+
+    calc('+', a, b);
+    calc('-', a, b);
+    calc('/', a, b);
+
+    function calc(operator, x, y) {
+      if(operator == '+') {
+        console.log(x + y);
+      } else if(operator == '-') {
+        console.log(x - y);
+      } else if(operator == '/') {
+        console.log(x / y);
+      }
+    }
+
+  </script>
+</body>
+</html>

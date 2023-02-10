@@ -1,25 +1,28 @@
 ----------------
-09th Feb Topics
+10th Feb Topics
 ----------------
-⏹️ Quiz-2: JavaScript Basics OVERVIEW
-⏹️ Portfolio Website DEVELOPMENT (Continue) 🎯🎯🎯
-⏹️ Functions
-    ⏹️ Arguments
-⏹️ Accordion types DEVELOPMENT
+⏹️ 06 Feb: HTML-CSS Final Project DISCUSSION 🎯🎯🎯
+⏹️ Assignment-2: JavaScript Basics OVERVIEW
 ⏹️ Q & A session
-⏹️ Quiz-3: JavaScript Basics UPDATE
 
 ----------------
 10th Feb Topics
 ----------------
-⏹️ 06 Feb: HTML-CSS Final Project DISCUSSION
-⏹️ Calculator App DEVELOPMENT
+⏹️ 06 Feb: HTML-CSS Final Project Q & A 🎯🎯🎯
 ⏹️ Click Ball Game DEVELOPMENT
-⏹️ Accordion development
-⏹️ HOT SEAT - Code review
 ⏹️ Q & A session
-⏹️ Assignment-5: Quiz App UPDATE
-⏹️ Quiz-4: JavaScript Basics UPDATE
+
+----------------
+09th Feb Topics
+----------------
+✅ Quiz-2: JavaScript Basics OVERVIEW
+✅ Portfolio Website DEVELOPMENT (Continue) 
+✅ Functions
+   ✅ Arguments
+✅Accordion types DEVELOPMENT
+✅ Q & A session
+✅ Quiz-3: JavaScript Basics UPDATE
+✅ Quiz-4: JavaScript Basics UPDATE
 
 ----------------
 08th Feb Topics
