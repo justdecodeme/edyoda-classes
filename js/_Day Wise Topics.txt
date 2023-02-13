@@ -1,16 +1,21 @@
 ----------------
-10th Feb Topics
+13th Feb Topics
 ----------------
-⏹️ 06 Feb: HTML-CSS Final Project DISCUSSION 🎯🎯🎯
-⏹️ Assignment-2: JavaScript Basics OVERVIEW
+⏹️ Any doubts on Quiz/Assignments?
+⏹️ Hosting a virtual or physical meeting!
+⏹️ Q & A session
+
+----------------
+14th Feb Topics
+----------------
 ⏹️ Q & A session
 
 ----------------
 10th Feb Topics
 ----------------
-⏹️ 06 Feb: HTML-CSS Final Project Q & A 🎯🎯🎯
-⏹️ Click Ball Game DEVELOPMENT
-⏹️ Q & A session
+✅ 06 Feb: HTML-CSS Final Project Q & A 🎯🎯🎯
+✅ Click Ball Game DEVELOPMENT
+✅ Q & A session
 
 ----------------
 09th Feb Topics
