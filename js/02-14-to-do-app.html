@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To-Do List App</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+    }
+    
+    .container {
+      max-width: 400px;
+      margin: 50px auto;
+      background-color: #fff;
+      box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+      padding: 30px;
+    }
+    
+    h1 {
+      text-align: center;
+      margin-bottom: 50px;
+    }
+    
+    .form {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 50px;
+    }
+    
+    .task-input {
+      flex-grow: 1;
+      padding: 10px 20px;
+      font-size: 16px;
+      border-radius: 50px;
+      border: none;
+      box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+      margin-right: 30px;
+    }
+    
+    .add-task-btn {
+      padding: 10px 20px;
+      background-color: #5cdb95;
+      color: #fff;
+      border-radius: 50px;
+      border: none;
+      font-size: 16px;
+      cursor: pointer;
+      transition: all 0.2s ease-in-out;
+    }
+    
+    .add-task-btn:hover {
+      background-color: #3f9a6e;
+    }
+    
+    .add-task-btn:active {
+      background-color: #5cdb95;
+    }
+    
+    .task-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    
+    .task {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+      cursor: pointer;
+    }
+    
+    .task.done label {
+      text-decoration: line-through;
+      opacity: .4;
+    }
+    .task label {
+      flex-grow: 1;
+      font-size: 16px;
+      margin-left: 20px;
+      pointer-events: none;
+    }
+    
+    .delete-task-btn {
+      background-color: #ff5c5c;
+      color: #fff;
+      border-radius: 50px;
+      border: none;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: all 0.2s ease-in-out;
+    }
+    
+    .delete-task-btn:hover {
+      background-color: #c54848;
+    }
+    
+    .delete-task-btn:active {
+      background-color: #ff5c5c;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>My To-Do List</h1>
+    <div class="form">
+      <input type="text" placeholder="Add a new task" class="task-input">
+      <button class="add-task-btn">Add Task</button>
+    </div>
+    <ul class="task-list" id="taskList">
+    </ul>
+  </div>
+
+  <script>
+    const taskList = document.getElementById('taskList');
+    const addTaskBtn = document.querySelector('.add-task-btn');
+    const taskInput = document.querySelector('.task-input');
+    
+    const todos = {
+      // 'id1': {
+      //   name: 'Task A',
+      //   isDone: false
+      // },
+      // 'id2': {
+      //   name: 'Task B',
+      //   isDone: true
+      // },
+      // 'id3': {
+      //   name: 'Task C',
+      //   isDone: true
+      // }
+    }
+
+    let count = 1;
+
+    function renderToDos() {
+      let output = '';
+
+      for (const todo in todos) {
+        // console.log(todos.todo) ❌
+        // console.log(todos[todo]) 
+        output += `
+          <li class="task ${todos[todo].isDone ? 'done' : ''}"" id="${todo}">
+            <label>${todos[todo].name}</label>
+            <button class="delete-task-btn">Delete</button>
+          </li>
+        `
+      }
+
+      taskList.innerHTML = output;
+    }
+
+    addTaskBtn.addEventListener('click', function() {
+      let id = 'id' + count; 
+
+      todos[id] = {
+        name: taskInput.value,
+        isDone: false
+      }
+      taskInput.value = ""
+
+      renderToDos()
+
+      count++;
+    })
+    taskList.addEventListener('click', function(e) {
+      let nodeName = e.target.nodeName;
+      let id = e.target.id;
+      console.log(id, nodeName);
+      if(nodeName === 'BUTTON') {
+        id = e.target.closest('li').id
+        delete todos[id];
+      } else {
+        todos[id].isDone = !todos[id].isDone;
+      }
+      renderToDos()
+    })
+
+    // todos.id1.name
+    // todos['id1'].name
+
+    // todos.todo
+
+
+    // var stds = [
+    //   {
+    //     name: 'Akash',
+    //     marks: 80
+    //   },
+    //   {
+    //     name: 'Bhim',
+    //     marks: 90
+    //   }
+    // ]
+    // stds[0].name
+  </script>
+</body>
+</html>

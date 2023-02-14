@@ -1,14 +1,23 @@
 ----------------
-13th Feb Topics
+14th Feb Topics
 ----------------
-⏹️ Any doubts on Quiz/Assignments?
-⏹️ Hosting a virtual or physical meeting!
+⏹️ DOM
+⏹️ To-Do app DEVELOPMENT
 ⏹️ Q & A session
 
 ----------------
-14th Feb Topics
+15th Feb Topics
 ----------------
 ⏹️ Q & A session
+
+----------------
+13th Feb Topics
+----------------
+✅ Any doubts on Quiz?
+✅ Any doubts on Assignments?
+✅ Hosting a virtual or physical meeting!
+✅ ChatGPT
+✅ Q & A session
 
 ----------------
 10th Feb Topics

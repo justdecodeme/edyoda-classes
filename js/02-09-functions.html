@@ -17,16 +17,16 @@
 <body>
   <h1 id="heading" class="red">Heading</h1>
   <script>
-    var a = 10;
-    var b = 6;
+    // var a = 10;
+    // var b = 6;
 
-    var headingEl = document.getElementById('heading');
+    // var headingEl = document.getElementById('heading');
 
-    headingEl.style.fontSize = '40px';
-    headingEl.classList.add('bg-black');
-    headingEl.classList.remove('red');
+    // headingEl.style.fontSize = '40px';
+    // headingEl.classList.add('bg-black');
+    // headingEl.classList.remove('red');
 
-    var result = a + b;
+    // var result = a + b;
 
     // add(a, b);
     // sub(a, b);
@@ -39,11 +39,12 @@
     //   console.log(m - n);
     // }
 
-    calc('+', a, b);
-    calc('-', a, b);
-    calc('/', a, b);
+    // calc('+', a, b);
+    // calc('-', a, b);
+    // calc('/', a, b);
 
     function calc(operator, x, y) {
+      var b = 10;
       if(operator == '+') {
         console.log(x + y);
       } else if(operator == '-') {
@@ -52,6 +53,14 @@
         console.log(x / y);
       }
     }
+
+    if(true) 
+      var a = 10;
+      var b = 10;
+    console.log(a); // work
+    console.log(b); // not work
+
+    // console.log(calc());
 
   </script>
 </body>

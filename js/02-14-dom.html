@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DOM</title>
+  <style>
+    .success {
+      color: green;
+    }
+    .danger {
+      color: red;
+    }
+    #goToTop {
+      background-color: black;
+      color: white;
+      position: fixed;
+      right: 30px;
+      bottom: 30px;
+      /* display: inline-block; */
+      padding: 10px;
+      border-radius: 10px;
+      display: none;
+    }
+  </style>
+</head>
+<body id="home">
+  <h2 id="heading" class="success" title="heading">heading 2</h2>
+  <p id="para1">Para 1</p>
+  <p class="para">para 2</p>
+  <p class="para success">para 3</p>
+  <p class="para danger">para 4</p>
+  <p class="para">para 4</p>
+  <span class="success">span 1</span>
+  <h1>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores dolor numquam exercitationem doloribus nisi doloremque quae incidunt, in nostrum quisquam odio velit repudiandae quas fugit, aut delectus ut animi provident!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores dolor numquam exercitationem doloribus nisi doloremque quae incidunt, in nostrum quisquam odio velit repudiandae quas fugit, aut delectus ut animi provident!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores dolor numquam exercitationem doloribus nisi doloremque quae incidunt, in nostrum quisquam odio velit repudiandae quas fugit, aut delectus ut animi provident!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores dolor numquam exercitationem doloribus nisi doloremque quae incidunt, in nostrum quisquam odio velit repudiandae quas fugit, aut delectus ut animi provident!
+  </h1>
+
+  <a href="#home" id="goToTop">Top</a>
+
+  <script>
+    // document.getElementById('para1').style.color = 'red'
+
+    // document.getElementsByClassName('para')[0].style.color = 'blue'
+    // document.getElementsByClassName('para')[1].style.color = 'blue'
+    // document.getElementsByClassName('para')[2].style.color = 'blue'
+
+    // for (let i = 0; i < document.getElementsByClassName('para').length; i++) {
+    //   document.getElementsByClassName('para')[i].style.color = 'blue'
+    // }
+
+    // document.getElementsByTagName('p')[0].style.color = 'blue'
+    // document.getElementsByTagName('p')[1].style.color = 'blue'
+    // document.getElementsByTagName('p')[2].style.color = 'blue'
+
+    // for (let i = 0; i < document.getElementsByTagName('p').length; i++) {
+    //   document.getElementsByTagName('p')[i].style.color = 'blue'
+    // }
+
+      // document.querySelector('.success').style.color = 'grey';
+
+    // document.querySelectorAll('.success')[0].style.color = 'blue'
+    // document.querySelectorAll('.success')[1].style.color = 'blue'
+    // document.querySelectorAll('.success')[2].style.color = 'blue'
+
+    // for (let i = 0; i < document.querySelectorAll('.success').length; i++) {
+    //   document.querySelectorAll('.success')[i].style.color = 'blue'
+    // }
+
+    // document.getElementById('heading').classList.remove('success')
+    // document.getElementById('heading').classList.add('danger')
+    // document.getElementById('heading').classList.contains('success')
+
+      // document.getElementById('heading').getAttribute('title')
+      // document.getElementById('heading').setAttribute('title', 'new heading')
+      // document.getElementById('heading').removeAttribute('title')
+
+      // function changeColor() {
+      //   document.getElementById('heading').style.color = 'red'
+      // }
+
+      // document.getElementById('heading').addEventListener('click', function() {
+      //   document.getElementById('heading').style.color = 'red'
+      // })
+
+      // document.getElementById('heading').addEventListener('click', changeColor)
+      // window.document.getElementById('heading').addEventListener('click', changeColor)
+
+      // alert()
+      // window.alert()
+
+      // console.log()
+      // window.console.log()
+
+      // window.addEventListener('resize', function() {
+      //   console.log('resizing...');
+      // })
+      // window.addEventListener('scroll', function() {
+      //   console.log('window scrolling...');
+      // })
+
+      document.addEventListener('scroll', function() {
+        console.log('document scrolling...', window.scrollY);
+        if(window.scrollY > 200) {
+          document.getElementById('goToTop').style.display = 'inline-block';
+        } else {
+          document.getElementById('goToTop').style.display = 'none';
+        }
+      })
+  </script>
+</body>
+</html>
