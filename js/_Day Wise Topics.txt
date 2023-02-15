@@ -1,16 +1,17 @@
 ----------------
 15th Feb Topics
 ----------------
-⏹️ Events
-⏹️ addEventListener 
-⏹️ Mouse Events
-⏹️ Keyboard Events
-⏹️ Form Events
-⏹️ Q & A session
+✅ Events
+✅ addEventListener 
+✅ Mouse Events
+✅ Keyboard Events
+✅ Form Events
+✅ Q & A session
 
 ----------------
 16th Feb Topics
 ----------------
+⏹️ Return function
 ⏹️ Q & A session
 
 ----------------

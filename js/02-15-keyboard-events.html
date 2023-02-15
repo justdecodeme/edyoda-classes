@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Keyboard Events</title>
+
+  <style>
+    .key-holder {
+      background-color: black;
+      color: white;
+      position: fixed;
+      right: 30px;
+      bottom: 30px;
+      padding: 10px;
+      border-radius: 10px;
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <h1>Keyboard Events</h1>
+  
+  <span id="keyHolder" class="key-holder"></span>
+
+  <script>
+    const keyHolder = document.getElementById('keyHolder')
+    var hideKeyHolder;
+    var isShiftPressed = false;
+    // var isControlPressed = false;
+    // var isAltPressed = false;
+    
+    // shift not pressed > V
+    // shift pressed > S + V
+    document.addEventListener('keydown', (e) => {
+      if(e.key === 'Shift') {
+        isShiftPressed = true;
+      } else {
+        keyHolder.style.display = 'block';
+        keyHolder.innerText = e.key === " " ? "Space" : e.key;
+  
+        if(isShiftPressed) {
+          keyHolder.innerText = "Shift + " + keyHolder.innerText;
+        }
+      }
+
+      /* don't run #1 code if we press any key*/
+      clearTimeout(hideKeyHolder)
+    })
+
+    document.addEventListener('keyup', (e) => {
+      if(e.key === 'Shift') {
+        isShiftPressed = false;
+      }
+
+      /* #1 run only if we are not pressing any key for continue 1 second */
+      hideKeyHolder = setTimeout(() => {
+        keyHolder.style.display = 'none';
+      }, 1000)
+    })
+
+    // setTimeout(() => {}, milliseconds);
+    // setTimeout(function () {}, milliseconds);
+
+    // document.addEventListener('keydown', (e) => {
+    //   if(e.keyCode === 32) {
+    //     console.log('spacebar key is down');
+    //   } else if (e.keyCode === 13) {
+    //     console.log('enter key is down');
+    //   }
+    // })
+
+    // window.addEventListener('resize', () => {
+
+    // })
+
+
+  </script>
+</body>
+</html>

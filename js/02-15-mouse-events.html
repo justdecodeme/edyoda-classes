@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Events</title>
+</head>
+<body>
+  <h1>Events</h1>
+  <button id="btn1">Click Me</button>
+
+  <script>
+    const btn1 = document.getElementById('btn1');
+
+    function sayHi() {
+
+    }
+
+    /* mouse events */
+    // btn1.addEventListener('click', function() {
+    //   // code
+    // })
+    // arrow function 
+    btn1.addEventListener('click', (e) => {
+      console.log('clicked');
+      // console.log(e.clientX);
+      // btn1.style.color = 'red';
+    }) 
+    btn1.addEventListener('mouseenter', (abc) => {
+      console.log('mouseenter');
+      console.log(abc)
+    }) 
+    btn1.addEventListener('mouseout', (e) => {
+      console.log('mouseout');
+    }) 
+    // btn1.addEventListener('click', (e) => {
+    //   console.log('clicked');
+    // }) 
+
+    /* mouse events list */
+    // click:	"A user clicks on an element:
+    // contextmenu:	"A user right-clicks on an element:
+    // dblclick:	"A user double-clicks on an element:
+    // mousedown:	"A mouse button is pressed over an element:
+    // mouseenter:	"The mouse pointer moves into an element:
+    // mouseleave:	"The mouse pointer moves out of an element:
+    // mousemove:	"The mouse pointer moves over an element:
+    // mouseout:	"The mouse pointer moves out of an element:
+    // mouseover:	"The mouse pointer moves onto an element:
+    // mouseup:	"A mouse button is released over an element:
+  </script>
+</body>
+</html>

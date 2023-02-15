@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Events</title>
+  <style>
+    .error {
+      border: 1px solid red;
+    }
+  </style>
+</head>
+<body>
+  <h1>Form Events</h1>
+
+  <form onsubmit="return submitForm(event)">
+    <input type="text" placeholder="email" id="email">
+    <button type="submit">Submit</button>
+  </form>
+
+
+  <script>
+    const emailEl = document.getElementById('email');
+
+    function submitForm(e) {
+      /* stop the refresh of window on submit */
+      e.preventDefault();
+      console.log('form is submitting...')
+    }
+    
+    emailEl.addEventListener('input', () => {
+      console.log('input')
+    })
+    emailEl.addEventListener('change', () => {
+      console.log('change')
+    })
+    emailEl.addEventListener('focus', () => {
+      console.log('focus')
+    })
+    emailEl.addEventListener('blur', (e) => {
+      // let inputValue = e.target.value;
+
+      // if(inputValue === "") {
+      //   emailEl.classList.add('error');
+      // }
+      console.log('blur')
+    })
+
+    // ==  will check only value
+    // ===  will check value and type
+    // 2 == 2 > t
+    // 2 === 2 > t
+    // 2 == "2" > T
+    // 2 === "2" > f
+
+
+    // emailEl.addEventListener('input', () => {})
+    // emailEl.addEventListener('change', () => {})
+    // emailEl.addEventListener('focus', () => {})
+    // emailEl.addEventListener('blur', () => {})
+  </script>
+</body>
+</html>
