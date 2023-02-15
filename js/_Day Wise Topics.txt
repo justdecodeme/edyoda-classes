@@ -1,14 +1,24 @@
 ----------------
-14th Feb Topics
+15th Feb Topics
 ----------------
-⏹️ DOM
-⏹️ To-Do app DEVELOPMENT
+⏹️ Events
+⏹️ addEventListener 
+⏹️ Mouse Events
+⏹️ Keyboard Events
+⏹️ Form Events
 ⏹️ Q & A session
 
 ----------------
-15th Feb Topics
+16th Feb Topics
 ----------------
 ⏹️ Q & A session
+
+----------------
+14th Feb Topics
+----------------
+✅ DOM
+✅ To-Do app DEVELOPMENT
+✅ Q & A session
 
 ----------------
 13th Feb Topics
