@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Accordion App</title>
+  <style>
+    .wrapper {
+      background-color: #ccc;
+      margin: 0 auto;
+      max-width: 700px;
+      padding: 50px;
+      border-radius: 15px;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    h1 {
+      font-size: 18px;
+      background-color: #999;
+      padding: 10px 20px;
+      margin: 0;
+      cursor: pointer;
+      border-bottom: 1px solid black;
+    }
+    p {
+      padding: 10px 20px;
+      background-color: #ccc;
+      margin: 0 0 10px;
+      display: none;
+    }
+    h1.active + p {
+      display: block;
+    }
+  </style>
+</head>
+<body> 
+  <div class="wrapper">
+    <div class="accordion">
+      <h1>Lorem, ipsum dolor sit?</h1>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae dolor incidunt voluptatibus obcaecati facilis iste porro reiciendis suscipit asperiores animi, quisquam iusto illum quidem natus fugiat, rem iure quis assumenda.</p>
+    </div>
+    <div class="accordion">
+      <h1>Dolor sit amet consectetur, adipisicing elit?</h1>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae dolor incidunt voluptatibus obcaecati facilis iste porro reiciendis suscipit asperiores animi, quisquam iusto illum quidem natus fugiat, rem iure quis assumenda.</p>
+    </div>
+    <div class="accordion">
+      <h1>Sit amet consectetur, adipisicing?</h1>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae dolor incidunt voluptatibus obcaecati facilis iste porro reiciendis suscipit asperiores animi, quisquam iusto illum quidem natus fugiat, rem iure quis assumenda.</p>
+    </div>
+  </div>
+  
+  <script>
+    const h1Els = document.getElementsByTagName('h1');
+
+    for (let i = 0; i < h1Els.length; i++) {
+      h1Els[i].addEventListener('click', (e) => {
+        let clickedEl = e.target;
+        if(clickedEl.classList.contains('active')) {
+          clickedEl.classList.remove('active');
+        } else {
+          clickedEl.classList.add('active');
+        }
+        // console.log('clicked')
+      })
+    }
+  </script>
+</body>
+</html>

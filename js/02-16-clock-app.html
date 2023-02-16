@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clock App</title>
+  <style>
+    .wrapper {
+      background-color: #ccc;
+      margin: 0 auto;
+      max-width: 500px;
+      padding: 50px;
+      border-radius: 15px;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    h1 {
+      margin: 0 0 30px;
+    }
+    .clock {
+      display: flex;
+      justify-content: space-between;
+    }
+    .clock .time {
+      width: 100px;
+      height: 100px;
+      background-color: white;
+      border-radius: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 40px;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <h1>The Current Time is:</h1>
+    <div class="clock">
+      <div class="time" id="hour"></div>
+      <div class="time" id="min"></div>
+      <div class="time" id="sec"></div>
+      <div class="time" id="ampm"></div>
+    </div>
+  </div>
+
+  <script>
+    const hourEl = document.getElementById('hour'); 
+    const minEl = document.getElementById('min'); 
+    const secEl = document.getElementById('sec'); 
+    const ampmEl = document.getElementById('ampm'); 
+
+    function renderTime() {
+      var time = new Date();
+      var h = time.getHours(); // 2
+      var m = time.getMinutes();
+      var s = time.getSeconds();
+      ampmEl.innerText = h > 12 ? 'PM' : 'AM';
+      
+      /* convert 24hr format to 12 hr format */
+      h = h > 12 ? h % 12 : h;
+
+      /* add 0 in begening if h/m/s is single digit (means less than 10)*/
+      h = h < 10 ? '0' + h : h;
+      m = m < 10 ? '0' + m : m;
+      s = s < 10 ? '0' + s : s;
+
+      hourEl.innerText = h;
+      minEl.innerText = m;
+      secEl.innerText = s;
+    }
+
+    setInterval(renderTime, 1000);
+    // setInterval(() => {}, 1000);
+
+    // element.addEventListener('click', () => {})
+    // element.addEventListener('click', renderTime)
+
+    // setTimeout(() => {
+    //   // code 
+    // }, 1000);
+
+    // console.log(h, m, s);
+  </script>
+</body>
+</html>

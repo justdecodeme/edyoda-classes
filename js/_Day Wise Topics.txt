@@ -1,18 +1,24 @@
 ----------------
+16th Feb Topics
+----------------
+✅ Quiz-5 Overview
+✅ Hoisting
+✅ Events continue
+✅ Clock App
+✅ Accordion App
+✅ Q & A session
+
+----------------
 15th Feb Topics
 ----------------
+⏹️ Countdown timer App
+⏹️ Return function
 ✅ Events
 ✅ addEventListener 
 ✅ Mouse Events
 ✅ Keyboard Events
 ✅ Form Events
 ✅ Q & A session
-
-----------------
-16th Feb Topics
-----------------
-⏹️ Return function
-⏹️ Q & A session
 
 ----------------
 14th Feb Topics
