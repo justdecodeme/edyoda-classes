@@ -1,4 +1,13 @@
 ----------------
+17th Feb Topics
+----------------
+⏹️ Return function
+⏹️ Quick overview - 9, 10
+⏹️ Analog clock App
+ms teams questions
+✅ Q & A session
+
+----------------
 16th Feb Topics
 ----------------
 ✅ Quiz-5 Overview
@@ -11,8 +20,6 @@
 ----------------
 15th Feb Topics
 ----------------
-⏹️ Countdown timer App
-⏹️ Return function
 ✅ Events
 ✅ addEventListener 
 ✅ Mouse Events
