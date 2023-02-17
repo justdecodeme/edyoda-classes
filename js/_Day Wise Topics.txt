@@ -1,11 +1,12 @@
 ----------------
 17th Feb Topics
 ----------------
-⏹️ Return function
-⏹️ Quick overview - 9, 10
-⏹️ Analog clock App
-ms teams questions
+✅ Analog clock App
+✅ Return function
+✅ Quick overview
 ✅ Q & A session
+
+⏹️ ms teams questions
 
 ----------------
 16th Feb Topics

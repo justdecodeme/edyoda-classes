@@ -15,15 +15,23 @@
       background-color: #f1f1f1;
       box-shadow: inset 0 0 15px #999;
     }
-
+    
     .hour-hand, .minute-hand, .second-hand {
-      position: absolute;
+      /* position: absolute;
       width: 2px;
       background-color: #000;
       transform-origin: bottom center;
       border-radius: 5px 5px 0 0;
       left: calc(50% - 1px);
       z-index: 2;
+      height: 50px;
+      top: 50px; */
+      position: absolute;
+      width: 10px;
+      background-color: #000;
+      transform-origin: bottom center;
+      border-radius: 5px;
+      left: 95px;
     }
     
     .hour-hand {
@@ -45,41 +53,42 @@
       top: 20px;
       background-color: #d00;
       z-index: 3;
+      transform: rotate(60deg);
     }
-
+    
     .center-circle {
       position: absolute;
-      width: 10px;
-      height: 10px;
+      width: 20px;
+      height: 20px;
       border-radius: 50%;
       background-color: #000;
-      left: calc(50% - 5px);
-      top: calc(50% - 5px);
       z-index: 4;
+      left: 90px;
+      top: 90px;
     }
-
+    
     @keyframes rotate-second {
-      from {
-        transform: rotate(180deg);
-      }
+      /* from {
+        transform: rotate(0deg);
+      } */
       to {
         transform: rotate(360deg);
       }
     }
 
     @keyframes rotate-minute {
-      from {
-        transform: rotate(60deg);
-      }
+      /* from {
+        transform: rotate(0);
+      } */
       to {
         transform: rotate(360deg);
       }
     }
 
     @keyframes rotate-hour {
-      from {
-        transform: rotate(-45deg);
-      }
+      /* from {
+        transform: rotate(0);
+      } */
       to {
         transform: rotate(360deg);
       }
@@ -88,11 +97,9 @@
     .second-hand {
       animation: rotate-second 60s linear infinite;
     }
-
     .minute-hand {
       animation: rotate-minute 3600s linear infinite;
     }
-
     .hour-hand {
       animation: rotate-hour 43200s linear infinite;
     }
@@ -101,12 +108,47 @@
 </head>
 <body>
   <div class="clock">
-    <div class="hour-hand"></div>
-    <div class="minute-hand"></div>
-    <div class="second-hand"></div>
+    <div class="hour-hand" id="hour"></div>
+    <div class="minute-hand" id="minute"></div>
+    <div class="second-hand" id="second"></div>
     <div class="center-circle"></div>
   </div>
   
-  <script></script>
+  <script>
+      const hourEl = document.getElementById('hour'); 
+      const minEl = document.getElementById('minute'); 
+      const secEl = document.getElementById('second'); 
+      var time = new Date();
+      var h = time.getHours(); // 2
+      var m = time.getMinutes();
+      var s = time.getSeconds();
+      
+      /* convert 24hr format to 12 hr format */
+      h = h > 12 ? h % 12 : h;
+
+      console.log(h, m, s)
+
+      hourEl.style.transform = `rotate(${30*h}deg)`;
+      minEl.style.transform = `rotate(${6*m}deg)`;
+      secEl.style.transform = `rotate(${6*s}deg)`;
+      // secEl.style.transform = 'rotate(' + 6*s + 'deg)';
+
+      // 1 round = 360deg
+      // 12hr = 360deg
+      // 1hr = 360/12deg = 30deg
+      // x hr = 30 * x deg
+      
+      // 1 round = 360deg
+      // 60min = 360deg
+      // 1min = 360/60 = 6deg
+      // x sec = 6 * x deg
+      
+      // 1 round = 360deg
+      // 60sec = 360deg
+      // 1sec = 360/60 = 6deg
+      // x sec = 6 * x deg
+
+
+  </script>
 </body>
 </html>
