@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Analog Clock</title>
+  <style>
+    .clock {
+      width: 200px;
+      height: 200px;
+      position: relative;
+      margin: 0 auto;
+      border-radius: 50%;
+      background-color: #f1f1f1;
+      box-shadow: inset 0 0 15px #999;
+    }
+
+    .hour-hand, .minute-hand, .second-hand {
+      position: absolute;
+      width: 2px;
+      background-color: #000;
+      transform-origin: bottom center;
+      border-radius: 5px 5px 0 0;
+      left: calc(50% - 1px);
+      z-index: 2;
+    }
+    
+    .hour-hand {
+      height: 50px;
+      top: 50px;
+      background-color: #333;
+      z-index: 1;
+    }
+    
+    .minute-hand {
+      height: 70px;
+      top: 30px;
+      z-index: 2;
+      background-color: green;
+    }
+
+    .second-hand {
+      height: 80px;
+      top: 20px;
+      background-color: #d00;
+      z-index: 3;
+    }
+
+    .center-circle {
+      position: absolute;
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background-color: #000;
+      left: calc(50% - 5px);
+      top: calc(50% - 5px);
+      z-index: 4;
+    }
+
+    @keyframes rotate-second {
+      from {
+        transform: rotate(180deg);
+      }
+      to {
+        transform: rotate(360deg);
+      }
+    }
+
+    @keyframes rotate-minute {
+      from {
+        transform: rotate(60deg);
+      }
+      to {
+        transform: rotate(360deg);
+      }
+    }
+
+    @keyframes rotate-hour {
+      from {
+        transform: rotate(-45deg);
+      }
+      to {
+        transform: rotate(360deg);
+      }
+    }
+
+    .second-hand {
+      animation: rotate-second 60s linear infinite;
+    }
+
+    .minute-hand {
+      animation: rotate-minute 3600s linear infinite;
+    }
+
+    .hour-hand {
+      animation: rotate-hour 43200s linear infinite;
+    }
+    
+  </style>
+</head>
+<body>
+  <div class="clock">
+    <div class="hour-hand"></div>
+    <div class="minute-hand"></div>
+    <div class="second-hand"></div>
+    <div class="center-circle"></div>
+  </div>
+  
+  <script></script>
+</body>
+</html>
