@@ -1,12 +1,16 @@
 ----------------
+27th Feb Topics
+----------------
+⏹️ Assignment Discussion
+⏹️ Q & A session
+
+----------------
 17th Feb Topics
 ----------------
 ✅ Analog clock App
 ✅ Return function
 ✅ Quick overview
 ✅ Q & A session
-
-⏹️ ms teams questions
 
 ----------------
 16th Feb Topics
