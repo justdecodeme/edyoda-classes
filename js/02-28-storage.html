@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Storage</title>
+  <style>
+    textarea {
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+  <textarea id="notes" class="notes" placeholder="write your notes..." rows="5" cols="40"></textarea>
+  <br>
+  <button id="saveBtn">Save</button>
+  <button id="deleteBtn">Delete</button>
+
+  <script>
+    const saveBtn = document.getElementById('saveBtn');
+    const deleteBtn = document.getElementById('deleteBtn');
+    const notes = document.getElementById('notes');
+
+    notes.value = window.sessionStorage.getItem('notes');
+
+    saveBtn.addEventListener('click', () => {
+      window.sessionStorage.setItem('notes', notes.value);
+    })
+    deleteBtn.addEventListener('click', () => {
+      window.sessionStorage.removeItem('notes');
+      notes.value = "";
+    })
+  </script>
+</body>
+</html>

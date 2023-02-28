@@ -1,4 +1,16 @@
 ----------------
+28th Feb Topics
+----------------
+✅ BOM
+✅ Window Object
+✅ Screen Object
+✅ Navigator Object
+✅ Location Object
+✅ History Object
+✅ Local Storage
+⏹️ Q & A session
+
+----------------
 27th Feb Topics
 ----------------
 ✅ Classes updates
@@ -6,16 +18,6 @@
 ✅ Quiz discussion
 ✅ Assignment discussion
 ✅ Q & A session
-
-var num1 = 10;
-var num2 = 20;
-var num3 = 30;
-
-var sum1 = ++num1 + num2++ + num3++; 11 + 20 + 30 = 61
-var sum2 = num1++ + ++num2 + ++num3; 11 + 22 + 32 = 65
-var sum3 = num1++ + num2++ + num3++; 12 + 22 + 32 = 66 192
-
-console.log(sum1 + sum2 + sum3)
 
 ----------------
 17th Feb Topics

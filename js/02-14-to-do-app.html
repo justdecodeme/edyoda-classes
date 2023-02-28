@@ -120,7 +120,7 @@
     const addTaskBtn = document.querySelector('.add-task-btn');
     const taskInput = document.querySelector('.task-input');
     
-    const todos = {
+    let todos = {
       // 'id1': {
       //   name: 'Task A',
       //   isDone: false
@@ -134,6 +134,8 @@
       //   isDone: true
       // }
     }
+
+    todos = JSON.parse(window.localStorage.getItem('todos')) || {};
 
     let count = 1;
 
@@ -161,6 +163,7 @@
         name: taskInput.value,
         isDone: false
       }
+      window.localStorage.setItem('todos', JSON.stringify(todos));
       taskInput.value = ""
 
       renderToDos()
@@ -177,9 +180,11 @@
       } else {
         todos[id].isDone = !todos[id].isDone;
       }
+      window.localStorage.setItem('todos', JSON.stringify(todos));
       renderToDos()
     })
 
+    renderToDos();
     // todos.id1.name
     // todos['id1'].name
 
