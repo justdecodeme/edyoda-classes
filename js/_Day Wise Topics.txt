@@ -1,4 +1,15 @@
 ----------------
+01st Mar Topics
+----------------
+✅ What is a backend?
+✅ What is an HTTP request?
+✅ What is JSON?
+⏹️ What is AJAX?
+⏹️ Request/Response
+⏹️ HTTP Codes/Methods
+⏹️ Q & A session
+
+----------------
 28th Feb Topics
 ----------------
 ✅ BOM
@@ -8,7 +19,7 @@
 ✅ Location Object
 ✅ History Object
 ✅ Local Storage
-⏹️ Q & A session
+✅ Q & A session
 
 ----------------
 27th Feb Topics

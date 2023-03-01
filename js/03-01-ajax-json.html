@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AJAX | JSON</title>
+  <style>
+    img {
+      width: 100px;
+      position: fixed;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      display: none;
+    }
+    .loading img {
+      display: block;
+    }
+    .completed {
+      text-decoration: line-through;
+    }
+    .loading #todosEl {
+      display: none;
+    }
+  </style>
+</head>
+<body class="loading">
+  <h1>AJAX | JSON</h1>
+  <img src="loader.gif" alt="Loader">
+
+  <ul id="todosEl">
+    <!-- <li>todo 1</li>
+    <li class="completed">todo 2</li> -->
+  </ul>
+
+  <script>
+    const todosEl = document.getElementById('todosEl');
+
+    var xhttp = new XMLHttpRequest();
+    // xhttp.onreadystatechange = function() {}
+    // xhttp.onreadystatechange = () => {}
+    xhttp.onreadystatechange = (e) => {
+      let result = e.target;
+      console.log(result)
+      
+      if(result.readyState === 4 && result.status === 200) {
+        let data = JSON.parse(result.response)
+        let output = "";
+        for (let i = 0; i < data.length; i++) {
+          // console.log(data[i].title, data[i].completed)
+          if(data[i].completed === true) {
+            output += `<li class="completed">${data[i].title}</li>`
+          } else {
+            output += `<li>${data[i].title}</li>`
+          }
+        }
+        document.body.classList.remove('loading');
+        todosEl.innerHTML = output;
+        // console.log(data)
+      }
+    }
+    xhttp.open("GET", "https://jsonplaceholder.typicode.com/todos", true)
+    xhttp.send()
+  </script>
+</body>
+</html>
