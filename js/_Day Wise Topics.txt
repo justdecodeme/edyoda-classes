@@ -1,13 +1,25 @@
 ----------------
+02st Mar Topics
+----------------
+⏹️ TOMORROW CLASS UPDATE
+⏹️ Intro to jQuery
+⏹️ Selectors
+⏹️ Add/Update/Delete HTML Elements
+⏹️ Add/Update Styles
+⏹️ Add/Update/Remove Classes
+⏹️ Handling Events
+⏹️ Q & A session
+
+----------------
 01st Mar Topics
 ----------------
 ✅ What is a backend?
 ✅ What is an HTTP request?
 ✅ What is JSON?
-⏹️ What is AJAX?
-⏹️ Request/Response
-⏹️ HTTP Codes/Methods
-⏹️ Q & A session
+✅ What is AJAX?
+✅ Request/Response
+✅ HTTP Codes/Methods
+✅ Q & A session
 
 ----------------
 28th Feb Topics
