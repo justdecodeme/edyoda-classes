@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>jQuery</title>
+</head>
+<body>
+  <h1>jQuery</h1>
+
+  <p id="p1">para 1</p>
+  <p class="para">para 2</p>
+  <p class="para">para 3</p>
+  <p class="para">para 4</p>
+  <p class="para">para 5</p>
+  <p >para 6</p>
+
+  <span>span 1</span>
+  <span>span 2</span>
+  <span>span 3</span>
+  <span>span 4</span>
+
+  <button id="btn">Click</button>
+
+  <script src="jquery-3.6.3.js"></script>
+  <script>
+    // console.log($);
+
+    /* ************** */
+    /* how to target html elements */
+    /* ************** */
+    /* js */
+    document.getElementById('p1')
+    document.getElementsByClassName('para')
+    document.getElementsByTagName('p')
+    
+    /* jquery */
+    $('#p1')
+    $('.para')
+    $('p')
+
+    // $('span:first').css("color","red")
+    // $('span').first().css("color","red")
+    // $('span').eq(2).css("color","red")
+
+    /* ************** */
+    /* get html and text */
+    /* ************** */
+
+    /* js */
+    // console.log(document.getElementById('p1').innerHTML)
+    // document.getElementById('p1').innerHTML = "<b>new para</b>"
+    // document.getElementById('p1').innerText = "<b>new para</b>"
+
+    /* jquery */
+    // console.log($('#p1').html())
+    // $('#p1').html("<b>new para</b>")
+
+    // console.log($('#p1').text())
+    // $('#p1').text("<b>new para</b>")
+
+
+    /* ************** */
+    /* create/update html elements */
+    /* ************** */
+
+    /* js */
+    var spanTag = document.createElement('span'); // <span></span>
+    var text = document.createTextNode('span 1') // "span 1"
+    spanTag.appendChild(text); // <span>span 1</span>
+    document.getElementById('p1').appendChild(spanTag);
+    // document.getElementById('p1').append(spanTag);
+
+
+    /* jquery */
+    var span = $("<span>").text('span 1'); // <span>span 1</span>
+    $('#p1').append(span);
+
+    
+    /* ************** */
+    /* add/update css */
+    /* ************** */
+
+    /* js */
+    document.getElementById('p1').style.color = 'red'
+    document.getElementById('p1').style.backgroundColor = 'yellow'
+    document.getElementById('p1').style.textDecoration = 'underline'
+
+    // var paras = document.getElementsByClassName('para')
+    // for (let i = 0; i < paras.length; i++) {
+    //   paras[i].style.color = 'red'
+    // }
+    
+    // $('.para').css("color","red")
+    
+    /* jquery */
+    // $('#p1').css("color", "red");
+    $('#p1').css({"color": "red", "backgroundColor": "grey", "textDecoration": "underline"});
+
+        
+    /* ************** */
+    /* add/update classes */
+    /* ************** */
+
+    /* js */
+    // document.getElementById('p1').classList.add('highlight')
+    // document.getElementById('p1').classList.remove('highlight')
+
+    /* jquery */
+    // $('#p1').addClass('highlight')
+    // $('#p1').removeClass('highlight')
+        
+    /* ************** */
+    /* add/update attributes */
+    /* ************** */
+
+    /* js */
+    // document.getElementById('p1').getAttribute('id')
+    // document.getElementsByClassName('para')[0].setAttribute('id', 'someId')
+
+    /* jquery */
+    // $('#p1').attr('id')
+    $('.para:first').attr('id', 'someId')
+    // $('#p1').attr('title', 'some title')
+
+
+    /* ************** */
+    /* events */
+    /* ************** */
+
+    /* js */
+    // document.getElementById('btn').addEventListener('click', function() {})
+    document.getElementById('btn').addEventListener('click', () => {
+      console.log('clicked 1')
+    })
+
+    /* jquery */
+    // $('#btn').click(function () {})
+    $('#btn').click(() => {
+      console.log('clicked 2')
+    })
+
+
+
+
+
+
+
+
+
+
+
+  </script>
+</body>
+</html>
