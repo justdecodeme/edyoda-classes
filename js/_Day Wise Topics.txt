@@ -1,4 +1,11 @@
 ----------------
+06th Mar Topics
+----------------
+⏹️ Assignment Discussion
+⏹️ AJAX PRACTICE | APPEND TOPIC 
+⏹️ Q & A session
+
+----------------
 02st Mar Topics
 ----------------
 ✅ TOMORROW CLASS UPDATE
@@ -9,8 +16,6 @@
 ✅ Add/Update/Remove Classes
 ✅ Add/Update/Remove Attributes
 ✅ Handling Events
-
-⏹️ AJAX PRACTICE | APPEND TOPIC 
 ✅ Q & A session
 
 ----------------
