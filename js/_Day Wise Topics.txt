@@ -2,8 +2,11 @@
 06th Mar Topics
 ----------------
 ⏹️ Assignment Discussion
-⏹️ AJAX PRACTICE | APPEND TOPIC 
+⏹️ JS vs jQuery AJAX | APPEND TOPIC
+⏹️ [window.innerWidth]  and its viewport and its difference from responsive design sir
 ⏹️ Q & A session
+
+⏹️ Quiz date > 12th march
 
 ----------------
 02st Mar Topics
