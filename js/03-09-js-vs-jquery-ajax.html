@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width= , initial-scale=1.0">
+  <title>AJAX - jQuery vs JS</title>
+  <script src="jquery-3.6.3.js"></script>
+</head>
+<body>
+  <ul id="listJS"></ul>
+  <ul id="listJquery"></ul>
+
+  <script>
+    /* ****** */
+    /* JS */
+    /* ****** */
+    var xhttp = new XMLHttpRequest();
+    xhttp.onreadystatechange = (e) => {
+      let result = e.target;
+
+      if(result.readyState === 4 && result.status === 200) {
+        let data = JSON.parse(result.response)
+        console.log(data)
+      }
+    }
+    xhttp.open("GET", "https://jsonplaceholder.typicode.com/todos", true)
+    xhttp.send() 
+
+
+    /* ****** */
+    /* jQuery */
+    /* ****** */
+    $.get("https://jsonplaceholder.typicode.com/todos", (data) => {
+      console.log(data)
+    }).fail((e) => {
+      console.log('error: ', e)
+    });
+  </script>
+</body>
+</html>

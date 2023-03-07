@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>The Video Player</title>
+    <link href="https://fonts.googleapis.com/css?family=Caveat+Brush|Source+Sans+Pro:400,600,700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/35c398e458.js" crossorigin="anonymous"></script>
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./player.css" />
+</head>
+<body>    
+    <main>        
+        <div id="main-container">
+            <h1 id="main-heading">The Video Player</h1>
+
+            <div id="player-section">
+                <div id="player-wrapper">
+                    <iframe id="video-player" src="https://player.vimeo.com/video/190062231" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+                    <div>
+                        <div id="video-actions">
+                            <p><span id="views-count">98.4k</span> views</p>
+
+                            <div>
+                                <i class="far fa-heart" id="heart"></i>
+                                <!-- <i class="fa-solid fa-heart"></i> -->
+                                <i class="far fa-comment-alt"></i>
+                                <i class="far fa-bookmark" id="bookmark"></i>
+                                <!-- <i class="fa-solid fa-bookmark"></i> -->
+                            </div>
+                        </div>
+                        <h3 id="video-title">Croissants | Flour and Stone</h3>
+                        <p id="video-description">There is no other way but to commit wholeheartedly to a relationship with a croissant. We have all found ourselves at the mercy of its allure. Here, in another epic film by the uber talented Nathan Rodger, our Erin divulges her personal romance with The Croissant.</p>
+                    </div>
+                </div>
+
+                <div id="playlist-wrapper">
+                    
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="./player.js"></script>
+</body>
+</html>
