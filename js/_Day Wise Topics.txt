@@ -1,12 +1,30 @@
 ----------------
-06th Mar Topics
+14th Mar Topics
 ----------------
-⏹️ Assignment Discussion
-⏹️ JS vs jQuery AJAX | APPEND TOPIC
-⏹️ [window.innerWidth]  and its viewport and its difference from responsive design sir
+⏹️ Final Project Assignment Discussion
+⏹️ Home page
+⏹️ Product detail page
+⏹️ Add to Cart page
+⏹️ Order Completion page
 ⏹️ Q & A session
 
-⏹️ Quiz date > 12th march
+----------------
+06th Mar Topics
+----------------
+✅ AJAX > GET | POST, PUT, DELETE > DB KNOWLEDGE (BACKEND) | Firebase 
+✅ Append 
+✅ GitHub, GitHub Desktop, 
+    Push (PC > GitHub.com), , Pull (GitHub.com > PC) 
+✅ FEEBACK SYSTEM (INSTRUCTOR > 50% ATTENDANCE)
+✅ Q & A session
+
+----------------
+06th Mar Topics
+----------------
+✅ Assignment Discussion
+✅ JS vs jQuery AJAX | APPEND TOPIC
+✅ [window.innerWidth]  and its viewport and its difference from responsive design sir
+✅ Q & A session
 
 ----------------
 02st Mar Topics
@@ -212,3 +230,7 @@
 
 ❓ Red flag 
 ❓ Automatic marks deduction
+
+⏹️ Music Player Web App
+   - https://freefrontend.com/css-music-players/
+   - https://codepen.io/Nirtz89/pen/abzyjYz
