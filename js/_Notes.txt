@@ -31,15 +31,22 @@ JS COMMENTS
 */
 
 ==============
-OOPs
+OOPs INTERVIEW
 ==============
-Theoritical
+Theoritical + Practical
+
 OOPs => Object Oriented Programming
-It's a pattern not code, way of writing, Functional Programming
+Programming pattern => Different coding style for the same logic
+
+It's a pattern not code, way of writin
+Functional Programming
+
 this => used to access the properties of current object / refers to the current context
 Encapsulation => Wrapping of data into a single entity. (person object)
 Constructor function => A way to craete object with the help of functions
+
 Classes => ES6 way of encapsulating the data, collection of properties and methods
+
 inheritance
 prototype chaining
 

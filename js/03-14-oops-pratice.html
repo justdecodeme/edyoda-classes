@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OOPs Practice</title>
+</head>
+<body>
+  <table border="1">
+    <tr>
+      <td>
+        <label>
+          <input type="radio" checked name="info" class="driver"> Driver
+        </label>
+        <label>
+          <input type="radio" name="info" class="vehicle"> Vehicle
+        </label>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <div id="driver">
+          <input type="text" placeholder="First Name" id="fName"><br>
+          <input type="text" placeholder="Last Name" id="lName"><br>
+          <input type="number" placeholder="Age" id="age"><br>
+        </div>
+        <div id="vehicle">
+          <input type="text" placeholder="Company" id="company"><br>
+          <input type="text" placeholder="Vehicle Number" id="number"><br>
+          <input type="color" placeholder="Color" id="color"><br>
+        </div>
+        <button id="btn">Add</button>
+      </td>
+    </tr>
+  </table>
+  <ul id="organizationData"></ul>
+
+  <script>
+      document.getElementById('vehicle').style.display = 'none'
+      var inputs = document.querySelectorAll('label input')
+      var organizationData = document.getElementById('organizationData')
+      var type = 'driver';
+      var organization = []
+
+      function Driver(f, l, a) {
+        this.fName = f,
+        this.lName = l,
+        this.age = a,
+        this.getFullName = function() {
+          return this.fName + " " + this.lName;
+        }
+      }
+
+      function Vehicle(com, n, c) {
+        this.company = com,
+        this.number = n,
+        this.color = c
+      } 
+
+      function updateFields(e) {
+        type = e.target.classList[0]
+        console.log(type)
+        
+        if(type == 'vehicle') {
+          document.getElementById('vehicle').style.display = 'block'
+          document.getElementById('driver').style.display = 'none'
+        } else if(type == 'driver') {
+          document.getElementById('vehicle').style.display = 'none'
+          document.getElementById('driver').style.display = 'block'
+        }
+      }
+
+      inputs[0].addEventListener('change', updateFields)
+      inputs[1].addEventListener('change', updateFields)
+      document.getElementById('btn').addEventListener('click', () => {
+        if(type == 'vehicle') {
+          var com = document.getElementById('company').value;
+          var n = document.getElementById('number').value;
+          var c = document.getElementById('color').value;
+
+          let vehicle = new Vehicle(com, n, c)
+          organization.push(vehicle)
+        } else if(type == 'driver') {
+          var f = document.getElementById('fName').value;
+          var l = document.getElementById('lName').value;
+          var a = document.getElementById('age').value;
+
+          let driver = new Driver(f, l, a)
+          organization.push(driver)
+        }
+        console.log(organization)
+        let output = ''
+        for (let i = 0; i < organization.length; i++) {
+          let org = organization[i];
+          if(org.company) {
+            output += `
+              <li>
+                Vehicle: ${org.company} |  ${org.color} 
+              </li>
+            `
+          } else {
+            output += `
+              <li>
+                Driver: ${org.fName + " " + org.lName} |  ${org.age} 
+              </li>
+            ` 
+          }
+        }
+
+        organizationData.innerHTML = output;
+      })
+  </script>
+</body>
+</html>
