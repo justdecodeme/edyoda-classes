@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OOPs</title>
+</head>
+<body>
+  <h1>OOPs</h1>
+  <script>
+    /* Encapsulation */
+    var person = {
+      fName: 'Vijay',
+      lName: 'Kumar',
+      age: 30,
+      getFullName: function() {
+        // return fName + " " + lName; // ❌
+        return this.fName + " " + this.lName;
+      }
+    }
+    var person2 = {
+      fName: 'Pooja',
+      lName: 'Kumari',
+      age: 25,
+      getFullName: function() {
+        return this.fName + " " + this.lName;
+      }
+    }
+
+    console.log(person.getFullName); // ❌
+    console.log(person.getFullName());
+
+    console.log(person)
+    console.log(person2)
+    console.log(console)
+    console.log(new Number(10))
+
+    /* ------------------------ */
+
+    /* Constructor function */
+    // function Person(f, l, a) {
+    //   this.fName = f;
+    //   this.lName = l;
+    //   this.age = a;
+    //   this.getFullName = function() {
+    //     return this.fName + " " + this.lName;
+    //   }
+    // }
+
+    /* Object instantiation */
+    // var person1 = new Person('Vijay', 'Kumar', 30)
+    // var person2 = new Person('Pooja', 'Kumari', 25)
+    // console.log(person1)
+    // console.log(person2)
+
+
+    class Person {
+      constructor(f, l, a) {
+        this.fName = f;
+        this.lName = l;
+        this.age = a;
+      }
+      getFullName() {
+        return this.fName + " " + this.lName;
+      }
+      setAge(a) {
+        this.age = a;
+      }
+    }
+
+    var person1 = new Person('Vijay', 'Kumar', 30)
+    var person2 = new Person('Pooja', 'Kumari', 25)
+    person1.setAge(29)
+    console.log(person1)
+    console.log(person2)
+
+    class Vehicle {
+      constructor(c, y) {
+        this.color = c;
+        this.year = y;
+      }
+      getColor() {
+        return this.color;
+      }
+      setColor(c) {
+        this.color = c;
+      }
+    }
+    class Bus extends Vehicle {
+      constructor(...args) {
+        super(...args);
+        this.tyreCount = args[2];
+      }
+    }
+
+    var bus = new Bus('red', 2012, 8);
+    console.log(bus)
+    console.log(bus.getColor())
+  </script>
+</body>
+</html>

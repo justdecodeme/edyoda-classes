@@ -1,12 +1,18 @@
 ----------------
 14th Mar Topics
 ----------------
-⏹️ Final Project Assignment Discussion
-⏹️ Home page
-⏹️ Product detail page
-⏹️ Add to Cart page
-⏹️ Order Completion page
+⏹️ OOPs => Object Oriented Programming
 ⏹️ Q & A session
+
+----------------
+13th Mar Topics
+----------------
+✅ Final Project Assignment Discussion
+✅ Home page
+✅ Product detail page
+✅ Add to Cart page
+⏹️ Order Completion page
+✅ Q & A session
 
 ----------------
 06th Mar Topics

@@ -30,16 +30,16 @@ JS COMMENTS
    comment
 */
 
-----------------------------------------
-Due date order of assignments and quizes
-----------------------------------------
-✅ 23 Jan: Quiz-1: CSS3 Basics
-✅ 28 Jan: Assignment-1: Favorite Foods WebApp
+==============
+OOPs
+==============
+Theoritical
+OOPs => Object Oriented Programming
+It's a pattern not code, way of writing, Functional Programming
+this => used to access the properties of current object / refers to the current context
+Encapsulation => Wrapping of data into a single entity. (person object)
+Constructor function => A way to craete object with the help of functions
+Classes => ES6 way of encapsulating the data, collection of properties and methods
+inheritance
+prototype chaining
 
-✅ 30 Jan: Quiz-2: CSS3 Basics
-✅ 30 Jan: Quiz-3: CSS3 Basics
-✅ 31 Jan: Assignment-2: EdYoda Stories
-
-⏹️ 02 Feb: Quiz-4: CSS Basics
-✅ 03 Feb: Assignment-1: Stunning Landing Page
-⏹️ 06 Feb: HTML-CSS Final Project
