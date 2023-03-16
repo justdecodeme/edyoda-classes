@@ -10,18 +10,15 @@ body {
   max-width: 1000px;
   margin: 40px auto 40px;
   position: relative;
+  overflow: hidden;
+}
+.images {
+  display: flex;
+  position: relative;
+  transition: all .4s ease;
 }
 .images img {
-  position: absolute;
-  left: 0;
-  top: 0;
   width: 100%;
-  opacity: 0;
-  transition: all 1s;
-}
-.images img.active {
-  transition: all 1s;
-  opacity: 1;
 }
 .buttons .btn {
   position: absolute;
@@ -49,7 +46,7 @@ body {
   width: 20px;
   height: 20px;
   border-radius: 50%;
-  cursor: pointer;
+  /* cursor: pointer; */
   background: rgba(255, 255, 255, .3);
   margin-right: 15px;
 }

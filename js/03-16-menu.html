@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu</title>
+  <style>
+    header {
+      background-color: orange;
+      padding: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: relative;
+    }
+    button {
+      height: 40px;
+      background-color: transparent;
+      border: 2px solid black;
+    }
+    span {
+      width: 30px;
+      height: 6px;
+      display: block;
+      background-color: black;
+      border: none;
+      position: relative;
+    }
+    span:before,
+    span:after {
+      content: '';
+      position: absolute;
+      width: 30px;
+      height: 6px;
+      background-color: black;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    span:before {
+      top: -10px;
+    }
+    span:after {
+      bottom: -10px;
+    }
+    nav {
+      position: absolute;
+      left: 0;
+      width: 100%;
+      height: 200px;
+      background-color: #0450d2a1;
+      /* display: none; */
+      /* bottom: 0; */
+      top: -160%;
+      z-index: -1;
+      transition: all .3s ease;
+      opacity: 0;
+    }
+    nav.active {
+      /* display: block; */
+      opacity: 1;
+      transition: all .3s ease;
+      top: 100%;
+      /* bottom: auto; */
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <a href="#">Logo</a>
+    <button id="btn">
+      <span></span>
+    </button>
+    <nav id="nav"></nav>
+  </header>
+
+  <script>
+    const btn = document.getElementById('btn')
+    const nav = document.getElementById('nav')
+
+    btn.addEventListener('click', () => {
+      if(nav.classList.contains('active')) {
+        nav.classList.remove('active')
+      } else {
+        nav.classList.add('active')
+      }
+    })
+  </script>
+</body>
+</html>

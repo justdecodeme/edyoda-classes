@@ -37,6 +37,6 @@ for (let i = 0; i < btns.length; i++) {
   btns[i].addEventListener('click', updateSlider)
 }
 
-for (let i = 0; i < knobs.length; i++) {
-  knobs[i].addEventListener('click', updateSlider)
-}
+// for (let i = 0; i < knobs.length; i++) {
+//   knobs[i].addEventListener('click', updateSlider)
+// }
