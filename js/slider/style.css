@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  paddding: 0;
+  box-sizing: border-box;
+}
+body {
+  padding: 0 20px;
+}
+.slider {
+  max-width: 1000px;
+  margin: 40px auto 40px;
+  position: relative;
+}
+.images img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  opacity: 0;
+  transition: all 1s;
+}
+.images img.active {
+  transition: all 1s;
+  opacity: 1;
+}
+.buttons .btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 30px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+.buttons .previous {
+  left: 10px;
+}
+.buttons .next {
+  right: 10px;
+}
+.knobs {
+  position: absolute;
+  left: 50%;
+  bottom: 20px;
+  transform: translateX(-50%);
+}
+.knobs .knob {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  cursor: pointer;
+  background: rgba(255, 255, 255, .3);
+  margin-right: 15px;
+}
+.knobs .knob.active {
+  background: rgba(255, 255, 255, .9);
+}
+.knobs .knob:last-child {
+  margin-right: 0px;
+}

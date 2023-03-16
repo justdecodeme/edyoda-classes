@@ -1,4 +1,18 @@
 ----------------
+16th Mar Topics
+----------------
+⏹️ Sat Video Call class
+⏹️ Hamburger menu development 
+⏹️ Q & A session
+
+----------------
+15th Mar Topics
+----------------
+✅ Carousel/Slider development 
+✅ Assignment discussion
+✅ Q & A session
+
+----------------
 14th Mar Topics
 ----------------
 ✅ OOPs => Object Oriented Programming
@@ -8,7 +22,7 @@
 ✅ Object Instantiation
 ✅ Encapsulation
 ✅ Classes
-⏹️ Q & A session
+✅ Q & A session
 
 ----------------
 13th Mar Topics
