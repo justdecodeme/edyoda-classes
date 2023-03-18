@@ -1,10 +1,23 @@
 ----------------
+18th Mar Topics
+----------------
+⏹️ async await
+⏹️ Q & A session
+
+----------------
+17th Mar Topics
+----------------
+✅ Portfolio discussion
+✅ Assignment discussion
+✅ Q & A session
+
+----------------
 16th Mar Topics
 ----------------
 ✅ Quiz-10: OOPs update | 18th March 
 ✅ Hamburger menu development
-⏹️ Assignment discussion | 17th March
-⏹️ Q & A session
+✅ Assignment discussion | 17th March
+✅ Q & A session
 
 ----------------
 15th Mar Topics
