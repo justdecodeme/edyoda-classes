@@ -1,17 +1,27 @@
 ----------------
 06th Apr Topics
 ----------------
-⏹️ Share code files
+✅ Share code files
 ⏹️ HTML basics
    - syntax
+   - formating
    - open tag
    - close tag
    - element
-   - attributes (name, value)
-   - formating
+   - attributes (name="value"): whater we write inside open tag, extra information
 ⏹️ Basic tags 
-   - html, head, body, h1-h6, p, ul, ol, li, a
+   - html, head, body, h1-h6, 
+   - p (paragraph), 
+   - ul (unordered list), 
+   - ol (ordered list), 
+   - li (list item), 
+   - a (anchor, hyperlink)
 ⏹️ Q & A session
+
+html: tells that it is a html code
+head: SEO, Meta data, 
+body: content which is visible to user
+
 
 ----------------
 05th Apr Topics
