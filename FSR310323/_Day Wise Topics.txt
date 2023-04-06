@@ -1,4 +1,36 @@
 ----------------
+06th Apr Topics
+----------------
+⏹️ Share code files
+⏹️ HTML basics
+   - syntax
+   - open tag
+   - close tag
+   - element
+   - attributes (name, value)
+   - formating
+⏹️ Basic tags 
+   - html, head, body, h1-h6, p, ul, ol, li, a
+⏹️ Q & A session
+
+----------------
+05th Apr Topics
+----------------
+⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ 
+⚠️ ALWAYS NAME YOUR FILES & FOLDER WITH SMALL LETTERS ONLY! - _ 0-9
+⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ 
+✅ Share the PPT links
+✅ How to import file or folder to VS Code
+✅ https://www.justdecode.me/connect/
+✅ FEEDBACK
+✅ PRACTICE*♾️
+✅ GitHub Intro | project/code management
+✅ Launching first webpage
+✅ Share the code
+✅ File & Folder naming convension
+✅ Q & A session
+
+----------------
 04th Apr Topics
 ----------------
 ✅ Introduction
@@ -35,37 +67,3 @@
 
 Filename extensions: resume.pdf, song1.mp3, movie1.mp4
 .jpg, .png, .txt, .cpp, .docx, .exe, .psd, .ai,
-
-----------------
-05th Apr Topics
-----------------
-⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ 
-⚠️ ALWAYS NAME YOUR FILES & FOLDER WITH SMALL LETTERS ONLY! - _ 0-9
-⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ 
-✅ Share the PPT links
-✅ How to import file or folder to VS Code
-✅ https://www.justdecode.me/connect/
-✅ FEEDBACK
-✅ PRACTICE*♾️
-✅ GitHub Intro | project/code management
-✅ Launching first webpage
-✅ Share the code
-✅ File & Folder naming convension
-✅ Q & A session
-
-⏹️ Akhila
-⏹️ HTML tags
-⏹️ Basic tags
-
-----------------
-05th Apr Topics
-----------------
-⏹️ Q & A session
-
-
-.
-.
-.
-⏹️ https://justdecodeme.github.io/portfolio/
-
-
