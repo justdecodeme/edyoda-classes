@@ -1,22 +1,28 @@
 ----------------
+07th Apr Topics
+----------------
+⏹️ Share Whatsapp/Telegram link
+⏹️ Q & A session
+
+----------------
 06th Apr Topics
 ----------------
 ✅ Share code files
-⏹️ HTML basics
+✅ HTML basics
    - syntax
    - formating
    - open tag
    - close tag
    - element
    - attributes (name="value"): whater we write inside open tag, extra information
-⏹️ Basic tags 
+✅ Basic tags 
    - html, head, body, h1-h6, 
    - p (paragraph), 
    - ul (unordered list), 
    - ol (ordered list), 
    - li (list item), 
    - a (anchor, hyperlink)
-⏹️ Q & A session
+✅ Q & A session
 
 html: tells that it is a html code
 head: SEO, Meta data, 
