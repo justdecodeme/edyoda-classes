@@ -1,0 +1,71 @@
+----------------
+04th Apr Topics
+----------------
+✅ Introduction
+    - Check MIC & Screen 🎤
+    - English, Hindi | Punjabi, Odisha | Japanese... 🗣️
+    - Little bit about your instructor background 😜
+    - Please connect to the same link in case of internet issue 📶
+    - Turn off camera and mute 📸
+    - Always clear your doubts before leaving the session 🙋‍♂️🙋‍♀️
+    - 100% attendance & I'll make 200% effort 💪
+    - From tomorrow, I'll play some music before 5 min of the class 🎶
+    - Always join on/before time ⌚
+    - FEEDBACK IS MUST 📝
+    - Be polite and respecting each other skill level 🙌
+✅ Course structure | Full Stack > Front End + Back End
+✅ Requirements
+   - Code Editor Setup (VS Code)
+   - Browser Setup (Chrome)
+   - LLL MINDSET
+✅ Basics of WEB DEVLOPMENT (full form, purpose, filename extension)
+   - Webpage > any url on browser
+   - Web Development > process of creating these web pages is called web development
+   - HTML (HyperText Markup Language) > content | .html
+   - CSS (Cascading StyleSheet) > color, layout, alignment | .css
+   - JS (JavaScript) > validation, interaction, dynamic | .js
+   - MASTER THESE THINGS, YES PLEASE MASTER THESE 3 THINGS
+   - Web Designin (creating mockups)g vs Web Development
+✅ Creating our 1st HTML file
+    - Create a .txt document then rename it to index.html
+✅ Watch recordings
+✅ FEEDBACK
+✅ TA (Athira) will join us at 9:15pm
+✅ Q & A session
+
+Filename extensions: resume.pdf, song1.mp3, movie1.mp4
+.jpg, .png, .txt, .cpp, .docx, .exe, .psd, .ai,
+
+----------------
+05th Apr Topics
+----------------
+⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ 
+⚠️ ALWAYS NAME YOUR FILES & FOLDER WITH SMALL LETTERS ONLY! - _ 0-9
+⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ 
+✅ Share the PPT links
+✅ How to import file or folder to VS Code
+✅ https://www.justdecode.me/connect/
+✅ FEEDBACK
+✅ PRACTICE*♾️
+✅ GitHub Intro | project/code management
+✅ Launching first webpage
+✅ Share the code
+✅ File & Folder naming convension
+✅ Q & A session
+
+⏹️ Akhila
+⏹️ HTML tags
+⏹️ Basic tags
+
+----------------
+05th Apr Topics
+----------------
+⏹️ Q & A session
+
+
+.
+.
+.
+⏹️ https://justdecodeme.github.io/portfolio/
+
+
