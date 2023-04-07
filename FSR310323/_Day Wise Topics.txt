@@ -1,3 +1,5 @@
+ How to upload assignment
+
 ----------------
 07th Apr Topics
 ----------------
@@ -6,9 +8,9 @@
 ✅ Empty elements (don't have any content): hr, img, br, meta, input
 ✅ img tag
 ✅ align center
-⏹️ a tag: go to link
-⏹️ assignment
-⏹️ Q & A session
+✅ a tag: go to link
+✅ assignment
+✅ Q & A session
 
 Why we join any community/course/academy/mentor/trainer?
 - We get structured learnings.
