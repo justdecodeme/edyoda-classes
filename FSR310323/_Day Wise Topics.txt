@@ -1,8 +1,20 @@
 ----------------
 07th Apr Topics
 ----------------
-⏹️ Share Whatsapp/Telegram link
+✅ EdYoda is organising a YouTube LIVE Workshop on Google Sheets tomorrow at 6 PM.
+✅ Share Whatsapp/Telegram link
+✅ Empty elements (don't have any content): hr, img, br, meta, input
+✅ img tag
+✅ align center
+⏹️ a tag: go to link
+⏹️ assignment
 ⏹️ Q & A session
+
+Why we join any community/course/academy/mentor/trainer?
+- We get structured learnings.
+- You'll get proper guidance
+- You can ask question real time
+- certifate(10-20%), skill, attitude(80-90%)
 
 ----------------
 06th Apr Topics
