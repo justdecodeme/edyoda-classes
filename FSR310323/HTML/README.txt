@@ -18,6 +18,9 @@ Ctrl + [ > Move code to left side
 Ctrl + ] > Move code to right side
 Win + .  > Smily window
 Alt+ Shift + ↓ > Duplicate line / lines (need to select)
+Alt + ↓ > Move line(s) down
+! + Tab/Enter > Create html skeleton
+Ctrl + / > Toggle comments (HTML, CSS, JS)
 
 ----------
 💡NOTES
@@ -28,4 +31,6 @@ Alt+ Shift + ↓ > Duplicate line / lines (need to select)
 <hr /> ✅
 <hr>lsjdflsdfl</hr> ❌
 
+VS Code > Editing
+Browser > Rendering
 

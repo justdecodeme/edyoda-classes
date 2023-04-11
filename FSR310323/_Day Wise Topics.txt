@@ -1,8 +1,16 @@
 ----------------
-09th Apr Topics
+11th Apr Topics
 ----------------
+✅ Quiz 1 walkthrough
+✅ br tag > break tag
+✅ <!DOCTYPE html> : Means we are latest version of HTML i.e. HTML5
+✅ meta > SEO and providing extra information to the browser
+✅ HTML Comments > <!-- ____ --> reference to the developer, unused code
+✅ HTML semantic tags
+⏹️ Assignment 1 walkthrough
+⏹️ Live session and Link
 ⏹️ How to upload assignment
-⏹️ Quiz 1 walkthrough
+⏹️ Q & A session
 
 ----------------
 07th Apr Topics
@@ -103,3 +111,5 @@ Filename extensions: resume.pdf, song1.mp3, movie1.mp4
 .jpg, .png, .txt, .cpp, .docx, .exe, .psd, .ai,
 
 ⏹️ 
+
+https://t.me/weball_updates
