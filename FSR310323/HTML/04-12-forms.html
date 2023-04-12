@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+  </head>
+
+  <body>
+    <form>
+      <input type="text" list="skill">
+      <datalist id="skill">
+        <option>HTML</option>
+        <option>CSS</option>
+        <option>SCSS</option>
+        <option>JS</option>
+      </datalist>
+      <br> <br>
+      <select>
+        <optgroup label="Front End">
+          <option>HTML</option>
+          <option>CSS</option>
+          <option>JS</option>
+        </optgroup>
+        <optgroup label="Back End">
+          <option>PHP</option>
+          <option>PYTHON</option>
+        </optgroup>
+      </select>
+      <br> <br>
+      <input placeholder="text" type="text" required>
+      <br> <br>
+      <label for="e">Email</label>
+      <input type="email" id="e" required>
+      <br> <br>
+      <input placeholder="number" type="number" min="5" max="10">
+      <br> <br>
+      <input placeholder="password" type="password" autofocus>
+      <br> <br>
+      <input type="file">
+      <br> <br>
+      <input type="color">
+      <br> <br>
+      <input type="range">
+      <br> <br>
+      <label for="rad">RADIO BUTTON</label>
+      <input type="radio" id="rad">
+      <br> <br>
+      <input type="checkbox">
+      <br> <br>
+      <input type="date">
+      <br> <br>
+      <textarea cols="30" rows="10" placeholder="comments (max 200letters)..." maxlength="200" required></textarea>
+      <br> <br>
+      <button>Login</button>
+    </form>
+  </body>
+
+</html>

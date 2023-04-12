@@ -1,21 +1,24 @@
 ----------------
 12th Apr Topics
 ----------------
-⏹️ How many of you went through PPTs?
-⏹️ Assignment 1 REMINDER
-⏹️ Quiz 1 REMINDER
-⏹️ Whatsapp link
+✅ How many of you went through PPTs?
+✅ Assignment 1 REMINDER | 11:59PM
+✅ Quiz 1 REMINDER
+✅ Whatsapp link
 ⏹️ Forms
-   - What are forms
-   - form | action, method, 
-   - input | types (text, email, number, password, date, color, file, radio, checkbox, range), placeholder, readonly, id, autofocus, required, name
-   - label | for
-   - button | disabled, type(submit)
+   ✅ What are forms
+   ✅ form | action, method, 
+   ✅ input | type (text, email, number, password, date, color, file, radio, checkbox, range), placeholder, value, readonly, id, autofocus, required, name
+   ✅ label | for
+   ✅ button | disabled
+   ✅ text vs email attribute
+   ✅ textarea | rows, cols, required
    - select + option + optgroup | required, label
    - input + datalist + option | required, list, id, value
-   - textarea | rows, cols, required
    - fieldset + legend
+   - radio vs checkbox
 ⏹️ Q & A session
+
 
 ----------------
 07th Apr Topics
