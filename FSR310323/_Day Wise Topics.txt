@@ -1,16 +1,21 @@
 ----------------
-11th Apr Topics
+12th Apr Topics
 ----------------
-✅ Quiz 1 walkthrough
-✅ br tag > break tag
-✅ <!DOCTYPE html> : Means we are latest version of HTML i.e. HTML5
-✅ meta > SEO and providing extra information to the browser
-✅ HTML Comments > <!-- ____ --> reference to the developer, unused code
-✅ HTML semantic tags
-✅ Assignment 1 walkthrough
-✅ Live session and Link
-✅ How to upload assignment
-✅ Q & A session
+⏹️ How many of you went through PPTs?
+⏹️ Assignment 1 REMINDER
+⏹️ Quiz 1 REMINDER
+⏹️ Whatsapp link
+⏹️ Forms
+   - What are forms
+   - form | action, method, 
+   - input | types (text, email, number, password, date, color, file, radio, checkbox, range), placeholder, readonly, id, autofocus, required, name
+   - label | for
+   - button | disabled, type(submit)
+   - select + option + optgroup | required, label
+   - input + datalist + option | required, list, id, value
+   - textarea | rows, cols, required
+   - fieldset + legend
+⏹️ Q & A session
 
 ----------------
 07th Apr Topics
