@@ -1,11 +1,22 @@
 ----------------
+13th Apr Topics
+----------------
+⏹️ Forms
+   - select + option + optgroup | required, label
+   - input + datalist + option | required, list, id, value
+   - fieldset + legend
+   - radio vs checkbox
+⏹️ Forms Practice
+⏹️ Q & A session
+
+----------------
 12th Apr Topics
 ----------------
 ✅ How many of you went through PPTs?
 ✅ Assignment 1 REMINDER | 11:59PM
 ✅ Quiz 1 REMINDER
 ✅ Whatsapp link
-⏹️ Forms
+✅ Forms
    ✅ What are forms
    ✅ form | action, method, 
    ✅ input | type (text, email, number, password, date, color, file, radio, checkbox, range), placeholder, value, readonly, id, autofocus, required, name
@@ -16,8 +27,9 @@
    - select + option + optgroup | required, label
    - input + datalist + option | required, list, id, value
    - fieldset + legend
-   - radio vs checkbox
-⏹️ Q & A session
+   - radio vs checkbox 
+   - TO BE CONTINUED IN NEXT CLASS
+✅ Q & A session
 
 
 ----------------
