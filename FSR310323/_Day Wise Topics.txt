@@ -1,13 +1,16 @@
+⏹️ How to share output as well
+
 ----------------
 13th Apr Topics
 ----------------
-⏹️ Forms
-   - select + option + optgroup | required, label
-   - input + datalist + option | required, list, id, value
-   - fieldset + legend
-   - radio vs checkbox
-⏹️ Forms Practice
-⏹️ Q & A session
+✅ Live Server
+✅ Forms
+   ✅ select + option + optgroup | required, label
+   ✅ input + datalist + option | required, list, id, value
+   ✅ fieldset + legend
+   ✅ radio vs checkbox
+✅ Forms Practice
+✅ Q & A session
 
 ----------------
 12th Apr Topics
@@ -19,7 +22,7 @@
 ✅ Forms
    ✅ What are forms
    ✅ form | action, method, 
-   ✅ input | type (text, email, number, password, date, color, file, radio, checkbox, range), placeholder, value, readonly, id, autofocus, required, name
+   ✅ input | type (text, email, search, number, password, date, color, file, radio, checkbox, range), placeholder, value, readonly, id, autofocus, required, name
    ✅ label | for
    ✅ button | disabled
    ✅ text vs email attribute

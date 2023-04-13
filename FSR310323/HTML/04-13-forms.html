@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+  </head>
+
+  <body>
+    <form>
+      <p>Gender</p>
+      <input type="radio" id="m" name="gender" required>
+      <label for="m">Male</label>
+      <input type="radio" id="f" name="gender" required>
+      <label for="f">Female</label>
+
+      <br> <br>
+
+      <p>Skills</p>
+      <input type="checkbox" id="html" name="xyz">
+      <label for="html">HTML</label>
+      <input type="checkbox" id="css" name="xyz">
+      <label for="css">CSS</label>
+      <input type="checkbox" id="js" name="xyz">
+      <label for="js">JS</label>
+
+      <br> <br>
+
+      <fieldset>
+        <legend>My First Form</legend>
+        <select>
+          <option>Select your fav Skill</option>
+          <optgroup label="FED">
+            <option>HTML</option>
+            <option>CSS</option>
+            <option>JS</option>
+          </optgroup>
+          <optgroup label="BED">
+            <option>PHP</option>
+            <option>GO</option>
+          </optgroup>
+        </select>
+
+        <br><br>
+
+        <label for="e">Email</label>
+        <input type="email" id="e">
+
+        <br><br>
+
+        <input type="search" placeholder="Search your fav skill" list="mylist">
+        <datalist id="mylist">
+          <option>HTML</option>
+          <option>CSS</option>
+          <option>JS</option>
+          <option>PHP</option>
+          <option>GO</option>
+        </datalist>
+      </fieldset>
+
+      <button>Submit</button>
+    </form>
+  </body>
+
+</html>

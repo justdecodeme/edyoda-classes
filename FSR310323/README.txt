@@ -23,6 +23,8 @@ Alt + ↓ > Move line(s) down
 ! + Tab/Enter > Create html skeleton
 Ctrl + / > Toggle comments (HTML, CSS, JS)
 Ctrl + d > Select next highlighted
+Ctrl + Enter > Create a new line below
+Ctrl + Shift + Enter > Create a new line above
 
 ----------
 💡NOTES
