@@ -1,4 +1,22 @@
-⏹️ How to share output as well
+----------------
+15th Apr Topics
+----------------
+⏹️ Monday > GitHub class
+
+----------------
+14th Apr Topics
+----------------
+✅ Quiz 1 due today
+✅ Live YouTube Session
+⏹️ Doubt Session (10-15 MINS)
+⏹️ Practice (30 MINS)
+⏹️ Code Review (10-15 MINS)
+⏹️ Q & A session
+
+Why you should not use Google Drive for assignment submissions:
+- Download it 
+- assets links will break
+- You can't update the code without changing the link
 
 ----------------
 13th Apr Topics
@@ -33,7 +51,6 @@
    - radio vs checkbox 
    - TO BE CONTINUED IN NEXT CLASS
 ✅ Q & A session
-
 
 ----------------
 07th Apr Topics
@@ -76,7 +93,6 @@ Why we join any community/course/academy/mentor/trainer?
 html: tells that it is a html code
 head: SEO, Meta data, 
 body: content which is visible to user
-
 
 ----------------
 05th Apr Topics
