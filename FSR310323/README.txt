@@ -8,6 +8,9 @@ https://docs.google.com/presentation/d/1QRy1Y8AjWaodD2kkQPKjcOOFXcUi0KAUdE6zg-kD
 PPT-2:
 https://docs.google.com/presentation/d/1jAyAEsduMUbPO5PKUFNYpAd3iqxyEd6xv7REANr656k/edit?usp=sharing
 
+Image placeholders:
+https://placehold.co/
+
 Whatsapp Group: 
 https://chat.whatsapp.com/GBacdv15wsVKu1Ll4ugQcb
 
@@ -29,6 +32,8 @@ Ctrl + Shift + Enter > Create a new line above
 ----------
 💡NOTES
 ----------
+&nbsp;  > Non breaking space, code for adding one single space in html
+
 ⭐ Don't try to remember the code, 
   understand the logic
 
