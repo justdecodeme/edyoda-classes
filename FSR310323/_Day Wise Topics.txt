@@ -1,7 +1,20 @@
+⏹️ Tables (if remaining time)
+
 ----------------
-15th Apr Topics
+17th Apr Topics
 ----------------
-⏹️ Monday > GitHub class
+⏹️ GitHub
+   ✅ Signup
+   ✅ Login
+   ✅ Create a Repository (only small letters and hyphen, no spaces, no capital letters)
+     ✅ Public (code can be accessed by anyone, you can create live url)
+     ✅ Private (code is private, complete your control to whom to share | you can't create live url, unless you purchase github paid plan)
+   ✅ Upload files
+   ✅ Make repo live (Creating a link/url to share)
+   ✅ Update files
+   ✅ Delete a repo
+⏹️ GitHub Desktop (Manage multiple projects at same time)
+⏹️ Q & A session
 
 ----------------
 14th Apr Topics
@@ -11,7 +24,7 @@
 ✅ Doubt Session (10-15 MINS)
 ✅ Practice (30 MINS)
 ✅ Code Review (10-15 MINS)
-⏹️ Q & A session
+✅ Q & A session
 
 Why you should not use Google Drive for assignment submissions:
 - Download it 
