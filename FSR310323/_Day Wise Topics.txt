@@ -3,7 +3,7 @@
 ----------------
 17th Apr Topics
 ----------------
-⏹️ GitHub
+✅ GitHub
    ✅ Signup
    ✅ Login
    ✅ Create a Repository (only small letters and hyphen, no spaces, no capital letters)
@@ -13,8 +13,13 @@
    ✅ Make repo live (Creating a link/url to share)
    ✅ Update files
    ✅ Delete a repo
-⏹️ GitHub Desktop (Manage multiple projects at same time)
-⏹️ Q & A session
+✅ GitHub Desktop (Manage multiple projects at same time)
+   ✅ Create a repo on github.com
+   ✅ Clone it on your system
+   ✅ Make any changes (add/delete/update/rename)
+   ✅ Commit your changes
+   ✅ Pushes
+✅ Q & A session
 
 ----------------
 14th Apr Topics
