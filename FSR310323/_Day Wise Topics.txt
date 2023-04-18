@@ -1,10 +1,13 @@
 ----------------
 18th Apr Topics
 ----------------
-⏹️ table
-⏹️ caption
-⏹️ thead, tbody, tfoot
-⏹️ tr > th, td
+✅ table
+   ✅ tr (table row) 
+      ✅ td (table data)
+      ✅ th (table head), 
+✅ caption
+✅ thead, tbody, tfoot
+⏹️ Assignment 2
 ⏹️ Q & A session
 
 ----------------

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+      table {
+        text-align: center;
+      }
+    </style>
+  </head>
+
+  <body>
+    4r x 3c
+    <table border="1" width="300">
+      <tr>
+        <td>r1c1</td>
+        <td>r1c2</td>
+        <td>r1c3</td>
+      </tr>
+      <tr>
+        <td rowspan="2">r2c1</td>
+        <td>r2c2</td>
+        <td>r2c3</td>
+      </tr>
+      <tr>
+        <!-- <td>r3c1</td> -->
+        <td>r3c2</td>
+        <td>r3c3</td>
+      </tr>
+      <tr>
+        <td colspan="3">r4c1</td>
+        <!-- <td>r4c2</td> -->
+        <!-- <td>r4c3</td> -->
+      </tr>
+
+
+    </table>
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <table border="1" width="200">
+      <caption>Marks of Batch A</caption>
+      <thead>
+        <tr>
+          <th>Person</th>
+          <th>Marks</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Tania</td>
+          <td>85</td>
+        </tr>
+        <tr>
+          <td>Ram</td>
+          <td>80</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <th>Total marks</th>
+          <th>165</th>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+
+</html>
