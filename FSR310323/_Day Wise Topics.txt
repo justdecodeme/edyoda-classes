@@ -7,8 +7,8 @@
       ✅ th (table head), 
 ✅ caption
 ✅ thead, tbody, tfoot
-⏹️ Assignment 2
-⏹️ Q & A session
+✅ Assignment 2
+✅ Q & A session
 
 ----------------
 17th Apr Topics
