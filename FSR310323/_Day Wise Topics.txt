@@ -1,4 +1,11 @@
-⏹️ Tables (if remaining time)
+----------------
+18th Apr Topics
+----------------
+⏹️ table
+⏹️ caption
+⏹️ thead, tbody, tfoot
+⏹️ tr > th, td
+⏹️ Q & A session
 
 ----------------
 17th Apr Topics
