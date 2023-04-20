@@ -5,9 +5,9 @@
    ✅ Formatting tags
    ✅ Canvas
    ✅ SVG
-⏹️ HTML Pratice
-⏹️ Assignment 2 Discussion
-⏹️ Q & A session
+✅ HTML Pratice
+✅ Assignment 2 Discussion
+✅ Q & A session
 
 ----------------
 19th Apr Topics

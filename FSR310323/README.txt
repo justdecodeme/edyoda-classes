@@ -17,17 +17,18 @@ https://chat.whatsapp.com/GBacdv15wsVKu1Ll4ugQcb
 ----------
 SHORTCUTS
 ----------
-Ctrl + z > Undo
-Ctrl + [ > Move code to left side
-Ctrl + ] > Move code to right side
+Ctrl + Z > Undo
+Ctrl + [ OR Shift + Tab > Move code to left side
+Ctrl + ] OR Tab > Move code to right side
 Win + .  > Smily window
 Alt + Shift + ↓ > Duplicate line / lines (need to select)
 Alt + ↓ > Move line(s) down
 ! + Tab/Enter > Create html skeleton
 Ctrl + / > Toggle comments (HTML, CSS, JS)
-Ctrl + d > Select next highlighted
+Ctrl + D > Select next highlighted
 Ctrl + Enter > Create a new line below
 Ctrl + Shift + Enter > Create a new line above
+Alt + Z > Temporary fold the lines
 
 ----------
 💡NOTES
