@@ -1,4 +1,22 @@
 ----------------
+19th Apr Topics
+----------------
+⏹️ Remaining HTML tags
+⏹️ HTML Pratice
+⏹️ Q & A session
+
+----------------
+19th Apr Topics
+----------------
+✅ multimedia tags
+   ✅ img
+   ✅ audio
+   ✅ video
+   ✅ iframe
+✅ Assignment 2 discussion
+✅ Q & A session
+
+----------------
 18th Apr Topics
 ----------------
 ✅ table
@@ -126,7 +144,7 @@ body: content which is visible to user
 05th Apr Topics
 ----------------
 ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ 
-⚠️ ALWAYS NAME YOUR FILES & FOLDER WITH SMALL LETTERS ONLY! - _ 0-9
+⚠️ ALWAYS NAME YOUR FILES & FOLDER WITH SMALL LETTERS ONLY!
 ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ 
 ✅ Share the PPT links
 ✅ How to import file or folder to VS Code
