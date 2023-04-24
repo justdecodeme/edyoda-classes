@@ -3,10 +3,16 @@ HTML Classes content will go here.
 ----------
 LINKS
 ----------
-PPT-1:
+
+HTML PPT-1:
 https://docs.google.com/presentation/d/1QRy1Y8AjWaodD2kkQPKjcOOFXcUi0KAUdE6zg-kDW9s/edit?usp=sharing
-PPT-2:
+HTML PPT-2:
 https://docs.google.com/presentation/d/1jAyAEsduMUbPO5PKUFNYpAd3iqxyEd6xv7REANr656k/edit?usp=sharing
+CSS PPT:
+https://docs.google.com/presentation/d/1Mp-Sver-5SLI5YpKD3-oJd_JfcEwCKKFzPgi60PeWGU/edit?usp=sharing
+
+Google fonts:
+https://fonts.google.com/
 
 Image placeholders:
 https://placehold.co/

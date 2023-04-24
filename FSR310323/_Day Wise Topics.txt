@@ -1,4 +1,27 @@
 ----------------
+25th Apr Topics
+----------------
+⏹️ CSS comments
+⏹️ Cascading meaning in CSS?
+
+----------------
+24th Apr Topics
+----------------
+✅ Intro to CSS
+✅ How to add CSS
+   ✅ Inline
+   ✅ Internal
+   ✅ External
+✅ Which CSS style to use in projects?
+   ✅ External
+      ✅ Readability
+      ✅ Maintainability
+      ✅ Reusability
+✅ Text Properties   
+✅ How to use Google Fonts
+✅ Q & A session
+
+----------------
 20th Apr Topics
 ----------------
 ✅ Remaining HTML tags
