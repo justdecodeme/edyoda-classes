@@ -1,8 +1,30 @@
 ----------------
-25th Apr Topics
+2nd May Topics
 ----------------
-⏹️ CSS comments
-⏹️ Cascading meaning in CSS?
+✅ CSS comments
+✅ Cascading meaning in CSS?
+✅ Box model (CPBM in that order)
+   ✅ content
+   ✅ padding > space between conent & border
+   ✅ border 
+   ✅ margin > space outside the element/border
+✅ display properties 
+   ✅ block > takes 100% width relative to parent
+   ✅ inline > takes sapce according to it's content | padding, width, height will not work properly
+   ✅ inline-block > Mix of inline & block | padding, width, height work properly
+   ✅ none > hide the content and removes the element space
+   ✅ flex (layout + align) / grid (layout)
+✅ Position properties
+   ✅ static > default value, TRBL will not work
+   ✅ relative > TRBL will work, element move from their original position
+   ✅ absolute > TRBL will work, element move relative to parent (having value relative)
+   ✅ fixed > TRBL will work, element move relative to browser
+   
+⏹️ Aligning elements
+   ⏹️ using text-align
+   ⏹️ using position properties
+   ⏹️ using flex
+⏹️ Overflow
 
 ----------------
 24th Apr Topics

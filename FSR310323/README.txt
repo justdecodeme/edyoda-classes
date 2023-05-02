@@ -50,3 +50,18 @@ Alt + Z > Temporary fold the lines
 VS Code > Editing
 Browser > Rendering
 
+HTML COMMENTS:
+<!-- single line comment -->
+<!-- 
+  multi
+  line 
+  comment 
+-->
+
+CSS COMMENTS:
+/* single line comment */
+/* 
+  multi
+  line 
+  comment 
+*/
