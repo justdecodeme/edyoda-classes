@@ -1,3 +1,20 @@
+HTML ASSING 2 MARKS
+
+----------------
+3rd May Topics
+----------------
+✅ Dif display vs visibility vs opacity
+✅ Aligning elements
+   ✅ using text-align
+   ✅ using flex
+   ✅ using position properties
+   
+⏹️ Overflow
+⏹️ Selectors
+
+⏹️ Quiz updates
+⏹️ Q & A session
+
 ----------------
 2nd May Topics
 ----------------
@@ -19,12 +36,7 @@
    ✅ relative > TRBL will work, element move from their original position
    ✅ absolute > TRBL will work, element move relative to parent (having value relative)
    ✅ fixed > TRBL will work, element move relative to browser
-   
-⏹️ Aligning elements
-   ⏹️ using text-align
-   ⏹️ using position properties
-   ⏹️ using flex
-⏹️ Overflow
+✅ Q & A session   
 
 ----------------
 24th Apr Topics

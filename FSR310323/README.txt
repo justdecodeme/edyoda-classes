@@ -20,6 +20,9 @@ https://placehold.co/
 Whatsapp Group: 
 https://chat.whatsapp.com/GBacdv15wsVKu1Ll4ugQcb
 
+Flex Playground:
+https://codepen.io/enxaneta/full/adLPwv/
+
 ----------
 SHORTCUTS
 ----------
@@ -65,3 +68,13 @@ CSS COMMENTS:
   line 
   comment 
 */
+
+ALIGNING ELEMENTS:
+
+1. If we've parent as block element and child as inline element, and you want to move element horizontaly only, not vertically.
+> text-align
+
+2. If we've parent as block element and child as inline element, and you want to move element horizontaly & vertically.
+> flex
+
+3. 

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aligning Elements - Practice</title>
+  <style>
+    body {
+      background-color: lightblue;
+    }
+    .profile {
+      background-color: orange;
+      width: 400px;
+      margin: 30px auto;
+    }
+    .social-img {
+      width: 30px;
+    }
+    .image {
+      background-color: rgb(208, 18, 154);
+      height: 120px;
+      position: relative;
+    }
+    .user {
+      width: 120px;
+      border-radius: 50%;
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    .content {
+      text-align: center;
+      padding-top: 60px;
+      padding-right: 30px;
+      padding-left: 30px;
+      padding-bottom: 30px;
+      background-color: white;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    .social {
+      text-align: center;
+      padding: 10px;
+      background-color: blue;
+      position: relative;
+    }
+    .social-img {
+      margin: 0 15px;
+    }
+    .arrow {
+      /* background-color: red; */
+      display: inline-block;
+      /* width: 20px;
+      height: 20px; */
+      border: 20px solid;
+      border-top-color: transparent;
+      border-right-color: transparent;
+      border-bottom-color: blue;
+      border-left-color: transparent;
+      bottom: 100%;
+      left: 50%;
+      transform: translateX(-50%);
+      position: absolute;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="profile">
+    <div class="image">
+      <img src="user.png" class="user">
+    </div>
+    <div class="content">
+      <h1>Manuel B. Gracia</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et ad sequi esse quo.</p>
+    </div>
+    <div class="social">
+      <img src="fb.webp" class="social-img">
+      <img src="fb.webp" class="social-img">
+      <img src="fb.webp" class="social-img">
+      <img src="fb.webp" class="social-img">
+      <span class="arrow"></span>
+    </div>
+  </div>
+</body>
+</html>
