@@ -1,4 +1,14 @@
-HTML ASSING 2 MARKS
+----------------
+4th May Topics
+----------------
+✅ Selectors
+✅ Underline on hover
+✅ box-shadow
+✅ overflow
+⏹️ Box Model - CPBM
+
+⏹️ Q & A session
+⏹️ Quiz question: 11:30pm
 
 ----------------
 3rd May Topics
@@ -8,13 +18,8 @@ HTML ASSING 2 MARKS
    ✅ using text-align
    ✅ using flex
    ✅ using position properties
+✅ Q & A session
    
-⏹️ Overflow
-⏹️ Selectors
-
-⏹️ Quiz updates
-⏹️ Q & A session
-
 ----------------
 2nd May Topics
 ----------------

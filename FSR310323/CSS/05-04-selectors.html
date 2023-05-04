@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors</title>
+    <style>
+      /* universal selector */
+      * {
+        /* text-align: center; */
+      }
+
+      /* tag selector */
+      h1 {
+        color: red;
+      }
+
+      h2 {
+        color: red;
+      }
+
+      /* grouping  */
+      h1,
+      h2 {
+        color: red;
+      }
+
+      /* id selector */
+      #main {
+        color: blue;
+      }
+
+      /* class selector */
+      .success {
+        color: green;
+      }
+
+      /* descendant selector */
+      /* all the p inside section */
+      section p {
+        color: blue;
+      }
+
+      /* all the p inside div */
+      div p {
+        color: black;
+      }
+
+      /* child selector */
+      /* all the p directly inside div */
+      div>p {
+        background: lightgreen;
+      }
+
+      /* adjacent sibling selector */
+      /* just one p after h3 */
+      h3+p {
+        color: red;
+      }
+
+      /* sibling selector */
+      /* all the p after h3 */
+      h3~p {
+        color: blue;
+      }
+
+      /* attributes selector */
+      /* if type attribute value is equal to text */
+      [type="text"] {
+        background-color: red;
+      }
+
+      input:focus {
+        background-color: yellow;
+      }
+
+      button {
+        background-color: red;
+      }
+
+      button:hover {
+        background-color: green;
+      }
+
+      button:active {
+        background-color: white;
+      }
+
+      h1:hover {
+        background-color: yellow;
+      }
+
+      a {
+        text-decoration-color: red;
+      }
+
+      a:hover {
+        text-decoration: none;
+      }
+
+      #main {
+        text-shadow: 4px 4px 0px grey;
+        background-color: yellow;
+        box-shadow: 4px 4px 0px black, -4px -4px 0px black;
+      }
+
+      .user {
+        width: 70px;
+        height: 70px;
+        background-color: red;
+        margin-bottom: 30px;
+        overflow: hidden;
+        border-radius: 50%;
+      }
+
+      .user img {
+        /* width: 90px; */
+        width: 100%;
+        /* opacity: .5; */
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="user">
+      <img src="user.png">
+    </div>
+    <button>Click Me</button>
+    <a href="#">Link</a>
+
+    <h1>Heading 1</h1>
+    <h1 id="main">Heading 1</h1>
+    <h1 class="success">Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h2 class="success">Heading 2</h2>
+    <p>Paragraph 1</p>
+    <div>div 1</div>
+
+    <hr>
+
+    <div>
+      <p>paragraph 1</p>
+      <h3>heading 3 1</h3>
+      <p>paragraph 2</p>
+      <p>paragraph 3</p>
+      <p>paragraph 4</p>
+      <section>
+        <p>paragraph 5</p>
+        <h3>heading 3 2</h3>
+        <p>paragraph 6</p>
+        <p>paragraph 7</p>
+        <h3>heading 3 3</h3>
+      </section>
+    </div>
+
+    <input type="text">
+    <input type="number">
+    <input type="text">
+    <input type="text">
+    <input type="email">
+  </body>
+
+</html>
