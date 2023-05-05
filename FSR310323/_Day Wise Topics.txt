@@ -1,4 +1,23 @@
 ----------------
+5th May Topics
+----------------
+✅ Challnge: https://community.edyoda.com/t/welcome-to-the-visionary-challenge-for-fullstack-program/4958
+✅ Assignment Discussion
+✅ box-sizing
+✅ Q & A session
+
+----------------
+6th May Topics
+----------------
+⏹️ Background
+⏹️ Gradients
+⏹️ Transition
+⏹️ Animation
+⏹️ After and Before
+⏹️ CSS Practice
+⏹️ Q & A session
+
+----------------
 4th May Topics
 ----------------
 ✅ Selectors
@@ -7,10 +26,6 @@
 ✅ overflow
 ✅ Box Model - CPBM
 ✅ Q & A session
-
-⏹️ Quiz question: 11:30pm
-
-files, extension, selector, 
 
 ----------------
 3rd May Topics

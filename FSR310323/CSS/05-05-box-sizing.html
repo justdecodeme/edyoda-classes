@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Sizing</title>
+    <style>
+      * {
+        /* this property will tell the browser, 
+        please consider padding within the width */
+        box-sizing: border-box;
+      }
+
+      body,
+      p {
+        margin: 0;
+      }
+
+      p {
+        background-color: red;
+        padding: 0 10px;
+        width: 50%;
+      }
+    </style>
+  </head>
+
+  <body>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum sed inventore fugiat quibusdam est sint necessitatibus, perferendis reprehenderit adipisci quisquam molestiae enim voluptas. Voluptatibus maxime neque itaque? Voluptatum, mollitia facilis.</p>
+  </body>
+
+</html>
