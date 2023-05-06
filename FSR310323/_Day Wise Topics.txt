@@ -1,3 +1,17 @@
+⏹️ Transition
+⏹️ Animation
+⏹️ After and Before
+
+----------------
+6th May Topics
+----------------
+⏹️ CSS Practice
+⏹️ Background
+⏹️ Gradients
+
+⏹️ Q & A session
+
+
 ----------------
 5th May Topics
 ----------------
@@ -5,17 +19,6 @@
 ✅ Assignment Discussion
 ✅ box-sizing
 ✅ Q & A session
-
-----------------
-6th May Topics
-----------------
-⏹️ Background
-⏹️ Gradients
-⏹️ Transition
-⏹️ Animation
-⏹️ After and Before
-⏹️ CSS Practice
-⏹️ Q & A session
 
 ----------------
 4th May Topics
