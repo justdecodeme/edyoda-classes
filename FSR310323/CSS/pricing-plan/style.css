@@ -102,9 +102,18 @@ main .plans .plan .features {
 	/* background-color: rgb(238, 238, 238); */
 	padding: 30px 20px;
 }
+main .plans .plan .features ul {
+	padding: 0;
+}
 main .plans .plan .features ul li {
 	margin-bottom: 15px;
 	text-align: left;
+	list-style: none;
+	background-image: url("img/check.png");
+	background-size: 12px;
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding-left: 20px;
 }
 main .plans .plan .features ul li:last-child {
 	margin-bottom: 30px;

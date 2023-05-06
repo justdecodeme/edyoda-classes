@@ -5,12 +5,10 @@
 ----------------
 6th May Topics
 ----------------
-⏹️ CSS Practice
-⏹️ Background
-⏹️ Gradients
-
-⏹️ Q & A session
-
+✅ CSS Practice
+✅ Background
+✅ Gradients
+✅ Q & A session
 
 ----------------
 5th May Topics
